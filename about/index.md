@@ -13,12 +13,3 @@ demiş. Aynı duyguları paylaşıyorum.
 Ama bu süreçte vakit bulduğum zamanlarda php ile bir blog yaptım.(Github'daki Ablog projem.)
 
 Üniversitede ilk şahsi bilgisayırımı edinince uzun zamandır kullanmak istediğim Ubuntu işletim sistemini kurdum. Linux yaz kampında php den daha hoş olduğunu düşündüğüm Ruby on Rails kursuna gittim. Kendime ayırabildiğim zamanlarda ruby ile ilgileniyorum.
-
-<div class="iletisimBilgileri">
-  <h3>Telefon</h3>
-  <p>+90 507 906 1137</p>
-</div>
-<div class="iletisimBilgileri">
-  <h3>E-posta</h3>
-  <p>bozkurttalperen@gmail.com</p>
-</div>
