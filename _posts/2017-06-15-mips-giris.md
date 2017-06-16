@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "MIPS Nedir"
-date: 2012-05-22
+date: 2017-06-15
 excerpt: "Mips ve assembly kodları giriş."
-tags: [sample post, readability, test]
+tags: [MIPS, bilgisayar organizasyonu, register, assembly]
 ---
 **Mips Nedir ?**
 ===
@@ -21,27 +21,16 @@ Hangi Register Ne işe Yarar
 |  Register |  Sayısı |  Açıklama |
 |:---|:---:|---:|
 | $zero     | 0     | İçerisinde 0 sayısı vardır.  |
-|---
 | $at       | 1     | Assembler tarafından kullanılır.  |
-|---
 | $v0-$v1  | 2-3   | Metodların return değişkenleri için. |
-|---
 | $a0-$a3  | 4-7   | Metodlara gidecek parametreler için. |
-|---
 | $t0-$t7  | 8-15  | Geçici değişkenler  |
-|---
 | $s0-$s7  | 16-23 | Kayıt registerları |
-|---
 | $t8-$t9  | 24-25 | Biraaz daha geçici değişken  |
-|---
 | $k0-$k1  | 26-27 | İşletim sistemi tarafından kullanılır. |
-|---
 | $gp      | 28    | Global Pointer  |
-|---
 | $sp      | 29    | Stack Pointer |
-|---
 | $fp      | 30    | Frame Pointer  |
-|===
 | $ra      | 31    | Return Adress |
 
 
@@ -49,8 +38,8 @@ Hangi Register Ne işe Yarar
 ---
 C dilinde yazılmış `f = (a+b)+(c+d)` işlemini assembly ile yazalım.
 (Değişkenler sırasıyla s0,s1,s2,s3,s4 registerlarına getirilmiştir.)
-{% highlight ca65 %}
-add $t0, $s1, $s2
-add $t1, $s3, $s4
-add $s0, $t0, $t1
+{% highlight assembly %}
+  add $t0, $s1, $s2
+  add $t1, $s3, $s4
+  add $s0, $t0, $t1
 {% endhighlight %}

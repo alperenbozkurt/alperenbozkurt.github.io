@@ -1,5 +1,5 @@
 ---
 layout: post-index
-title: All Posts
-excerpt: "A List of Posts"
+title: Blog
+excerpt: "Ufak Ufak Notlar"
 ---

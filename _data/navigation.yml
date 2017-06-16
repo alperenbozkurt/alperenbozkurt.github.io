@@ -1,13 +1,13 @@
 # Site navigation links
 
-- title: Home
+- title: Anasayfa
   url: /
 
 - title: Blog
   url: /blog/
 
-- title: Projects
+- title: Projeler
   url: /projects/
 
-- title: About
+- title: Hakkımda
   url: /about/
