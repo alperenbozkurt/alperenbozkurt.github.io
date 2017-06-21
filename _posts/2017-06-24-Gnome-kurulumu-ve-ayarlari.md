@@ -20,8 +20,7 @@ Kapatma-Küçültme Tuşları
 
 Pencere yönetim düğmelerinin yeri gnome yüklediğimde sağ tarafa geliyor. tabi ben sevmiyorum bunu bu tuşların sol tarafta olması daha kolayıma geliyor. Bu yüzden bu tuşları sola alacağız tabi isteyen içinde ubuntu'da nasıl sağa alınır onu yazacağız. Tabi ben tam ekran düğmesini de  gereksiz buluyorum bu arada onuda kaldıralım. (İşte Linux'un en sevdiğim yanı bu) 
 
-gsettings set org.gnome.shell.overrides button-layout close,minimize:
-
+    gsettings set org.gnome.shell.overrides button-layout close,minimize:
 
 Burada ´:´ önemli bize ne tarafa yaslayacağımızı belirtiyor. Sola koyarsak butonlar sağ tarafta, sağa koyarsakta butonlar sol tarafta oluyor. ´close´, ´minimize´, ´maximize´, ´menu´ kullanılabilen komutlar.
 
@@ -33,4 +32,5 @@ Yukarıdaki kod tüm sistemde çalıştı ama Chrome'da bi gariplikler var. Onu 
 
 kodunu yazalım.
 Şimdi daha iyi oldu.
+
 
