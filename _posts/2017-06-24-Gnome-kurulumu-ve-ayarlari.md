@@ -14,6 +14,7 @@ Gnome yüklenirken yanında birçok program yükleniyor biz bunu en aza indirmek
     sudo apt-get install gnome-shell
 
 yazarak gnome un yüklenmesini bekliyoruz. Herhangi bir soru sorar ise **gdm**'yi seçmenizi tavsiye ederim. Başlangıç ekranınız biraz değişecektir. :) 
+
 Tema Kurulumu
 ---
 `sudo apt-get install gnome-tweak-tool`  yazarak **Gnome Tweak Tool(İnce Ayar Aracı)**'u yükleyelim. Birkaç eklenti yükleyeceğiz. [Gnome](https://extensions.gnome.org/)'un sitesine girerek gerekli chrome/firefox eklentisinin kurulumunu yapalım.
