@@ -14,6 +14,27 @@ Gnome yüklenirken yanında birçok program yükleniyor biz bunu en aza indirmek
     sudo apt-get install gnome-shell
 
 yazarak gnome un yüklenmesini bekliyoruz. Herhangi bir soru sorar ise **gdm**'yi seçmenizi tavsiye ederim. Başlangıç ekranınız biraz değişecektir. :) 
+Tema Kurulumu
+---
+`sudo apt-get install gnome-tweak-tool`  yazarak **Gnome Tweak Tool(İnce Ayar Aracı)**'u yükleyelim. Birkaç eklenti yükleyeceğiz. [Gnome](https://extensions.gnome.org/)'un sitesine girerek gerekli chrome/firefox eklentisinin kurulumunu yapalım.
+`sudo apt-get install chrome-gnome-shell` komutunu da çalıştıralım.
+Tweak tool uygulamasından indirdiğimiz eklentiyi etkinleştirelim. Aşağıdaki adımları izleyelim
+
+    sudo add-apt-repository ppa:snwh/pulp
+    # update repository info
+    sudo apt-get update
+    # install icon theme
+    sudo apt-get install paper-icon-theme
+    # install cursor theme
+    sudo apt-get install paper-cursor-theme
+    # install gtk theme
+    sudo apt-get install paper-gtk-theme
+
+Tweak tool'dan temamızı seçebiliriz.
+
+Üst Barı gizleme
+---
+[Bu linkten](https://extensions.gnome.org/extension/740/hide-top-panel/) indirmeyi gerçekleştirebilirsiniz. İndirme bittiğinde tweak tooldan etkinleştirebilirsiniz.
 
 Kapatma-Küçültme Tuşları
 ---
@@ -32,5 +53,3 @@ Yukarıdaki kod tüm sistemde çalıştı ama Chrome'da bi gariplikler var. Onu 
 
 kodunu yazalım.
 Şimdi daha iyi oldu.
-
-
