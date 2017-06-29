@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Heroku Kurulumu"
-date: 2017-06-29
+date: 2017-06-25
 excerpt: "Heroku Kurulumu ve ilk Deploy"
 tags: [Heroku, nasıl yayınlanır, ruby, hosting,rails uygulaması yayınlamak]
 ---
@@ -21,6 +21,7 @@ Kurulum gerçekleştiğinde
     heroku login
     
 komutunu girerek giriş yapalım. 
+
 Proje Nasıl Yayınlanır
 ---
 
@@ -29,8 +30,8 @@ Masaüstü dizinine gelip örnek ruby projemizi indirelim ve içerisine girelim.
     git clone https://github.com/heroku/ruby-getting-started.git
     cd ruby-getting-started
 
- 
     heroku create  
+
 Bu komutla herokuapp.com uzantılı bir web projesi oluşturuyoruz.Otomatik olarak git bağlantılarını yapacak. Bende şöyle bir adres geldi.
 
     Creating app... done, ⬢ infinite-sierra-90021
@@ -50,5 +51,7 @@ komutuyla dosyaları yükleyebiliriz.
 
 yazailirsiniz. Sunucuda herhangi bir komut çalıştırmak için ise 
 
-`heroku run #komut` şeklinde yazıyoruz. Heroku bu şekilde kullanılıyor. Bu yazı yararlı olduysa yorum kısmına bir gülücük bırakmayı unutmayın :) Eğer yanlışım veya eksiğim varsa bunu yorum kısmından bana iletebilirsiniz.
+    heroku run #komut
+
+şeklinde yazıyoruz. Heroku bu şekilde kullanılıyor. Bu yazı yararlı olduysa yorum kısmına bir gülücük bırakmayı unutmayın :) Eğer yanlışım veya eksiğim varsa bunu yorum kısmından bana iletebilirsiniz.
 
