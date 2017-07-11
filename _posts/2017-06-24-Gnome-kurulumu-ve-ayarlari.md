@@ -54,3 +54,12 @@ Yukarıdaki kod tüm sistemde çalıştı ama Chrome'da bi gariplikler var. Onu 
 
 kodunu yazalım.
 Şimdi daha iyi oldu.
+
+
+Nautilus Fotoğraf Önizleme
+---
+Ubuntu yüklendiğinde resim dosyalarını açmadan göremiyoruz. Hazır tüm ayarları yapıyorken bunu da ekleyelim. Konsola 
+
+    gsettings set org.gnome.nautilus.preferences show-image-thumbnails always
+
+yazarak fotografları her zaman göstertebiliriz.
