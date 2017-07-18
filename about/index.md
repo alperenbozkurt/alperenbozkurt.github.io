@@ -1,15 +1,11 @@
 ---
 layout: page
 title: Hakkımda
-tags: [hakkımda, alperenbozkurt, bilgi]
+tags: [hakkında, alperen, bozkurt, kimdir]
 date: 2017-06-16
 ---
+Merhaba ben Alperen. Meraklı, sabırlı ve araştırmayı seven, `Onlar yapabilmişse ben neden daha iyisini yapamayayım?` görüşünü benimsemiş birisiyim. Yeni şeyler öğrenmeyi ve "boş işlerle" uğraşmayı severim. Fırat üniversitesinde Bilgisayar Mühendisliği okuyorum. Şimdilerde üniversitemizde açık kaynak kulübü kurmaya çalışıyoruz.
 
-## Hakkımda
-Merhaba ben Alperen. 1997'de Ankara'da doğdum. Resim çizmeyi, kahve içmeyi, ve program yazmayı çok seviyorum.
-Programlamaya ilkokulun sonuna doğru html ile başladım. Liseye ilk başladığımda oyun yapmaya olan merakımdan c# öğrendim. Lisenin sonlarına doğru web alanına yönelmem gerektiğini düşünerek php öğrenmeye karar verdim. Fakat önce YGS-LYS, sonrada Üniversite buna fırsat vermedi.
-George Bernard Shaw, **Eğitimime okul yüzünden uzunca bir süre ara vermek zorunda kaldım."**
-demiş. Aynı duyguları paylaşıyorum.
-Ama bu süreçte vakit bulduğum zamanlarda php ile bir blog yaptım.(Github'daki Ablog projem.)
+Programlamaya abimin sayesinde başladım. Abim lisede Bilişim teknolojileri bölümünde okuyordu. Ben de meraklı bir şekilde onu izleyerek html öğrendim. Sonrasında css öğrenip stil vermeye başladım. Sonrasında oyun yapımına meraklanıp unty için c# öğrenmeye başladım. Bu sırada Ulus Teknik Lisesi'nde Bilişim Teknolojikeri alanını seçtim. Burada c# ile masaüstü uygulama yapmayı öğrendim. Öğretmenlerimden Engin ceylan bana programlamanın mantığını çok iyi bir şekilde anlattı. **Sınav Hazırlama Programı** ve bu programla aynı veritabanına bağlı bir **Online Sınav Olma** uygulaması yazdırdı. Online sınav olma uygulamasında silverlight teknolojisini kullanmıştım. Bu uygulamalardan sonra biraz Php ile ilgilendim. Lise bittikten sonra üniversitede java öğrendim fakat pek ilgimi çekmedi. 1. senenin sonunda Linux Yaz Kampında Ruby on Rails 101 kursunu aldım. Şu anda geliştirmeye Ruby On Rails ile devam ediyorum.
 
-Üniversitede ilk şahsi bilgisayırımı edinince uzun zamandır kullanmak istediğim Ubuntu işletim sistemini kurdum. Linux yaz kampında php den daha hoş olduğunu düşündüğüm Ruby on Rails kursuna gittim. Kendime ayırabildiğim zamanlarda ruby ile ilgileniyorum.
+Yazılım dışında maket yapmayı ve resim çizmeyi seviyorum.

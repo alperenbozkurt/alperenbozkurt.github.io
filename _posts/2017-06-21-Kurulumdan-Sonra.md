@@ -5,8 +5,7 @@ date: 2017-06-21
 excerpt: "Linux kurulumundan sonra yapılması gerekenler."
 tags: [ayarlar, kurulum sonrası ayar, linux, ubuntu]
 ---
-
-Yaklaşık 2 yıldır ubuntu kullanıcısıyım fakat sürekli olarak yeni dağıtımlar deneyip onları değerlendiriyorum. Bu yazıda yeni bir dağıtım kurduğumda yapmam gerekenleri listeliyeceğim ve herbirinin teker teker kurulumları anlatacağım. 
+Yaklaşık 2 yıldır ubuntu kullanıcısıyım fakat sürekli olarak yeni dağıtımlar deneyip onları değerlendiriyorum. Bu yazıda yeni bir dağıtım kurduğumda yapmam gerekenleri listeliyeceğim ve herbirinin teker teker kurulumları anlatacağım.
 
 Git
 ---
