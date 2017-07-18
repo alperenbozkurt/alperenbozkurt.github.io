@@ -25,11 +25,11 @@ sass:
 email: bozkurttalperen@gmail.com
 twitter: bozkurttalperen
 #facebook: username
-#google:
+google:
   #plus: #username
   #analytics:
   #verify:
-  #ad-client:
+  ad-client: "ca-pub-1746793611373653"
   #ad-slot:
 #bing-verify:
 github: alperenbozkurt
