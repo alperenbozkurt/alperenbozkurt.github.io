@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-18T21:28:11+03:00</updated><id>http://localhost:4000/</id><title type="html">Alperen Bozkurt</title><subtitle>Merhaba. Ben Alperen Bozkurt. Bu sitemi projelerimi paylaşmak, bazı notlarımı ve bug çözümlerimi yayınlamak ve düşüncelerimi özgürce paylaşmak için açıyorum. Eğer sitemden feyz alırsanız yorumlara bir gülücük bırakmayı unutmayın :)</subtitle><entry><title type="html">Heroku Kurulumu</title><link href="http://localhost:4000/Heroku-kurulumu/" rel="alternate" type="text/html" title="Heroku Kurulumu" /><published>2017-06-25T00:00:00+03:00</published><updated>2017-06-25T00:00:00+03:00</updated><id>http://localhost:4000/Heroku-kurulumu</id><content type="html" xml:base="http://localhost:4000/Heroku-kurulumu/">&lt;h2 id=&quot;heroku-nedir&quot;&gt;Heroku nedir&lt;/h2&gt;
+&lt;p&gt;Heroku Ruby, Java, python gibi dillerde yazılmış web projelerinizi hızlıca ve teknik sunucu kurma bilgisi gerektirmeden yayınlamanızı sağlayan bir platformdur. Ücretsiz olarak uygulama yayınlamamıza izin verir. Geliştirme aşamasında olan projelerimiz için heroku’yu kullanabiliriz.&lt;/p&gt;
+
+&lt;h2 id=&quot;nasıl-kurulur&quot;&gt;Nasıl Kurulur&lt;/h2&gt;
+&lt;p&gt;Websitesinden üyelik açtıktan sonra,&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Scripti ile kurulumu gerçekleştirelim.
+Kurulum gerçekleştiğinde&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;komutunu girerek giriş yapalım.&lt;/p&gt;
+
+&lt;h2 id=&quot;proje-nasıl-yayınlanır&quot;&gt;Proje Nasıl Yayınlanır&lt;/h2&gt;
+
+&lt;p&gt;Masaüstü dizinine gelip örnek ruby projemizi indirelim ve içerisine girelim.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/heroku/ruby-getting-started.git
+cd ruby-getting-started
+
+heroku create  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bu komutla herokuapp.com uzantılı bir web projesi oluşturuyoruz.Otomatik olarak git bağlantılarını yapacak. Bende şöyle bir adres geldi.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Creating app... done, ⬢ infinite-sierra-90021
+https://infinite-sierra-90021.herokuapp.com/ | https://git.heroku.com/infinite-sierra-90021.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Artık projemi deploy ettiğimde https://infinite-sierra-90021.herokuapp.com/ adresinden kullanabilirim demektir.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push heroku master 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;komutuyla dosyaları yükleyebiliriz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku open
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;komutuyla websitesini varsayılan tarayıcıyla açabilirsiniz. Logları görmek içinse,&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku logs --tail
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;yazailirsiniz. Sunucuda herhangi bir komut çalıştırmak için ise&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku run #komut
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;şeklinde yazıyoruz. Heroku bu şekilde kullanılıyor. Bu yazı yararlı olduysa yorum kısmına bir gülücük bırakmayı unutmayın :) Eğer yanlışım veya eksiğim varsa bunu yorum kısmından bana iletebilirsiniz.&lt;/p&gt;</content><author><name></name></author><category term="Heroku" /><category term="nasıl yayınlanır" /><category term="ruby" /><category term="hosting" /><category term="rails uygulaması yayınlamak" /><summary type="html">Heroku Kurulumu ve ilk Deploy</summary></entry><entry><title type="html">Ruby On Rails Kurulumu</title><link href="http://localhost:4000/Ruby-ve-rails-kurulumu/" rel="alternate" type="text/html" title="Ruby On Rails Kurulumu" /><published>2017-06-25T00:00:00+03:00</published><updated>2017-06-25T00:00:00+03:00</updated><id>http://localhost:4000/Ruby-ve-rails-kurulumu</id><content type="html" xml:base="http://localhost:4000/Ruby-ve-rails-kurulumu/">&lt;p&gt;Ruby kurulumu biraz uğraştırıcı ama işlemler basit. İlk olarak Rbenv kuracağız. Ne işe yarar bu rbenv, bilgisayara birden fazla ruby versyonu kurmamızı sağlıyor. Buda bizi farklı projelerde çalışırken ruby’yi silip tekrar kurmaktan kurtarıyor. Kuruluma başlamadan önce gerekli paketleri kuralım.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;rbenv-kurulumu&quot;&gt;Rbenv Kurulumu&lt;/h2&gt;
+
+&lt;p&gt;Alttaki kodları sırasıyla çalıştırırsak rbenv yüklenmiş olacak. Tabiki alttaki kodlar zsh kullanıyorsanız çalışacaktır aksi taktirde &lt;strong&gt;.zshrc ** yazan yerleri ** .bashrc&lt;/strong&gt; olarak değiştiniz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+echo 'export PATH=&quot;$HOME/.rbenv/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.zshrc
+echo 'eval &quot;$(rbenv init -)&quot;' &amp;gt;&amp;gt; ~/.zshrc
+exec $SHELL
+
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'export PATH=&quot;$HOME/.rbenv/plugins/ruby-build/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.zshrc
+exec $SHELL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;ruby-kurulumu&quot;&gt;Ruby Kurulumu&lt;/h2&gt;
+
+&lt;p&gt;Rbenv kullanarak ruby kurulumu yapacağız.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rbenv install 2.4.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Yüklemek istediğimiz ruby versyonunu bu şekilde yüklüyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rbenv global 2.4.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bu şekilde yüklenmiş ruby versyonlarından birisini seçebiliyoruz. Kontrol edelim yüklenmiş mi ?&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Eğer buraya kadar tamamsa bundler yükleyelim.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install bundler
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;rails-kurulumu&quot;&gt;Rails Kurulumu&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+gem install rails -v 5.1.1
+rbenv rehash
+rails -v
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Eğer kurulum başarılı olduysa rails sürümünü ekranda görmemiz gerekiyor.&lt;/p&gt;
+
+&lt;h2 id=&quot;postgresql-kurulumu&quot;&gt;Postgresql Kurulumu&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo sh -c &quot;echo 'deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main' &amp;gt; /etc/apt/sources.list.d/pgdg.list&quot;
+wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install postgresql-common
+sudo apt-get install postgresql-9.5 libpq-dev 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Postgres bu şekilde kuruluyor fakat veritabanı oluşturmamız için bir kullanıcıya ihtiyacımız var.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo -u postgres createuser alperen -s
+
+sudo -u postgres psql
+postgres=# \password alperen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Kullanıcının şifresini girdikten sonra bu adım da bitmiş oluyor. Yeni projelere yelken açabilirsiniz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rails new yeniproje -d postgresql 
+;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Rbenv" /><category term="Ruby" /><category term="Rails" /><category term="Postgresql" /><category term="Ruby on Rails kurulumu" /><category term="ror yükleme" /><summary type="html">Rbenv, Ruby, Rails, Postgresql kurulumu</summary></entry><entry><title type="html">Gnome Kurulumu ve Ayarları</title><link href="http://localhost:4000/Gnome-kurulumu-ve-ayarlari/" rel="alternate" type="text/html" title="Gnome Kurulumu ve Ayarları" /><published>2017-06-24T00:00:00+03:00</published><updated>2017-06-24T00:00:00+03:00</updated><id>http://localhost:4000/Gnome-kurulumu-ve-ayarlari</id><content type="html" xml:base="http://localhost:4000/Gnome-kurulumu-ve-ayarlari/">&lt;p&gt;Gnome kullandıktan sonra farkettim ki adamlar tam benim istediğim gibi bir masaüstü ortamı sunmuşlar tabi biraz eksiklikleri var onları ayarlayacağız. Pencere Yönetim tuşlarının yeri, üst taraftaki barı otomatik gizlenir yapma, icon takımı seçimi shell seçimi gibi işlemleri yapacağız.&lt;/p&gt;
+
+&lt;h2 id=&quot;gnome-yüklemek&quot;&gt;Gnome Yüklemek&lt;/h2&gt;
+&lt;p&gt;Gnome yüklenirken yanında birçok program yükleniyor biz bunu en aza indirmek istiyoruz bu yüzden sadece gnome-shell yükleyeceğiz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install gnome-shell
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;yazarak gnome un yüklenmesini bekliyoruz. Herhangi bir soru sorar ise &lt;strong&gt;gdm&lt;/strong&gt;‘yi seçmenizi tavsiye ederim. Başlangıç ekranınız biraz değişecektir. :)&lt;/p&gt;
+
+&lt;h2 id=&quot;tema-kurulumu&quot;&gt;Tema Kurulumu&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install gnome-tweak-tool&lt;/code&gt;  yazarak &lt;strong&gt;Gnome Tweak Tool(İnce Ayar Aracı)&lt;/strong&gt;‘u yükleyelim. Birkaç eklenti yükleyeceğiz. &lt;a href=&quot;https://extensions.gnome.org/&quot;&gt;Gnome&lt;/a&gt;‘un sitesine girerek gerekli chrome/firefox eklentisinin kurulumunu yapalım.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install chrome-gnome-shell&lt;/code&gt; komutunu da çalıştıralım.
+Tweak tool uygulamasından indirdiğimiz eklentiyi etkinleştirelim. Aşağıdaki adımları izleyelim&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo add-apt-repository ppa:snwh/pulp
+# update repository info
+sudo apt-get update
+# install icon theme
+sudo apt-get install paper-icon-theme
+# install cursor theme
+sudo apt-get install paper-cursor-theme
+# install gtk theme
+sudo apt-get install paper-gtk-theme
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tweak tool’dan temamızı seçebiliriz.&lt;/p&gt;
+
+&lt;h2 id=&quot;üst-barı-gizleme&quot;&gt;Üst Barı gizleme&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extensions.gnome.org/extension/740/hide-top-panel/&quot;&gt;Bu linkten&lt;/a&gt; indirmeyi gerçekleştirebilirsiniz. İndirme bittiğinde tweak tooldan etkinleştirebilirsiniz.&lt;/p&gt;
+
+&lt;h2 id=&quot;kapatma-küçültme-tuşları&quot;&gt;Kapatma-Küçültme Tuşları&lt;/h2&gt;
+
+&lt;p&gt;Pencere yönetim düğmelerinin yeri gnome yüklediğimde sağ tarafa geliyor. tabi ben sevmiyorum bunu bu tuşların sol tarafta olması daha kolayıma geliyor. Bu yüzden bu tuşları sola alacağız tabi isteyen içinde ubuntu’da nasıl sağa alınır onu yazacağız. Tabi ben tam ekran düğmesini de  gereksiz buluyorum bu arada onuda kaldıralım. (İşte Linux’un en sevdiğim yanı bu)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.gnome.shell.overrides button-layout close,minimize:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Burada ´:´ önemli bize ne tarafa yaslayacağımızı belirtiyor. Sola koyarsak butonlar sağ tarafta, sağa koyarsakta butonlar sol tarafta oluyor. ´close´, ´minimize´, ´maximize´, ´menu´ kullanılabilen komutlar.&lt;/p&gt;
+
+&lt;h2 id=&quot;chrome-pencere-yönetim-tuşları&quot;&gt;Chrome Pencere Yönetim Tuşları&lt;/h2&gt;
+&lt;p&gt;Yukarıdaki kod tüm sistemde çalıştı ama Chrome’da bi gariplikler var. Onu da düzeltmek için, önce chrome’un ayar sayfasından &lt;strong&gt;sistemin başlık ve kenarlığını kullan&lt;/strong&gt; checkbox’ının tikini kaldıralım. Sonrada konsola&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gconftool-2 --set /apps/metacity/general/button_layout --type string &quot;close,minimize&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;kodunu yazalım.
+Şimdi daha iyi oldu.&lt;/p&gt;
+
+&lt;h2 id=&quot;nautilus-fotoğraf-önizleme&quot;&gt;Nautilus Fotoğraf Önizleme&lt;/h2&gt;
+&lt;p&gt;Ubuntu yüklendiğinde resim dosyalarını açmadan göremiyoruz. Hazır tüm ayarları yapıyorken bunu da ekleyelim. Konsola&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.gnome.nautilus.preferences show-image-thumbnails always
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;yazarak fotografları her zaman göstertebiliriz.&lt;/p&gt;</content><author><name></name></author><category term="Pencere düğmeleri" /><category term="gnome nasıl yüklenir" /><category term="gnome üst tarafı gizleme" /><category term="gnome tema yükleme" /><summary type="html">Gnome Shell yükleme ve daha fazlası..</summary></entry><entry><title type="html">Zsh ve OhMyZsh Kurulumu</title><link href="http://localhost:4000/Zsh-ve-ohmyzsh-kurulumu/" rel="alternate" type="text/html" title="Zsh ve OhMyZsh Kurulumu" /><published>2017-06-23T00:00:00+03:00</published><updated>2017-06-23T00:00:00+03:00</updated><id>http://localhost:4000/Zsh-ve-ohmyzsh-kurulumu</id><content type="html" xml:base="http://localhost:4000/Zsh-ve-ohmyzsh-kurulumu/">&lt;p&gt;Terminalimiz için zsh ve ohmyzsh yükleyeceğiz. Bu klasörler arasında daha kolay dolaşmamız ve git v.b programlarımızı daha hızlı kullanmamız için gerekli. Yükledikten bash dan farkını göreceksiniz zaten. :)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install zsh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;İlk olarak bu komutla zsh’ı yüklüyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bu scripti çalıştırarak ohMyZsh Kurulumunu gerçekleştiriyoruz.&lt;/p&gt;
+
+&lt;h2 id=&quot;bir-de-tema-yapalım&quot;&gt;Bir de tema yapalım&lt;/h2&gt;
+&lt;p&gt;Temalara &lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/wiki/Themes&quot;&gt;bu linkten&lt;/a&gt; ulaşabilirsiniz. Ben &lt;strong&gt;agnoster&lt;/strong&gt; isimli temayı beğendim onun kurulumunu yapacağım.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gedit ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ile açılan metin editöründe&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ZSH_THEME=&quot;robbyrussell&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;satırını&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ZSH_THEME=&quot;agnoster&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;olarak değiştiriyoruz. Tabi işimiz bitmedi şimdi birde font yüklememiz gerekiyor.
+Fontlar
+—
+Onuda hızlı bir şekilde yükleyelim.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Klonlayalım
+git clone https://github.com/powerline/fonts.git
+# Klasöre girelim
+cd fonts
+# Yükleme scriptini çalıştıralım.
+./install.sh
+# Kurulum dosyalarını temizleyelim.
+cd ..
+rm -rf fonts
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Terminal ayarlarından &lt;strong&gt;roboto mono&lt;/strong&gt;‘yu seçiyorum.
+Ve terminalimiz de hazır.&lt;/p&gt;</content><author><name></name></author><category term="zsh kurulumu" /><category term="ohmyzsh kurulumu" /><category term="terminal uygulamaları" /><category term="terminal renklendirme" /><summary type="html">Terminali daha verimli kullanmak için zsh ve ohmyzsh kuruyoruz.</summary></entry><entry><title type="html">Git ve Github Ayarları</title><link href="http://localhost:4000/Git-ve-github-ayarlari/" rel="alternate" type="text/html" title="Git ve Github Ayarları" /><published>2017-06-22T00:00:00+03:00</published><updated>2017-06-22T00:00:00+03:00</updated><id>http://localhost:4000/Git-ve-github-ayarlari</id><content type="html" xml:base="http://localhost:4000/Git-ve-github-ayarlari/">&lt;p&gt;İlk olarak git yüklemek gerekiyor. Kısaca git’den bahsedersek. Git bir sürüm kontrol sistemidir. Yani projenizin eski yedeklerini tutar. Ne zaman ne değişiklik yaptığınızı bilirsiniz. Yedek, yedek2, yedekson, yedeksonson, yedeksonsonson gibi klasörler kullanmak yerine git kullanmak daha uygun görünüyor. Github ise bizim dosyalarımızı online olarak tutmamızı sağlar.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Kurulum tamamlandıktan sonra, commit yaptığımızda çıkacak bilgileri girmemiz gerekiyor.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global user.name &quot;Ad soyad&quot;
+git config --global user.email &quot;adsoyad@mail.com&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bu adımı da tamamladıktan sonra &lt;strong&gt;ssh-key&lt;/strong&gt; oluşturmamız gerekiyor.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh-keygen
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;terminale bu komutu girdikten sonra önümüze gelen ilk satır ssh-key’in nerede üretileceğini söylüyor.Bu satıra bir şey yazmadan enter tuşuna basarsak default dizine oluşturacaktır.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;satır bizden bir anahtar istiyor. Bizim için o anahtara göre şifreli bir kod üretecek.&lt;/li&gt;
+  &lt;li&gt;satırda ise şifremizi tekrarlamamızı istiyor. Bunları tamamladıktan sonra github’a bilgisayarımızı tanıtabiliriz.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Terminalden&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cat ~/.ssh/id_rsa.pub
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;komutunu çalıştırarak şifremizi kopyalıyoruz.&lt;/p&gt;
+
+&lt;p&gt;Githubdan &lt;strong&gt;Settings&lt;/strong&gt; sayfasına giriyoruz burada &lt;strong&gt;ssh and gpg keys&lt;/strong&gt; menüsüne tıklayarak &lt;strong&gt;New SSH key&lt;/strong&gt; butonuna tıklıyoruz. Bir başlık vererek &lt;strong&gt;~/.ssh/id_rsa.pub&lt;/strong&gt; dosyasının içeriğini alt tarafa yapıştırıyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh -T git@github.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;koduyla da bağlantımızı test ediyoruz.&lt;/p&gt;</content><author><name></name></author><category term="github" /><category term="ssh-key" /><category term="ssh-key nasıl" /><category term="ubuntu" /><summary type="html">Git Yüklemek ve Github ayarlarını yapmak.</summary></entry><entry><title type="html">Kurulumdan Sonra</title><link href="http://localhost:4000/Kurulumdan-Sonra/" rel="alternate" type="text/html" title="Kurulumdan Sonra" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/Kurulumdan-Sonra</id><content type="html" xml:base="http://localhost:4000/Kurulumdan-Sonra/">&lt;p&gt;Yaklaşık 2 yıldır ubuntu kullanıcısıyım fakat sürekli olarak yeni dağıtımlar deneyip onları değerlendiriyorum. Bu yazıda yeni bir dağıtım kurduğumda yapmam gerekenleri listeliyeceğim ve herbirinin teker teker kurulumları anlatacağım.&lt;/p&gt;
+
+&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+&lt;p&gt;İlk olarak git yüklemek gerekiyor. Kısaca git’den bahsedersek. Git bir sürüm kontrol sistemidir. Yani projenizin eski yedeklerini tutar. Ne zaman ne değişiklik yaptığınızı bilirsiniz. &lt;strong&gt;Yedek, yedek2, yedekson, yedeksonson, yedeksonsonson&lt;/strong&gt; gibi klasörler kullanmak yerine git kullanmak daha uygun görünüyor. Github ise bizim dosyalarımızı online olarak tutmamızı sağlar.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://alperenbozkurt.net/Git-ve-github-ayarlari/&quot;&gt;Git Kurulumu ve ayarları burada&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;terminal&quot;&gt;Terminal&lt;/h2&gt;
+&lt;p&gt;Terminalimiz için zsh ve ohmyzsh yükleyeceğiz. Bu klasörler arasında daha kolay dolaşmamız ve git v.b programlarımızı daha hızlı kullanmamız için gerekli. Yükledikten bash dan farkını göreceksiniz zaten. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://alperenbozkurt.net/Zsh-ve-ohmyzsh-kurulumu/&quot;&gt;ZSH Kurulumu ve ayarları burada&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gnome&quot;&gt;Gnome&lt;/h2&gt;
+&lt;p&gt;Tabiki vazgeçilmezim gnome. Gnome kullandıktan sonra farkettimki adamlar tam benim istediğim gibi bir masaüstü ortamı sunmuşlar tabi biraz eksiklikleri var onları ayarlıyacağız. Pencere Yönetim tuşlarının yeri, üst taraftaki barı otomatik gizlenir yapma, icon takımı seçimi shell seçimi gibi işlemleri yapacağız.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://alperenbozkurt.net/Gnome-kurulumu-ve-ayarlari/&quot;&gt;Gnome-shell Kurulumu ve tema ayarları burada&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
+&lt;p&gt;Ruby ile geliştirme yaptığım için bu kısmı yazmam gerekiyor. Bu kısımda Rbenv, Ruby, Rails, Heroku gibi kurulumları yapacağız.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://alperenbozkurt.net/Ruby-ve-rails-kurulumu/&quot;&gt;Ruby on Rails Kurulumu Burada&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Şimdilik bu kadar gerekli bi işlem olursa buraya eklerim.&lt;/p&gt;</content><author><name></name></author><category term="ayarlar" /><category term="kurulum sonrası ayar" /><category term="linux" /><category term="ubuntu" /><summary type="html">Linux kurulumundan sonra yapılması gerekenler.</summary></entry><entry><title type="html">MIPS Nedir</title><link href="http://localhost:4000/mips-giris/" rel="alternate" type="text/html" title="MIPS Nedir" /><published>2017-06-15T00:00:00+03:00</published><updated>2017-06-15T00:00:00+03:00</updated><id>http://localhost:4000/mips-giris</id><content type="html" xml:base="http://localhost:4000/mips-giris/">&lt;h1 id=&quot;mips-nedir-&quot;&gt;&lt;strong&gt;Mips Nedir ?&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;MIPS &lt;strong&gt;İndirgenmiş Komut Kümesi&lt;/strong&gt; türü bir mikroişlemci mimarisidir. MIPS Teknolojileri adlı firma tarafından üretilmiştir. Her komut aynı boydadır. Bu da komutların bilgisayar donanımı tarafından kolay çözülmesini sağlar.
+&lt;strong&gt;RISC&lt;/strong&gt; yapısından dolayı tasarımı basittir. Çoğu modern mikroişlemci mimarisi (IBM/Motorola PowerPC, DEC, ARM) Mips mimarisinden esinlenilerek yapılmıştır.
+Günümüz itibarıyla &lt;strong&gt;Nintendo 64&lt;/strong&gt;, &lt;strong&gt;Sony PlayStation&lt;/strong&gt;, &lt;strong&gt;Sony PlayStation 2&lt;/strong&gt; ve &lt;strong&gt;Sony PSP&lt;/strong&gt; MIPS mimarisi ile çalışan işlemcilere sahiptirler.&lt;/p&gt;
+
+&lt;h2 id=&quot;registerlar-neden-var&quot;&gt;Register’lar Neden Var&lt;/h2&gt;
+&lt;p&gt;İşlemci birim zamanda sadece bir işlem yapabilir. Örneğin 3 sayıyı toplamasını istediğimizde önce ilk ikisini toplayacak, sonra ara sonucu tekrar ram’e yazacak. Sonra bu ara sonuç ile 3. sayıyı tekrar çağırıp onlarıda toplayacak. Sonra tekrar Ram’e kadar gidi yazacak. Fakat ara sonucu işlemcinin içerisinde tutabilseydik işlemleri daha hızlı gerçekleştirebilirdik. Her işlemden sonra verileri ram’e götürüp yazmak zorunda kalmazdık. Böyle diyerek işlemcinin içerisine registerları eklemişler.&lt;/p&gt;
+
+&lt;h2 id=&quot;hangi-register-ne-işe-yarar&quot;&gt;Hangi Register Ne işe Yarar&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Register&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Sayısı&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Açıklama&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$zero&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;İçerisinde 0 sayısı vardır.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$at&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Assembler tarafından kullanılır.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$v0-$v1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2-3&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Metodların return değişkenleri için.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$a0-$a3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4-7&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Metodlara gidecek parametreler için.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$t0-$t7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8-15&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Geçici değişkenler&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$s0-$s7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;16-23&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Kayıt registerları&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$t8-$t9&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;24-25&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Biraaz daha geçici değişken&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$k0-$k1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;26-27&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;İşletim sistemi tarafından kullanılır.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$gp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;28&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Global Pointer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$sp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Stack Pointer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$fp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;30&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Frame Pointer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$ra&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;31&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Return Adress&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;örnek-bir-assembly-kodu&quot;&gt;Örnek Bir Assembly Kodu&lt;/h2&gt;
+&lt;p&gt;C dilinde yazılmış &lt;code class=&quot;highlighter-rouge&quot;&gt;f = (a+b)+(c+d)&lt;/code&gt; işlemini assembly ile yazalım.
+(Değişkenler sırasıyla s0,s1,s2,s3,s4 registerlarına getirilmiştir.)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-assembly&quot; data-lang=&quot;assembly&quot;&gt;  add $t0, $s1, $s2
+  add $t1, $s3, $s4
+  add $s0, $t0, $t1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="MIPS" /><category term="bilgisayar organizasyonu" /><category term="register" /><category term="assembly" /><summary type="html">Mips ve assembly kodları giriş.</summary></entry></feed>
