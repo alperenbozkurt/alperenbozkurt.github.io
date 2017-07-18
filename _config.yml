@@ -4,7 +4,7 @@ bio:            '#Fırat Üniversitesi #Bilgisayar Mühendisliği #Tosya #Ruby #
 description:    "Merhaba. Ben Alperen Bozkurt. Bu sitemi projelerimi paylaşmak, bazı notlarımı ve bug çözümlerimi yayınlamak ve düşüncelerimi özgürce paylaşmak için açıyorum. Eğer sitemden feyz alırsanız yorumlara bir gülücük bırakmayı unutmayın :)"
 picture:        'assets/img/profile.png'
 locale:         en_US
-url:            https://alperenbozkurt.net
+url:            http://alperenbozkurt.net
 
 # Jekyll
 permalink:      /:title/
