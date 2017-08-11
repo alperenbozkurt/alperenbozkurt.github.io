@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "MIPS Nedir"
-date: 2017-06-15
-excerpt: "Mips ve assembly kodları giriş."
-tags: [MIPS, bilgisayar organizasyonu, register, assembly]
+title: "Rails ile Eposta Göndermek"
+date: 2017-08-11
+excerpt: "Rails ve Gmail kullanarak örnek bir eposta gönderen uygulama yaptık."
+tags: [ActionMailler kullanımı, rails mail yollama, rails e-posta yollama, ruby gmail ile posta yollamak]
 ---
 Rails uygulamalarında e-posta göndermek için ActionMailler diye bir yapı var.  Bu yazıda, bu yapıyı kullanarak bir e-posta göndereceğiz. Hızlıca başlayalım. 
 
