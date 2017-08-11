@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JBlog Theme"
-image: "https://raw.githubusercontent.com/alperenbozkurt/JBlog/master/assets/img/screenshot-home.png"
+image: "https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png"
 date:   2017-06-01
 excerpt: "2015 yılında geliştirmeye başladığım blog teması."
 project: true
