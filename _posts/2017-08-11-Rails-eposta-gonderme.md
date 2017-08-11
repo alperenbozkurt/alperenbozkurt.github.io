@@ -16,7 +16,7 @@ Rails uygulamalarında e-posta göndermek için ActionMailler diye bir yapı var
     $ rails g mailer kayit_mailer
 
 Oluşan dosyalardan `app/mailers/kayit_mailer.rb` dosyasına gönderici eposta adresini ve mail gönderecek metodu oluşturmamız gerekiyor. 
-```rails
+```ruby
 class KayitMailer < ApplicationMailer
   default from: "gonderici@gmail.com"
 
@@ -53,7 +53,7 @@ Html render edemeyen mail istemcileri için bu dosyayı oluşturmamız gerekiyor
 
 `/config/environments/production.rb` dosyamıza alt taraftaki kodları ekleyelim.
 
-```rails
+```ruby
 config.action_mailer.delivery_method = :smtp
 # SMTP settings for gmail
 config.action_mailer.smtp_settings = {
@@ -66,7 +66,7 @@ config.action_mailer.smtp_settings = {
 }
 ```
 Tüm hazırlıkları tamamladık şimdi kısık ateşte 20 dk pişirelim. Piştikten sonra eposta gönderme işlemini tetikletmek için `user_controller.rb` nin create metoduna `KayitMailer.sample_email(@user).deliver` satırını eklememiz gerekiyor. 
-```rails 
+```ruby 
 def create
   @user = User.new(user_params)
 
@@ -85,5 +85,6 @@ def create
   end
 end
 ```
+Edit : Gmail ile eposta yollamak için [bu linkten](https://myaccount.google.com/lesssecureapps?pli=1) hesabınıza izin vermeniz gerekiyor. Tavsiyem mail işlemleri için başka bir eposta hesabı açmanız.
 
 Bu şekilde örnek bir eposta gönderme uygulaması yapmış olduk. Eğer bir yanlışım, eksiğim olmuş ise yorum yazabilirsiniz veya pull request yollayabilirsiniz. Kendinize iyi davranın.
