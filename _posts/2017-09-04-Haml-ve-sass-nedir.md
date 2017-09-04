@@ -45,7 +45,7 @@ Haml Nasıl Kullanılır ?
  - **%** işareti bir html etiketi açmak için kullanılıyor.
  - **\#** işareti bir html objesine id atamak için kullanılıyor.
  - **.** işareti bir html objesine class belirtmek için kullanılıyor.  
- - **-** işareti ekrana çıktı vermeyen ruby kodları için kullanılıyor. ( Örn: - @model.each |x| do )
+ - **-** işareti ekrana çıktı vermeyen ruby kodları için kullanılıyor. ( Örn: - 1..100.each do )
  - **=** çıktı veren bir ruby kodu çalıştırılacak ise bu kod kullanılıyor. ( Puts methodu gibi düşünülebilir. Örn:  = x.name )
  - Etiketler kapatılmıyor. Etiketlerin etki alanları girintiler ve çıkıntılar ile anlaşılıyor.
  - Eğer div oluşturacaksanız %div.foo demenize gerek yok .foo komutu default olarak div objesi oluşturuyor. Aynı şey id ( # ) için de geçerlidir.
