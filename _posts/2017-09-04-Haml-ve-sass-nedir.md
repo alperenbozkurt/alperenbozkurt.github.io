@@ -55,6 +55,6 @@ Haml Nasıl Yüklenir ?
 `gem install haml` yazarak veya gemfile dosyamıza `gem 'haml'` yazıp terminale `bundle install` diyerek kurulumu gerçekleştirebiliriz. Kodlarımızı yazdığımız dosyanın uzantısı da .haml olarak kaydetmeliyiz.
 
 
-Haml hakkındaki yazım bu kadar oldu. [Sass ve Scss Nedir adlı yazıma da buradan](#) erişebilirsiniz.
+Haml hakkındaki yazım bu kadar oldu. [Sass ve Scss Nedir adlı yazıma da buradan](http://alperenbozkurt.net/Sass-ve-scss-nedir/) erişebilirsiniz.
 
 *Ruby <3 Ben *
