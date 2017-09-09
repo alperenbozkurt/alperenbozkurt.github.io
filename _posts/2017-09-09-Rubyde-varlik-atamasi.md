@@ -6,7 +6,7 @@ excerpt: "Rubyde varlık ataması nedir, ||= operatörü ve örnek kullanımlar�
 tags: [rubyde varlık ataması, varlık ataması, ruby operatörler, varlık ataması operatörü, or equals, veya eşittir operatörü]
 ---
 
-||= operatörü eğer bir a değişkeni tanımlanmamış ise ona atama yapmak için kullanılır. Bu komutu [`x || (x = y)`][1] gibi düşünün. Eğer bir x değeri tanımlanmamış ( `false` veya `nil` de olabilir ) ise x'e atama işlemi yapar.
+`||=` operatörü eğer bir a değişkeni tanımlanmamış ise ona atama yapmak için kullanılır. Bu komutu [`x || (x = y)`][1] gibi düşünün. Eğer bir x değeri tanımlanmamış ( `false` veya `nil` de olabilir ) ise x'e atama işlemi yapar.
 
 Biraz Örnek yapalım;
 ```ruby
