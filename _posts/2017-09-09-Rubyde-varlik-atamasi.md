@@ -2,8 +2,8 @@
 layout: post
 title: "Ruby'de ||=, Varlık Ataması"
 date: 2017-09-09
-excerpt: "Rubyde varlık ataması operatörü, ||= işaretinin anlamı ve örnek kullanımları"
-tags: [rubyde varlık ataması, ||= operatörü, varlık ataması, ruby operatörler, varlık ataması operatörü, or equals, veya eşittir operatörü]
+excerpt: "Rubyde varlık ataması nedir, ||= operatörü ve örnek kullanımları"
+tags: [rubyde varlık ataması, varlık ataması, ruby operatörler, varlık ataması operatörü, or equals, veya eşittir operatörü]
 ---
 
 ||= operatörü eğer bir a değişkeni tanımlanmamış ise ona atama yapmak için kullanılır. Bu komutu [`x || (x = y)`][1] gibi düşünün. Eğer bir x değeri tanımlanmamış ( `false` veya `nil` de olabilir ) ise x'e atama işlemi yapar.
