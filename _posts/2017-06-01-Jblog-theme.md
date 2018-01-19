@@ -2,9 +2,10 @@
 layout: post
 title:  "JBlog Theme"
 image: "https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png"
-date:   2017-06-01
+date:   2017-06-18
 excerpt: "2015 yılında geliştirmeye başladığım blog teması."
 project: true
+technologies: [Ruby, Jekyll]
 tags: [blog teması, minimal blog theme, material theme, ]
 
 ---
