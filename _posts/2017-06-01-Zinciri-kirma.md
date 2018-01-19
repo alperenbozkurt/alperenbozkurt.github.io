@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Zinciri Kırma"
-image: "https://user-images.githubusercontent.com/19302254/35151888-12fca06a-fd31-11e7-8c8e-362be74101f0.png"
+image: "https://user-images.githubusercontent.com/19302254/35151887-12d7b6ce-fd31-11e7-8f70-3f7bd96c94bf.png"
 date:   2017-06-24
 excerpt: "Hedeflerinizi takip etmenize yardımcı uygulama."
 project: true
