@@ -14,7 +14,7 @@ The Lord of The Rings
 > yaşamayı hak ediyor. Yaşamı onlara verebilir misin? O halde öyle hak,
 > hukuk adına ölüm buyurmakta çok acele etme.
 
-İlk iki kitabını okuduğum bu seride Gandalf'ın güç yüzüğünü fark etmesiyle başlayan macerayı anlatır. Frodo ve sam bu görev için gönüllü olmak zorundalardır. Güç yüzüğünü hüküm dağının lavlarında eriterek yok etmek gerekmektedir. Kitap bu yolculuğu anlatmaktadır. Bu iki kitapta en etkilendiğim bölüm ise filmdeki şu sahnedir:
+İlk iki kitabını okuduğum bu seri Gandalf'ın güç yüzüğünü fark etmesiyle başlayan macerayı anlatıyor. Frodo ve sam bu görev için gönüllü olmak zorunda kalıyorlar. Güç yüzüğünü hüküm dağının lavlarında eriterek yok etmeleri gerekiyor. Bu yolculukta yazadıkları maceraları anlatan bu serinin bendeki yeri çok farklıdır. Kitabı okurken Gri Gandalf'ın öldüğü kısmı beni çok duygulandırmıştı. Gandalf'ın yeniden gönderileceğini bilmesem ağlardım herhalde.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mJZZNHekEQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
