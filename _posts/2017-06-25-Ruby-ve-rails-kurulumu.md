@@ -8,7 +8,7 @@ tags: [Rbenv, Ruby, Rails, Postgresql, Ruby on Rails kurulumu, ror yükleme]
 Ruby kurulumu biraz uğraştırıcı ama işlemler basit. İlk olarak Rbenv kuracağız. Ne işe yarar bu rbenv, bilgisayara birden fazla ruby versyonu kurmamızı sağlıyor. Buda bizi farklı projelerde çalışırken ruby'yi silip tekrar kurmaktan kurtarıyor. Kuruluma başlamadan önce gerekli paketleri kuralım. 
 
     sudo apt-get update
-    sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs
+    sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev nodejs
 
 
 Rbenv Kurulumu
