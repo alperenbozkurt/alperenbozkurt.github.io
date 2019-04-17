@@ -5,6 +5,7 @@ description:    "Merhaba. Ben Alperen Bozkurt. Bu sitemi projelerimi paylaşmak,
 picture:        'assets/img/profile.png'
 locale:         en_US
 tags:           [alperen, bozkurt, ruby, rails, fırat ünviersitesi, bilgisayar mühendisliği]
+keywords:       [alperen, bozkurt, ruby, rails, fırat ünviersitesi, bilgisayar mühendisliği]
 url:            http://alperenbozkurt.net
 
 # Jekyll
