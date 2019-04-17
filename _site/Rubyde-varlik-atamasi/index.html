@@ -5,13 +5,13 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Tüm Projeler &#8211; Alperen Bozkurt</title>
-    <meta name="description" content="Projelerimin bir listesi">
-    <meta name="keywords" content="">
-    <link rel="canonical" href="http://localhost:4000/projects/">
+    <title>Ruby'de ||=, Varlık Ataması &#8211; Alperen Bozkurt</title>
+    <meta name="description" content="            Rubyde varlık ataması nedir,             = operatörü ve örnek kullanımları      ">
+    <meta name="keywords" content="rubyde varlık ataması, varlık ataması, ruby operatörler, varlık ataması operatörü, or equals, veya eşittir operatörü">
+    <link rel="canonical" href="http://localhost:4000/Rubyde-varlik-atamasi/">
         <!-- Twitter Cards -->
-    <meta name="twitter:title" content="Tüm Projeler">
-    <meta name="twitter:description" content="Projelerimin bir listesi">
+    <meta name="twitter:title" content="Ruby'de ||=, Varlık Ataması">
+    <meta name="twitter:description" content="            Rubyde varlık ataması nedir,             = operatörü ve örnek kullanımları      ">
     <meta name="twitter:site" content="@bozkurttalperen">
     <meta name="twitter:creator" content="@bozkurttalperen">
     <meta name="twitter:card" content="summary">
@@ -19,9 +19,9 @@
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Tüm Projeler">
-    <meta property="og:description" content="Projelerimin bir listesi">
-    <meta property="og:url" content="http://localhost:4000/projects/">
+    <meta property="og:title" content="Ruby'de ||=, Varlık Ataması">
+    <meta property="og:description" content="            Rubyde varlık ataması nedir,             = operatörü ve örnek kullanımları      ">
+    <meta property="og:url" content="http://localhost:4000/Rubyde-varlik-atamasi/">
     <meta property="og:site_name" content="Alperen Bozkurt">
     <meta property="og:image" content="http://localhost:4000/assets/img/profile.png">
 
@@ -132,7 +132,6 @@ $(document).ready(function(){
 
 </script>
 
-    
     <div class="menuAc">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
@@ -185,104 +184,79 @@ $(document).ready(function(){
       </div>
     </div>
     <div class="ortalaAna">
-      <div class="programlar">
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://user-images.githubusercontent.com/19302254/35151887-12d7b6ce-fd31-11e7-8f70-3f7bd96c94bf.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Zinciri-kirma/">Zinciri Kırma</a>
-              </div>
-              <div class="aciklamaUrun">
-                Hedeflerinizi takip etmenize yardımcı uygulama.
-              </div>
+      <div class="yazilar">
+        <div class="yazi">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- R1 -->
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-1746793611373653"
+            data-ad-slot="9217519248"
+            data-ad-format="auto"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        <div class="yazi">
+          <div class="ustr">
+            <h2>Ruby'de ||=, Varlık Ataması</h2>
+            <div class="yazibilgisi">
+              09 Sep 2017 tarihinde yayınlandı.
             </div>
-          
+          </div>
+          <hr>
+          <div class="content">
+            <p><code class="highlighter-rouge">||=</code> operatörü eğer bir a değişkeni tanımlanmamış ise ona atama yapmak için kullanılır. Bu komutu <a href="https://stackoverflow.com/a/3800986/7244925" title="Stackoverflow"><code class="highlighter-rouge">x || (x = y)</code></a> gibi düşünün. Eğer bir x değeri tanımlanmamış ( <code class="highlighter-rouge">false</code> veya <code class="highlighter-rouge">nil</code> de olabilir ) ise x’e atama işlemi yapar.</p>
+
+<p>Biraz Örnek yapalım;</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="kp">nil</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">a</span> <span class="o">||=</span> <span class="n">b</span> 	<span class="c1"># a' nın değeri nil olduğu için a = b ataması yaptı.</span>
+<span class="nb">puts</span> <span class="n">a</span> 		<span class="c1"># 10</span>
+<span class="c1">#--------------------------------------</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">a</span> <span class="o">||=</span> <span class="n">b</span> 	<span class="c1"># a'nın değeri olduğu için bir atama olmuyor.</span>
+<span class="nb">puts</span> <span class="n">a</span>		<span class="c1"># 10</span>
+<span class="c1">#--------------------------------------</span>
+
+<span class="n">t</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">e</span> <span class="o">||=</span> <span class="n">t</span>		<span class="c1"># e değişkeni tanımlanmadığı için e = 10 ataması oldu.</span>
+<span class="nb">puts</span> <span class="n">e</span>		<span class="c1"># 10</span>
+<span class="c1">#--------------------------------------</span>
+
+
+</code></pre></div></div>
+
+
+          </div>
+        </div>
         
-          
-        
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://user-images.githubusercontent.com/19302254/33776111-728789c4-dc51-11e7-9d8d-c6cbe6c61a82.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Film-Al/">Film Al</a>
-              </div>
-              <div class="aciklamaUrun">
-                Netflix ve Steam karışımı film alma uygulaması.
-              </div>
-            </div>
-          
-        
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://user-images.githubusercontent.com/19302254/29752074-d215bc14-8b5f-11e7-807a-6e116c6f35f9.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Kisiler/">Kişiler</a>
-              </div>
-              <div class="aciklamaUrun">
-                Rehber yedekleme uygulamasından az daha fazlası.
-              </div>
-            </div>
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Jblog-theme/">JBlog Theme</a>
-              </div>
-              <div class="aciklamaUrun">
-                2015 yılında geliştirmeye başladığım blog teması.
-              </div>
-            </div>
-          
-        
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://cloud.githubusercontent.com/assets/19302254/24833583/460131b0-1cd6-11e7-9bd5-7b16c0eec97a.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Redmine-user-perf/">Redmine User Perf.</a>
-              </div>
-              <div class="aciklamaUrun">
-                İş saatini grafiğe çeviren redmine eklentisi.
-              </div>
-            </div>
-          
-        
+  <div id="disqus_thread" class="yazi">  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://alperenbozkurt-net.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  <script id="dsq-count-scr" src="//alperenbozkurt-net.disqus.com/count.js" async></script>
+
+
       </div>
     </div>
         <div class="footer">

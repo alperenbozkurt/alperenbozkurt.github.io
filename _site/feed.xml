@@ -1,75 +1,305 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-18T23:20:43+03:00</updated><id>http://localhost:4000/</id><title type="html">Alperen Bozkurt</title><subtitle>Merhaba. Ben Alperen Bozkurt. Bu sitemi projelerimi paylaşmak, bazı notlarımı ve bug çözümlerimi yayınlamak ve düşüncelerimi özgürce paylaşmak için açıyorum. Eğer sitemden feyz alırsanız yorumlara bir gülücük bırakmayı unutmayın :)</subtitle><entry><title type="html">Heroku Kurulumu</title><link href="http://localhost:4000/Heroku-kurulumu/" rel="alternate" type="text/html" title="Heroku Kurulumu" /><published>2017-06-25T00:00:00+03:00</published><updated>2017-06-25T00:00:00+03:00</updated><id>http://localhost:4000/Heroku-kurulumu</id><content type="html" xml:base="http://localhost:4000/Heroku-kurulumu/">&lt;p&gt;Heroku Ruby, Java, python gibi dillerde yazılmış web projelerinizi hızlıca ve teknik sunucu kurma bilgisi gerektirmeden yayınlamanızı sağlayan bir platformdur. Ücretsiz olarak uygulama yayınlamamıza izin verir. Geliştirme aşamasında olan projelerimiz için heroku’yu kullanabiliriz.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-17T16:32:05+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alperen Bozkurt</title><subtitle>Merhaba. Ben Alperen Bozkurt. Bu sitemi projelerimi paylaşmak, bazı notlarımı ve bug çözümlerimi yayınlamak ve düşüncelerimi özgürce paylaşmak için açıyorum. Eğer sitemden feyz alırsanız yorumlara bir gülücük bırakmayı unutmayın :)</subtitle><entry><title type="html">2018’de En Beğendiğim Kitaplar</title><link href="http://localhost:4000/En-be%C4%9Fendi%C4%9Fim-kitaplar/" rel="alternate" type="text/html" title="2018'de En Beğendiğim Kitaplar" /><published>2019-01-03T00:00:00+03:00</published><updated>2019-01-03T00:00:00+03:00</updated><id>http://localhost:4000/En-be%C4%9Fendi%C4%9Fim-kitaplar</id><content type="html" xml:base="http://localhost:4000/En-be%C4%9Fendi%C4%9Fim-kitaplar/">&lt;p&gt;2018 yılının başında kendime, “Bu sene kaç kitabı bitirebilirsin” diye sordum. Yaptığım ufak hesaplamalar sonucunda her 2 haftaya 1 kitap düşecek şekilde 26 kitabı okuyabileceğimi düşünerek hedefimi belirledim. Bu yazımda da bu kitaplar arasından seçtiğim, okurken en çok zevk aldığım birkaç kitabı paylaşmak istiyorum. Burada yazmadığım diğer kitaplara da goodreads hesabımdan bakabilirsiniz.&lt;/p&gt;
 
-&lt;h2 id=&quot;nasıl-kurulur&quot;&gt;Nasıl Kurulur&lt;/h2&gt;
-&lt;p&gt;Websitesinden üyelik açtıktan sonra,&lt;/p&gt;
+&lt;h2 id=&quot;the-lord-of-the-rings&quot;&gt;The Lord of The Rings&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Yaşayanların bir çoğu ölümü hak ediyor. Ve ölenlerin bir kısmı da
+yaşamayı hak ediyor. Yaşamı onlara verebilir misin? O halde öyle hak,
+hukuk adına ölüm buyurmakta çok acele etme.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;İlk iki kitabını okuduğum bu seri Gandalf’ın güç yüzüğünü fark etmesiyle başlayan macerayı anlatıyor. Frodo ve sam bu görev için gönüllü olmak zorunda kalıyorlar. Güç yüzüğünü hüküm dağının lavlarında eriterek yok etmeleri gerekiyor. Bu yolculukta yazadıkları maceraları anlatan bu serinin bendeki yeri çok farklıdır. Kitabı okurken Gri Gandalf’ın öldüğü kısmı beni çok duygulandırmıştı. Gandalf’ın yeniden gönderileceğini bilmesem ağlardım herhalde.&lt;/p&gt;
 
-&lt;p&gt;Scripti ile kurulumu gerçekleştirelim.
-Kurulum gerçekleştiğinde&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mJZZNHekEQw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku login
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h2 id=&quot;ben-robot&quot;&gt;Ben Robot&lt;/h2&gt;
 
-&lt;p&gt;komutunu girerek giriş yapalım.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yapay zeka insanlığın sonu mu olacak ?&lt;/strong&gt; Asimov bu tarz saçma sorulardan nasıl kurtulacağımızı hikayelerinde çok güzel bir şekilde açıklamış. Asimov 3 temel robot kanunundan bahsetmektedir.&lt;/p&gt;
 
-&lt;h2 id=&quot;proje-nasıl-yayınlanır&quot;&gt;Proje Nasıl Yayınlanır&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Robotlar, insanlara zarar veremez ya da eylemsiz kalarak onlara zarar gelmesine göz yumamaz.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Robotlar, Birinci Kanun’la çakışmadığı sürece insanlar tarafından verilen emirlere itaat etmek zorundadır.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Robotlar, Birinci ya da İkinci Kanun’la çakışmadığı sürece kendi varlıklarını korumak zorundadır.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Masaüstü dizinine gelip örnek ruby projemizi indirelim ve içerisine girelim.&lt;/p&gt;
+&lt;p&gt;Bu kanunlar robotlar üretilirken donanımlarına işlenerek insanlara ve kendilerine zarar vermemeleri sağlanmıştır. Kanunların açık ve net (!) olmasına rağmen aralarındaki boşluklar bug çıkmaya çok fazla müsaittir. Kitapda geçen 9 robot öyküsünde robotlarda çıkan buglar ve nedenleri öyle güzel işlenmiş ki, dünyanın sonunu getirseler bile bunu kendi istedikleri için değil hatalı ve eksik yazılmış kaynak kodlarından olacağı anlatılmıştır.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/heroku/ruby-getting-started.git
-cd ruby-getting-started
+&lt;h2 id=&quot;fahrenheit-451&quot;&gt;Fahrenheit 451&lt;/h2&gt;
 
-heroku create  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;bir kadının yanan bir evde kalmasına yol açtıklarına göre, kitaplarda
+bir şeyler olmalı… hayal edemeyeceğimiz şeyler; orada bir şeyler
+olmalı. insan bir hiç uğruna kalmaz.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Bu komutla herokuapp.com uzantılı bir web projesi oluşturuyoruz.Otomatik olarak git bağlantılarını yapacak. Bende şöyle bir adres geldi.&lt;/p&gt;
+&lt;p&gt;Yanmayan evler yaygınlaştıktan sonra itfayecilerin işsiz kalmaması için yakma görevi itfayecilere verilmiştir yaktıkları şey ise kitaptır. Kitapta bir itfaye erinin monotonluktan kurtulmasıyla başlar. Bir gün aldıkları ihbarda kitaplarını kendi canı kadar çok seven yaşlı kadının evine giderler. Yaşlı kadının kitapları ile birlikte can vermek istemesi itfaye eri Guy Montag’ın dikkatini çeker ve okumak için bir kaç kitap çalar.
+Bu distopyanın bana verdiği en büyük mesaj şu oldu; &lt;em&gt;Öyle kitaplar vardır ki belli bir anlama seviyesine gelmeden o kitabın ne anlatmak istediğini anlayamazsın.&lt;/em&gt; İşte bu yüzden okuduğum ve beğenmediğim bazı kitapları tekrar okuma kararı aldım. Ve kutsal kitapları yorumlamak için fazla aceleci davranmamam gerektiğini kararlaştırdım.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Creating app... done, ⬢ infinite-sierra-90021
-https://infinite-sierra-90021.herokuapp.com/ | https://git.heroku.com/infinite-sierra-90021.git
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h2 id=&quot;otostopçunun-galaksi-rehberi&quot;&gt;Otostopçunun Galaksi Rehberi&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“İnsanlar dudaklarını devamlı çalıştırmazlarsa, beyinleri çalışmaya başlıyor”&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Artık projemi deploy ettiğimde https://infinite-sierra-90021.herokuapp.com/ adresinden kullanabilirim demektir.&lt;/p&gt;
+&lt;p&gt;Yine ilk iki kitabını okuduğum bu seride, Dünyanın uzaylı ırklar tarafından yerle bir edilmeden hemen önce Ford ile Arthur’un yıkım için gelen uzaylı gemisine otostop çekerek binmeleri ile başlar. Marvin adlı robot favori karakterimdi. Ve kitabı okuduğunuzda evrenin nihayi sorusuna cevap buluyorsunuz.  Ayrıyetten bu sorunun cevabını kitabı okumadan öğrenmek istiyorsanız Google’a &lt;strong&gt;&lt;em&gt;what is the answer to life, the universe, and everything?&lt;/em&gt;&lt;/strong&gt;  şeklinde aratabilirsiniz. (Okumadıysanız tavsiye etmem :) )&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push heroku master
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h2 id=&quot;maymunlar-gezegeni&quot;&gt;Maymunlar Gezegeni&lt;/h2&gt;
 
-&lt;p&gt;komutuyla dosyaları yükleyebiliriz.&lt;/p&gt;
+&lt;p&gt;Bu kitap da bir ithaki bilim-kurgu klasiklerinden. Kitabın sonu hala aklımdan çıkmıyor. Dünyaya çok benzeyen bir gezegene keşif için giden 3 bilim-insanı hiç tahmin etmedikleri bir şeyle karşılaşıyorlar. Bu gezegende tanıştıkları insanlar düşünemezken, maymunlar düşünebiliyor. Kitabın baş kahramanı maymunlarla iletişim kurmaya çalışırken ve kurduktan sonra başından geçenler anlatılıyor. Kitabın son sayfalarında ise şaşırma ve okuma keyfi katlanarak artıyor. Gerçekten çok beğendiğim bir kitaptı.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku open
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h4 id=&quot;sırada-ne-var&quot;&gt;Sırada Ne Var&lt;/h4&gt;
+&lt;p&gt;2019 yılında ise okuma hedefimi her aya 3 kitap olacak şekilde 36 kitaba çıkarttım. Okumak istediğim bazı kitapları buraya not düşeyim bakalım yıl sonunda neler olacak birlikte görelim.&lt;/p&gt;
 
-&lt;p&gt;komutuyla websitesini varsayılan tarayıcıyla açabilirsiniz. Logları görmek içinse,&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Kuran-ı Kerim&lt;/li&gt;
+  &lt;li&gt;Dune Serisi&lt;/li&gt;
+  &lt;li&gt;Otostopçunun Galaksi Rehberi&lt;/li&gt;
+  &lt;li&gt;Yüzüklerin Efendisi Kralın Dönüşü&lt;/li&gt;
+  &lt;li&gt;Silmarillion&lt;/li&gt;
+  &lt;li&gt;Frankenstein&lt;/li&gt;
+  &lt;li&gt;Dünyalar Savaşı&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku logs --tail
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Bu kitaplar listemin üstündeki kitaplar. Bu sene okuyacağım diğer kitapların çoğunun da ithaki bilim kurgu serisinden olacağını düşünüyorum. Yıl sonunda bu kitapların kaç tanesini okumuş olacağım acaba.&lt;/p&gt;
 
-&lt;p&gt;yazailirsiniz. Sunucuda herhangi bir komut çalıştırmak için ise&lt;/p&gt;
+&lt;p&gt;Görüşmek üzere, bu yıl sizin yılınız olsun :)&lt;/p&gt;</content><author><name></name></author><category term="2018 kitapları" /><category term="reading challenge" /><category term="en beğendiğim kitaplar" /><summary type="html">2018'de hedefim olan 26 kitabı son gün tamamladım. Bu kitaplardan en çok birkaç kitabı bu yazımda listeledim.</summary></entry><entry><title type="html">Ruby’de ||=, Varlık Ataması</title><link href="http://localhost:4000/Rubyde-varlik-atamasi/" rel="alternate" type="text/html" title="Ruby'de ||=, Varlık Ataması" /><published>2017-09-09T00:00:00+03:00</published><updated>2017-09-09T00:00:00+03:00</updated><id>http://localhost:4000/Rubyde-varlik-atamasi</id><content type="html" xml:base="http://localhost:4000/Rubyde-varlik-atamasi/">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;||=&lt;/code&gt; operatörü eğer bir a değişkeni tanımlanmamış ise ona atama yapmak için kullanılır. Bu komutu &lt;a href=&quot;https://stackoverflow.com/a/3800986/7244925&quot; title=&quot;Stackoverflow&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x || (x = y)&lt;/code&gt;&lt;/a&gt; gibi düşünün. Eğer bir x değeri tanımlanmamış ( &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; veya &lt;code class=&quot;highlighter-rouge&quot;&gt;nil&lt;/code&gt; de olabilir ) ise x’e atama işlemi yapar.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku run #komut
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Biraz Örnek yapalım;&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; 	&lt;span class=&quot;c1&quot;&gt;# a' nın değeri nil olduğu için a = b ataması yaptı.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; 		&lt;span class=&quot;c1&quot;&gt;# 10&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#--------------------------------------&lt;/span&gt;
 
-&lt;p&gt;şeklinde yazıyoruz. Heroku bu şekilde kullanılıyor. Bu yazı yararlı olduysa yorum kısmına bir gülücük bırakmayı unutmayın :) Eğer yanlışım veya eksiğim varsa bunu yorum kısmından bana iletebilirsiniz.&lt;/p&gt;</content><author><name></name></author><category term="Heroku" /><category term="nasıl yayınlanır" /><category term="ruby" /><category term="hosting" /><category term="rails uygulaması yayınlamak" /><summary type="html">Heroku Kurulumu ve ilk Deploy</summary></entry><entry><title type="html">Ruby On Rails Kurulumu</title><link href="http://localhost:4000/Ruby-ve-rails-kurulumu/" rel="alternate" type="text/html" title="Ruby On Rails Kurulumu" /><published>2017-06-25T00:00:00+03:00</published><updated>2017-06-25T00:00:00+03:00</updated><id>http://localhost:4000/Ruby-ve-rails-kurulumu</id><content type="html" xml:base="http://localhost:4000/Ruby-ve-rails-kurulumu/">&lt;p&gt;Ruby kurulumu biraz uğraştırıcı ama işlemler basit. İlk olarak Rbenv kuracağız. Ne işe yarar bu rbenv, bilgisayara birden fazla ruby versyonu kurmamızı sağlıyor. Buda bizi farklı projelerde çalışırken ruby’yi silip tekrar kurmaktan kurtarıyor. Kuruluma başlamadan önce gerekli paketleri kuralım.&lt;/p&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; 	&lt;span class=&quot;c1&quot;&gt;# a'nın değeri olduğu için bir atama olmuyor.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# 10&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#--------------------------------------&lt;/span&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get update
-sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# e değişkeni tanımlanmadığı için e = 10 ataması oldu.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;		&lt;span class=&quot;c1&quot;&gt;# 10&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#--------------------------------------&lt;/span&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="rubyde varlık ataması" /><category term="varlık ataması" /><category term="ruby operatörler" /><category term="varlık ataması operatörü" /><category term="or equals" /><category term="veya eşittir operatörü" /><summary type="html">Rubyde varlık ataması nedir, ||= operatörü ve örnek kullanımları</summary></entry><entry><title type="html">Sass Ve Scss Nedir ?</title><link href="http://localhost:4000/Sass-ve-scss-nedir/" rel="alternate" type="text/html" title="Sass Ve Scss Nedir ?" /><published>2017-09-05T00:00:00+03:00</published><updated>2017-09-05T00:00:00+03:00</updated><id>http://localhost:4000/Sass-ve-scss-nedir</id><content type="html" xml:base="http://localhost:4000/Sass-ve-scss-nedir/">&lt;p&gt;Daha önce Haml’ın ne olduğundan ve nasıl kullanıldığından söz etmiştik. Bu yazı &lt;a href=&quot;http://alperenbozkurt.net/Haml-ve-sass-nedir/&quot;&gt;Haml Nedir ?&lt;/a&gt; Yazısının devamı niteliğinde olacaktır.&lt;/p&gt;
+
+&lt;h2 id=&quot;sass-nedir-&quot;&gt;Sass Nedir ?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Sass&lt;/strong&gt;, css’in karmaşıklığını ortadan kaldırmak amacıyla yazılan bir &lt;strong&gt;Ruby Gem&lt;/strong&gt;‘idir. Css’de At koşturmaya yarar. Syntax’ını rubyceye yakınlaştırır. .sass uzantılı dosyayı derleyerek css dosyası haline getirir. 
+Önce syntax’ı nasıl ona bakalım.&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.deneme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;150px&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Gibi bir css kodumuz olduğunu düşünelim. Bu kodu sass ile yazıldığında ise;&lt;/p&gt;
+&lt;div class=&quot;language-sass highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.deneme&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;150px&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Şeklinde oluyor. Gördüğünüz gibi gereksiz ; ve {  } yazmadık.&lt;/p&gt;
+
+&lt;h2 id=&quot;sass-nasıl-kullanılır-&quot;&gt;Sass Nasıl Kullanılır ?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;;&lt;/strong&gt; işaretini satırların sonlarına koymak zorunda değiliz.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;{&lt;/strong&gt; işaretini kullanmak zorunda değiliz. ( Aynı şekilde &lt;strong&gt;}&lt;/strong&gt; işaretini de kullanmak zorunda değiliz. )&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$&lt;/strong&gt; işareti ile değişken oluşturabiliriz.&lt;/li&gt;
+  &lt;li&gt;Matematik operatörlerini kullanabiliyoruz.&lt;/li&gt;
+  &lt;li&gt;İf - Else gibi karar yapılarını kullanabiliyoruz.&lt;/li&gt;
+  &lt;li&gt;While, Each gibi döngüleri kullanabiliyoruz.&lt;/li&gt;
+  &lt;li&gt;Fonksiyon yazıp cevabını alabiliyoruz.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;scss-nedir-&quot;&gt;Scss Nedir ?&lt;/h2&gt;
+&lt;p&gt;Scss, sass geliştiricilerinin biraz daha front-end geliştiricilerini düşünerek oluşturduğu syntax’dır. Bu syntax css’e benziyor. {, } ve ; burada kullanılıyor. Diğer her şey sass ile aynıdır.&lt;/p&gt;
+
+&lt;h2 id=&quot;sass-nasıl-kurulur-&quot;&gt;Sass Nasıl Kurulur ?&lt;/h2&gt;
+&lt;p&gt;Terminale ‘&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install sass-rails&lt;/code&gt;’ yazarak veya gemfile dosyasına &lt;code class=&quot;highlighter-rouge&quot;&gt;gem 'sass-rails'&lt;/code&gt; satırını ekleyip, terminale ‘&lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;’ yaparak kurabilirsiniz. Bu kurulumla sass ile scss de kurulmuş olacaktır. Dosyalarınızın uzantısı .sass veya .scss şeklinde yapmalısınız.&lt;/p&gt;
+
+&lt;p&gt;Daha ayrıntılı bilgiyi &lt;a href=&quot;https://scotch.io/tutorials/getting-started-with-sass&quot;&gt;Bu&lt;/a&gt; yazıda bulabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;*Ruby &amp;lt;3 Ben *&lt;/p&gt;</content><author><name></name></author><category term="Sass nedir" /><category term="Sass Nasıl kullanılır" /><category term="Sass Nasıl kurulur" /><category term="Scss Nedir" /><category term="Scss nasıl kurulur" /><category term="scss Nasıl kullanılır" /><summary type="html">Sass ve Scss in nedir, Neler yapılabilir, Nasıl yüklenir gibi soruların cevapları burada</summary></entry><entry><title type="html">Haml Nedir ?</title><link href="http://localhost:4000/Haml-nedir/" rel="alternate" type="text/html" title="Haml Nedir ?" /><published>2017-09-04T00:00:00+03:00</published><updated>2017-09-04T00:00:00+03:00</updated><id>http://localhost:4000/Haml-nedir</id><content type="html" xml:base="http://localhost:4000/Haml-nedir/">&lt;p&gt;Ruby’ye geçmemin en büyük sebebi sade ve öz olmasıdır.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sadelik en büyük zenginliktir&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Felsefesini benimsemiş &lt;strong&gt;Yukihiro Matsumoto&lt;/strong&gt; Ruby dilini yazarken anlaşılabilirliği, temizliği ve sadeliği ön planda tutmuştur. Rails geliştiren bir kaç amca bu sadeliğin html ve css’de de geçerli olması gerektiğini düşünerek haml ve sass’ı ortaya çıkarmışlar. Bu yazımda html ve css in güncellenmiş versiyonları olan haml ve sass dan bahsedeceğim.&lt;/p&gt;
+
+&lt;h2 id=&quot;haml-nedir-&quot;&gt;Haml Nedir ?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Haml&lt;/strong&gt;, html’in karmaşıklığını ortadan kaldırmak amacıyla yazılan bir &lt;strong&gt;Ruby Gem&lt;/strong&gt;‘idir. .haml uzantılı dosyayı derleyerek html dosyası haline getirir.&lt;/p&gt;
+&lt;div class=&quot;language-erb highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'content'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'left column'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Welcome to our site!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_information&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;right column&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:partial&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;sidebar&quot;&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Gibi bir html ( erb ) kodumuz olduğunu düşünelim. Aynı kod haml ile yazıldığında ise;&lt;/p&gt;
+&lt;div class=&quot;language-haml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#content&lt;/span&gt;
+  &lt;span class=&quot;nc&quot;&gt;.left.column&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;%h2&lt;/span&gt; Welcome to our site!
+    &lt;span class=&quot;nt&quot;&gt;%p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_information&lt;/span&gt;
+  &lt;span class=&quot;nc&quot;&gt;.right.column&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:partial&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;sidebar&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Şeklinde kısalıyor. Haml’ın basit birkaç kuralı var şimdi onlardan bahsedelim.&lt;/p&gt;
+
+&lt;h2 id=&quot;haml-nasıl-kullanılır-&quot;&gt;Haml Nasıl Kullanılır ?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;%&lt;/strong&gt; işareti bir html etiketi açmak için kullanılıyor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;#&lt;/strong&gt; işareti bir html objesine id atamak için kullanılıyor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;.&lt;/strong&gt; işareti bir html objesine class belirtmek için kullanılıyor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;-&lt;/strong&gt; işareti ekrana çıktı vermeyen ruby kodları için kullanılıyor. ( Örn: - 1..100.each do )&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;=&lt;/strong&gt; çıktı veren bir ruby kodu çalıştırılacak ise bu kod kullanılıyor. ( Puts methodu gibi düşünülebilir. Örn:  = x.name )&lt;/li&gt;
+  &lt;li&gt;Etiketler kapatılmıyor. Etiketlerin etki alanları girintiler ve çıkıntılar ile anlaşılıyor.&lt;/li&gt;
+  &lt;li&gt;Eğer div oluşturacaksanız %div.foo demenize gerek yok .foo komutu default olarak div objesi oluşturuyor. Aynı şey id ( # ) için de geçerlidir.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;haml-nasıl-yüklenir-&quot;&gt;Haml Nasıl Yüklenir ?&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install haml&lt;/code&gt; yazarak veya gemfile dosyamıza &lt;code class=&quot;highlighter-rouge&quot;&gt;gem 'haml'&lt;/code&gt; yazıp terminale &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; diyerek kurulumu gerçekleştirebiliriz. Kodlarımızı yazdığımız dosyanın uzantısı da .haml olarak kaydetmeliyiz.&lt;/p&gt;
+
+&lt;p&gt;Haml hakkındaki yazım bu kadar oldu. &lt;a href=&quot;http://alperenbozkurt.net/Sass-ve-scss-nedir/&quot;&gt;Sass ve Scss Nedir adlı yazıma da buradan&lt;/a&gt; erişebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;*Ruby &amp;lt;3 Ben *&lt;/p&gt;</content><author><name></name></author><category term="haml nedir" /><category term="haml nasıl kullanılır" /><category term="haml nasıl yüklenir" /><category term="haml kod örnekleri" /><summary type="html">Haml nedir, Nasıl kullanılır, Nasıl kurulur?</summary></entry><entry><title type="html">Rails Urlden Username Almak</title><link href="http://localhost:4000/Rails-Urlden-Username-Almak/" rel="alternate" type="text/html" title="Rails Urlden Username Almak" /><published>2017-08-21T00:00:00+03:00</published><updated>2017-08-21T00:00:00+03:00</updated><id>http://localhost:4000/Rails-Urlden-Username-Almak</id><content type="html" xml:base="http://localhost:4000/Rails-Urlden-Username-Almak/">&lt;p&gt;Google, Twitter, İnstagram ve diğerleri artık user_id yi urlden almıyor.Daha anlamlı daha akılda kalıcı şeyler kullanıyorlar. &lt;strong&gt;Username&lt;/strong&gt;. Artık &lt;strong&gt;username&lt;/strong&gt;‘lerimiz bizim &lt;strong&gt;benzersiz idlerimiz&lt;/strong&gt; olmaya başladı. Peki internetin öncüleri böyle yapıyor da biz neden eski sitilde devam ediyoruz ?&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;http://site.com/users/121331231&lt;/code&gt; olarak girdiğimiz kullanıcı sayfasına &lt;code class=&quot;highlighter-rouge&quot;&gt;http://site.com/alperenbozkurt&lt;/code&gt; olarak girmek daha kolay ve akılda kalıcı olmaz mıydı? Tabi ki olurdu.O zaman bizde örnek bir Rails uygulaması ile bunu yapalım.Olay gayet basit. routes.rb dosyasında oynama yapacağız ve show actionunda biraz değişiklik yapacağız.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Name&lt;/strong&gt;, &lt;strong&gt;surname&lt;/strong&gt;, &lt;strong&gt;email&lt;/strong&gt; ve &lt;strong&gt;username&lt;/strong&gt; alanları olan bir users modelimiz olduğunu düşünelim. &lt;strong&gt;routes.rb&lt;/strong&gt; bu model routes.rb dosyasında &lt;code class=&quot;highlighter-rouge&quot;&gt;resources :users&lt;/code&gt; şeklinde  çağırılıyor bu yapıya göre kayıt olan bir kişi &lt;strong&gt;REST mimarisine&lt;/strong&gt; uygun bir şekilde &lt;code class=&quot;highlighter-rouge&quot;&gt;/users/1&lt;/code&gt; olarak kendi profil sayfasına gidecek. &lt;strong&gt;routes.rb&lt;/strong&gt; dosyamızı şu şekilde düzenleyelim;&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;application&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;routes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;draw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;resources&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;except: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/:username'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;to: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'users#show'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;as: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'profile'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Tamam ama şimdi biz burada ne yazdık. Sitemize bir &lt;strong&gt;‘/birşey’&lt;/strong&gt; şeklinde bir &lt;strong&gt;get&lt;/strong&gt; isteği gelirse onu &lt;strong&gt;UsersController&lt;/strong&gt;‘ın &lt;strong&gt;Show&lt;/strong&gt; action’ına yönlendir. &lt;strong&gt;profile_path&lt;/strong&gt; şeklinde yazarak da railsin içerisinde kullanabileceğiz. &lt;strong&gt;Except&lt;/strong&gt; ile de gereksiz kalabalıktan kurtulduk. Show action’ını kendimiz yazdığımız için, resources’deki yönlendirmeye gerek kalmadı.&lt;/p&gt;
+
+&lt;p&gt;Peki, linke bir kullanıcı adı verdiğimizde show action’ını çalışıyor burada ne yapmamız gerekiyor.&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;find_by&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;username: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bu şekilde artık &lt;strong&gt;@user&lt;/strong&gt; değişkeni, veritabanında kayıtlı olan username’in bilgileri ile doluyor. Artık view ve controller katmanındaki linkleri &lt;strong&gt;profile_path&lt;/strong&gt; şeklinde vermeliyiz. Örneğin link_to metodunu kullanıcaksak;&lt;/p&gt;
+&lt;div class=&quot;language-erb highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;%&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;link_to&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Profili'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;profile_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;&amp;lt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Gibi kullanabiliriz. Kontrol katmanında da aynı şekilde, mesela bir kayıt işleminde;&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;save&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;redirect_to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;profile_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;notice: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Kullanıcı başarıyla oluşturuldu.'&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Şeklinde kullanabiliriz. Username’in eşsiz olduğuna dikkat edilmeli yoksa ortalık karışabilir. Username’i eşsiz yapmak için user model dosyasın’a alttaki satırı ekleyebilirsiniz.&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ApplicationRecord&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;validates&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;uniqueness: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;message: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'zaten kullanıyor Lütfen başka bir kullanıcı adı seçiniz.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bu yazı da bu kadar. Bir yanlışım olmuşsa yada klavyem sürçmüşse, yorum kısmından veya e-posta ile bana bildirebilirsiniz.&lt;/p&gt;</content><author><name></name></author><category term="Ruby" /><category term="Rails" /><category term="devise" /><category term="get ile username almak" /><category term="profil linkini username ile oluşturmak" /><category term="profil sayfasına username ile girmek" /><summary type="html">Ruby on rails'de get parametresi ile id yerine username nasıl alınır.</summary></entry><entry><title type="html">Rails ile Eposta Göndermek</title><link href="http://localhost:4000/Rails-eposta-gonderme/" rel="alternate" type="text/html" title="Rails ile Eposta Göndermek" /><published>2017-08-11T00:00:00+03:00</published><updated>2017-08-11T00:00:00+03:00</updated><id>http://localhost:4000/Rails-eposta-gonderme</id><content type="html" xml:base="http://localhost:4000/Rails-eposta-gonderme/">&lt;p&gt;Rails uygulamalarında e-posta göndermek için ActionMailler diye bir yapı var.  Bu yazıda, bu yapıyı kullanarak bir e-posta göndereceğiz. Hızlıca başlayalım.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails new mail
+$ rails g scaffold user name:string email:string
+$ rake db:migrate 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Şimdi kullanıcıların kayıt olabildiği, basit bir web uygulamamız oldu. Rails generator kullanarak hızlı bir şekilde dosyalarımızı oluşturalım.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails g mailer kayit_mailer
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Oluşan dosyalardan &lt;code class=&quot;highlighter-rouge&quot;&gt;app/mailers/kayit_mailer.rb&lt;/code&gt; dosyasına gönderici eposta adresini ve mail gönderecek metodu oluşturmamız gerekiyor.&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;KayitMailer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ApplicationMailer&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;from: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;gonderici@gmail.com&quot;&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sample_email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;mail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;to: &lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;subject: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Sample Email'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Burada &lt;code class=&quot;highlighter-rouge&quot;&gt;sample_email&lt;/code&gt; metodu parametre olarak bir user nesnesi alıyor ve user ‘ın eposta adresine bir mail gönderiyor. Göndereceği epostanın içeriğini ise &lt;code class=&quot;highlighter-rouge&quot;&gt;app/views/kayit_mailer/sample_email.html.erb&lt;/code&gt; dosyasında ve &lt;code class=&quot;highlighter-rouge&quot;&gt;app/views/kayit_mailer/sample_email.text.erb&lt;/code&gt; dosyasında düzenlememiz gerekiyor.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;app/views/kayit_mailer/sample_email.html.erb&lt;/code&gt;  dosyasına&lt;/p&gt;
+&lt;div class=&quot;language-erb highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'text/html; charset=UTF-8'&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Content-Type'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hi &lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+      Sample mail sent using smtp.
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;app/views/kayit_mailer/sample_email.text.erb&lt;/code&gt;  dosyasına&lt;/p&gt;
+&lt;div class=&quot;language-erb highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hi &lt;span class=&quot;cp&quot;&gt;&amp;lt;%=&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%&amp;gt;&lt;/span&gt;
+Sample mail sent using smtp.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Html render edemeyen mail istemcileri için bu dosyayı oluşturmamız gerekiyor.  Gmail ayarlarımızı da yapalım.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/config/environments/production.rb&lt;/code&gt; dosyamıza alt taraftaki kodları ekleyelim.&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;action_mailer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;delivery_method&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:smtp&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# SMTP settings for gmail&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;action_mailer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;smtp_settings&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;:address&lt;/span&gt;              &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;smtp.gmail.com&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;:port&lt;/span&gt;                 &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;587&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;:user_name&lt;/span&gt;            &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'gonderici@gmail.com'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;:password&lt;/span&gt;             &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'gondericiSifresi'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;:authentication&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;plain&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;:enable_starttls_auto&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Tüm hazırlıkları tamamladık şimdi kısık ateşte 20 dk pişirelim. Piştikten sonra eposta gönderme işlemini tetikletmek için &lt;code class=&quot;highlighter-rouge&quot;&gt;user_controller.rb&lt;/code&gt; nin create metoduna &lt;code class=&quot;highlighter-rouge&quot;&gt;KayitMailer.sample_email(@user).deliver&lt;/code&gt; satırını eklememiz gerekiyor.&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;create&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;save&lt;/span&gt;
+
+      &lt;span class=&quot;c1&quot;&gt;# Sends email to user when user is created.&lt;/span&gt;
+      &lt;span class=&quot;no&quot;&gt;KayitMailer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sample_email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;deliver&lt;/span&gt;
+
+      &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;redirect_to&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;notice: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'User was successfully created.'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;status: :created&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;location: &lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:new&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json: &lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;errors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;status: :unprocessable_entity&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Edit : Gmail ile eposta yollamak için &lt;a href=&quot;https://myaccount.google.com/lesssecureapps?pli=1&quot;&gt;bu linkten&lt;/a&gt; hesabınıza izin vermeniz gerekiyor. Tavsiyem mail işlemleri için başka bir eposta hesabı açmanız.&lt;/p&gt;
+
+&lt;p&gt;Bu şekilde örnek bir eposta gönderme uygulaması yapmış olduk. Eğer bir yanlışım, eksiğim olmuş ise yorum yazabilirsiniz veya pull request yollayabilirsiniz. Kendinize iyi davranın.&lt;/p&gt;</content><author><name></name></author><category term="ActionMailler kullanımı" /><category term="rails mail yollama" /><category term="rails e-posta yollama" /><category term="ruby gmail ile posta yollamak" /><summary type="html">Rails ve Gmail kullanarak örnek bir eposta gönderen uygulama yaptık.</summary></entry><entry><title type="html">Ruby On Rails Kurulumu</title><link href="http://localhost:4000/Ruby-ve-rails-kurulumu/" rel="alternate" type="text/html" title="Ruby On Rails Kurulumu" /><published>2017-06-25T00:00:00+03:00</published><updated>2017-06-25T00:00:00+03:00</updated><id>http://localhost:4000/Ruby-ve-rails-kurulumu</id><content type="html" xml:base="http://localhost:4000/Ruby-ve-rails-kurulumu/">&lt;p&gt;Ruby kurulumu biraz uğraştırıcı ama işlemler basit. İlk olarak Rbenv kuracağız. Ne işe yarar bu rbenv, bilgisayara birden fazla ruby versyonu kurmamızı sağlıyor. Buda bizi farklı projelerde çalışırken ruby’yi silip tekrar kurmaktan kurtarıyor. Kuruluma başlamadan önce gerekli paketleri kuralım.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev nodejs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;rbenv-kurulumu&quot;&gt;Rbenv Kurulumu&lt;/h2&gt;
 
 &lt;p&gt;Alttaki kodları sırasıyla çalıştırırsak rbenv yüklenmiş olacak. Tabiki alttaki kodlar zsh kullanıyorsanız çalışacaktır aksi taktirde &lt;strong&gt;.zshrc ** yazan yerleri ** .bashrc&lt;/strong&gt; olarak değiştiniz.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH=&quot;$HOME/.rbenv/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.zshrc
 echo 'eval &quot;$(rbenv init -)&quot;' &amp;gt;&amp;gt; ~/.zshrc
@@ -78,79 +308,136 @@ exec $SHELL
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH=&quot;$HOME/.rbenv/plugins/ruby-build/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.zshrc
 exec $SHELL
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;ruby-kurulumu&quot;&gt;Ruby Kurulumu&lt;/h2&gt;
 
 &lt;p&gt;Rbenv kullanarak ruby kurulumu yapacağız.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rbenv install 2.4.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rbenv install 2.4.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Yüklemek istediğimiz ruby versyonunu bu şekilde yüklüyoruz.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rbenv global 2.4.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rbenv global 2.4.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Bu şekilde yüklenmiş ruby versyonlarından birisini seçebiliyoruz. Kontrol edelim yüklenmiş mi ?&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Eğer buraya kadar tamamsa bundler yükleyelim.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install bundler
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install bundler
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;rails-kurulumu&quot;&gt;Rails Kurulumu&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 gem install rails -v 5.1.1
 rbenv rehash
 rails -v
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Eğer kurulum başarılı olduysa rails sürümünü ekranda görmemiz gerekiyor.&lt;/p&gt;
 
 &lt;h2 id=&quot;postgresql-kurulumu&quot;&gt;Postgresql Kurulumu&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo sh -c &quot;echo 'deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main' &amp;gt; /etc/apt/sources.list.d/pgdg.list&quot;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo sh -c &quot;echo 'deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main' &amp;gt; /etc/apt/sources.list.d/pgdg.list&quot;
 wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install postgresql-common
 sudo apt-get install postgresql-9.5 libpq-dev 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Postgres bu şekilde kuruluyor fakat veritabanı oluşturmamız için bir kullanıcıya ihtiyacımız var.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo -u postgres createuser alperen -s
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo -u postgres createuser alperen -s
 
 sudo -u postgres psql
 postgres=# \password alperen
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Kullanıcının şifresini girdikten sonra bu adım da bitmiş oluyor. Yeni projelere yelken açabilirsiniz.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rails new yeniproje -d postgresql 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rails new yeniproje -d postgresql 
 ;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Rbenv" /><category term="Ruby" /><category term="Rails" /><category term="Postgresql" /><category term="Ruby on Rails kurulumu" /><category term="ror yükleme" /><summary type="html">Rbenv, Ruby, Rails, Postgresql kurulumu</summary></entry><entry><title type="html">Gnome Kurulumu ve Ayarları</title><link href="http://localhost:4000/Gnome-kurulumu-ve-ayarlari/" rel="alternate" type="text/html" title="Gnome Kurulumu ve Ayarları" /><published>2017-06-24T00:00:00+03:00</published><updated>2017-06-24T00:00:00+03:00</updated><id>http://localhost:4000/Gnome-kurulumu-ve-ayarlari</id><content type="html" xml:base="http://localhost:4000/Gnome-kurulumu-ve-ayarlari/">&lt;p&gt;Gnome kullandıktan sonra farkettim ki adamlar tam benim istediğim gibi bir masaüstü ortamı sunmuşlar tabi biraz eksiklikleri var onları ayarlayacağız. Pencere Yönetim tuşlarının yeri, üst taraftaki barı otomatik gizlenir yapma, icon takımı seçimi shell seçimi gibi işlemleri yapacağız.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Rbenv" /><category term="Ruby" /><category term="Rails" /><category term="Postgresql" /><category term="Ruby on Rails kurulumu" /><category term="ror yükleme" /><summary type="html">Rbenv, Ruby, Rails, Postgresql kurulumu</summary></entry><entry><title type="html">Heroku Kurulumu</title><link href="http://localhost:4000/Heroku-kurulumu/" rel="alternate" type="text/html" title="Heroku Kurulumu" /><published>2017-06-25T00:00:00+03:00</published><updated>2017-06-25T00:00:00+03:00</updated><id>http://localhost:4000/Heroku-kurulumu</id><content type="html" xml:base="http://localhost:4000/Heroku-kurulumu/">&lt;p&gt;Heroku Ruby, Java, python gibi dillerde yazılmış web projelerinizi hızlıca ve teknik sunucu kurma bilgisi gerektirmeden yayınlamanızı sağlayan bir platformdur. Ücretsiz olarak uygulama yayınlamamıza izin verir. Geliştirme aşamasında olan projelerimiz için heroku’yu kullanabiliriz.&lt;/p&gt;
+
+&lt;h2 id=&quot;nasıl-kurulur&quot;&gt;Nasıl Kurulur&lt;/h2&gt;
+&lt;p&gt;Websitesinden üyelik açtıktan sonra,&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Scripti ile kurulumu gerçekleştirelim.
+Kurulum gerçekleştiğinde&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku login
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;komutunu girerek giriş yapalım.&lt;/p&gt;
+
+&lt;h2 id=&quot;proje-nasıl-yayınlanır&quot;&gt;Proje Nasıl Yayınlanır&lt;/h2&gt;
+
+&lt;p&gt;Masaüstü dizinine gelip örnek ruby projemizi indirelim ve içerisine girelim.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/heroku/ruby-getting-started.git
+cd ruby-getting-started
+
+heroku create  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bu komutla herokuapp.com uzantılı bir web projesi oluşturuyoruz.Otomatik olarak git bağlantılarını yapacak. Bende şöyle bir adres geldi.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Creating app... done, ⬢ infinite-sierra-90021
+https://infinite-sierra-90021.herokuapp.com/ | https://git.heroku.com/infinite-sierra-90021.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Artık projemi deploy ettiğimde https://infinite-sierra-90021.herokuapp.com/ adresinden kullanabilirim demektir.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push heroku master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;komutuyla dosyaları yükleyebiliriz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku open
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;komutuyla websitesini varsayılan tarayıcıyla açabilirsiniz. Logları görmek içinse,&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku logs --tail
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;yazailirsiniz. Sunucuda herhangi bir komut çalıştırmak için ise&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heroku run #komut
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;şeklinde yazıyoruz. Heroku bu şekilde kullanılıyor. Bu yazı yararlı olduysa yorum kısmına bir gülücük bırakmayı unutmayın :) Eğer yanlışım veya eksiğim varsa bunu yorum kısmından bana iletebilirsiniz.&lt;/p&gt;</content><author><name></name></author><category term="Heroku" /><category term="nasıl yayınlanır" /><category term="ruby" /><category term="hosting" /><category term="rails uygulaması yayınlamak" /><summary type="html">Heroku Kurulumu ve ilk Deploy</summary></entry><entry><title type="html">Zinciri Kırma</title><link href="http://localhost:4000/Zinciri-kirma/" rel="alternate" type="text/html" title="Zinciri Kırma" /><published>2017-06-24T00:00:00+03:00</published><updated>2017-06-24T00:00:00+03:00</updated><id>http://localhost:4000/Zinciri-kirma</id><content type="html" xml:base="http://localhost:4000/Zinciri-kirma/">&lt;p&gt;Hedefini belirle. O hedefe ulaşmak için her gün bir şey yap. Yaptıktan sonra da önüne bir takvim al ve o günün üstüne kocaman bir çarpı koy. Her gün bu işlemi tekrarla. Takvimini çarpılarla doldur. Yan yana gelen bu çarpılardan bir zincir oluştur. Yeni amacın bu zinciri kırmamak!&lt;/p&gt;
+
+&lt;h2 id=&quot;neden-hedef-belirlemeliyim&quot;&gt;Neden Hedef Belirlemeliyim?&lt;/h2&gt;
+&lt;p&gt;Hedef koymak önüne bakmaktır. Önüne yani ileriye bakmak çok önemli. Eğer geçen yıl kendinize “Her gün 10 dakika kitap okuyacağım!” gibi bir hedef belirlediyseniz, bu hedef doğrultusunda takviminizi çarpılarla doldurduysanız geçen yıl en az 3650 dakika kitap okudunuz demektir. Bir insan ortalama olarak dakikada 300 kelime okur. Dolayısıyla geçen yıl 300 x 3650 = 1.095.000 kelime okudunuz. 1 milyondan fazla kelimeyi kavanoza attınız. 1 milyondan fazla fikir çekirdeği çitlediniz.&lt;/p&gt;
+
+&lt;h2 id=&quot;ekran-görüntüileri&quot;&gt;Ekran Görüntüileri&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/19302254/35151887-12d7b6ce-fd31-11e7-8f70-3f7bd96c94bf.png&quot; alt=&quot;02&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/19302254/35151886-12a66e5c-fd31-11e7-950e-307ca39cad0b.png&quot; alt=&quot;01&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/19302254/35151888-12fca06a-fd31-11e7-8c8e-362be74101f0.png&quot; alt=&quot;03&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/19302254/35151889-13214960-fd31-11e7-8523-d07ea8107e18.png&quot; alt=&quot;04&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/19302254/35151890-134080e6-fd31-11e7-83eb-7b6714bf8f47.png&quot; alt=&quot;05&quot; /&gt;
+&lt;img src=&quot;https://user-images.githubusercontent.com/19302254/35151891-13675e28-fd31-11e7-8245-7e0385e6971e.png&quot; alt=&quot;06&quot; /&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;a href=&quot;https://github.com/alperenbozkurt/zinciri-kirma/&quot; class=&quot;btn btn-info&quot;&gt;Kaynak Kodları&lt;/a&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="zinciri kırma" /><category term="Barış özcan" /><category term="kişisel gelişim" /><summary type="html">Hedeflerinizi takip etmenize yardımcı uygulama.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/19302254/35151887-12d7b6ce-fd31-11e7-8f70-3f7bd96c94bf.png" /></entry><entry><title type="html">Gnome Kurulumu ve Ayarları</title><link href="http://localhost:4000/Gnome-kurulumu-ve-ayarlari/" rel="alternate" type="text/html" title="Gnome Kurulumu ve Ayarları" /><published>2017-06-24T00:00:00+03:00</published><updated>2017-06-24T00:00:00+03:00</updated><id>http://localhost:4000/Gnome-kurulumu-ve-ayarlari</id><content type="html" xml:base="http://localhost:4000/Gnome-kurulumu-ve-ayarlari/">&lt;p&gt;Gnome kullandıktan sonra farkettim ki adamlar tam benim istediğim gibi bir masaüstü ortamı sunmuşlar tabi biraz eksiklikleri var onları ayarlayacağız. Pencere Yönetim tuşlarının yeri, üst taraftaki barı otomatik gizlenir yapma, icon takımı seçimi shell seçimi gibi işlemleri yapacağız.&lt;/p&gt;
 
 &lt;h2 id=&quot;gnome-yüklemek&quot;&gt;Gnome Yüklemek&lt;/h2&gt;
 &lt;p&gt;Gnome yüklenirken yanında birçok program yükleniyor biz bunu en aza indirmek istiyoruz bu yüzden sadece gnome-shell yükleyeceğiz.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install gnome-shell
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install gnome-shell
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;yazarak gnome un yüklenmesini bekliyoruz. Herhangi bir soru sorar ise &lt;strong&gt;gdm&lt;/strong&gt;‘yi seçmenizi tavsiye ederim. Başlangıç ekranınız biraz değişecektir. :)&lt;/p&gt;
 
@@ -159,7 +446,7 @@ postgres=# \password alperen
 &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install chrome-gnome-shell&lt;/code&gt; komutunu da çalıştıralım.
 Tweak tool uygulamasından indirdiğimiz eklentiyi etkinleştirelim. Aşağıdaki adımları izleyelim&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo add-apt-repository ppa:snwh/pulp
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo add-apt-repository ppa:snwh/pulp
 # update repository info
 sudo apt-get update
 # install icon theme
@@ -168,8 +455,7 @@ sudo apt-get install paper-icon-theme
 sudo apt-get install paper-cursor-theme
 # install gtk theme
 sudo apt-get install paper-gtk-theme
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Tweak tool’dan temamızı seçebiliriz.&lt;/p&gt;
 
@@ -180,18 +466,16 @@ sudo apt-get install paper-gtk-theme
 
 &lt;p&gt;Pencere yönetim düğmelerinin yeri gnome yüklediğimde sağ tarafa geliyor. tabi ben sevmiyorum bunu bu tuşların sol tarafta olması daha kolayıma geliyor. Bu yüzden bu tuşları sola alacağız tabi isteyen içinde ubuntu’da nasıl sağa alınır onu yazacağız. Tabi ben tam ekran düğmesini de  gereksiz buluyorum bu arada onuda kaldıralım. (İşte Linux’un en sevdiğim yanı bu)&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.gnome.shell.overrides button-layout close,minimize:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.gnome.shell.overrides button-layout close,minimize:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Burada ´:´ önemli bize ne tarafa yaslayacağımızı belirtiyor. Sola koyarsak butonlar sağ tarafta, sağa koyarsakta butonlar sol tarafta oluyor. ´close´, ´minimize´, ´maximize´, ´menu´ kullanılabilen komutlar.&lt;/p&gt;
 
 &lt;h2 id=&quot;chrome-pencere-yönetim-tuşları&quot;&gt;Chrome Pencere Yönetim Tuşları&lt;/h2&gt;
 &lt;p&gt;Yukarıdaki kod tüm sistemde çalıştı ama Chrome’da bi gariplikler var. Onu da düzeltmek için, önce chrome’un ayar sayfasından &lt;strong&gt;sistemin başlık ve kenarlığını kullan&lt;/strong&gt; checkbox’ının tikini kaldıralım. Sonrada konsola&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gconftool-2 --set /apps/metacity/general/button_layout --type string &quot;close,minimize&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gconftool-2 --set /apps/metacity/general/button_layout --type string &quot;close,minimize&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;kodunu yazalım.
 Şimdi daha iyi oldu.&lt;/p&gt;
@@ -199,207 +483,7 @@ sudo apt-get install paper-gtk-theme
 &lt;h2 id=&quot;nautilus-fotoğraf-önizleme&quot;&gt;Nautilus Fotoğraf Önizleme&lt;/h2&gt;
 &lt;p&gt;Ubuntu yüklendiğinde resim dosyalarını açmadan göremiyoruz. Hazır tüm ayarları yapıyorken bunu da ekleyelim. Konsola&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.gnome.nautilus.preferences show-image-thumbnails always
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gsettings set org.gnome.nautilus.preferences show-image-thumbnails always
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;yazarak fotografları her zaman göstertebiliriz.&lt;/p&gt;</content><author><name></name></author><category term="Pencere düğmeleri" /><category term="gnome nasıl yüklenir" /><category term="gnome üst tarafı gizleme" /><category term="gnome tema yükleme" /><summary type="html">Gnome Shell yükleme ve daha fazlası..</summary></entry><entry><title type="html">Zsh ve OhMyZsh Kurulumu</title><link href="http://localhost:4000/Zsh-ve-ohmyzsh-kurulumu/" rel="alternate" type="text/html" title="Zsh ve OhMyZsh Kurulumu" /><published>2017-06-23T00:00:00+03:00</published><updated>2017-06-23T00:00:00+03:00</updated><id>http://localhost:4000/Zsh-ve-ohmyzsh-kurulumu</id><content type="html" xml:base="http://localhost:4000/Zsh-ve-ohmyzsh-kurulumu/">&lt;p&gt;Terminalimiz için zsh ve ohmyzsh yükleyeceğiz. Bu klasörler arasında daha kolay dolaşmamız ve git v.b programlarımızı daha hızlı kullanmamız için gerekli. Yükledikten bash dan farkını göreceksiniz zaten. :)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install zsh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;İlk olarak bu komutla zsh’ı yüklüyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu scripti çalıştırarak ohMyZsh Kurulumunu gerçekleştiriyoruz.&lt;/p&gt;
-
-&lt;h2 id=&quot;bir-de-tema-yapalım&quot;&gt;Bir de tema yapalım&lt;/h2&gt;
-&lt;p&gt;Temalara &lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh/wiki/Themes&quot;&gt;bu linkten&lt;/a&gt; ulaşabilirsiniz. Ben &lt;strong&gt;agnoster&lt;/strong&gt; isimli temayı beğendim onun kurulumunu yapacağım.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gedit ~/.zshrc
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ile açılan metin editöründe&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ZSH_THEME=&quot;robbyrussell&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;satırını&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ZSH_THEME=&quot;agnoster&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;olarak değiştiriyoruz. Tabi işimiz bitmedi şimdi birde font yüklememiz gerekiyor.
-Fontlar
-—
-Onuda hızlı bir şekilde yükleyelim.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Klonlayalım
-git clone https://github.com/powerline/fonts.git
-# Klasöre girelim
-cd fonts
-# Yükleme scriptini çalıştıralım.
-./install.sh
-# Kurulum dosyalarını temizleyelim.
-cd ..
-rm -rf fonts
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Terminal ayarlarından &lt;strong&gt;roboto mono&lt;/strong&gt;‘yu seçiyorum.
-Ve terminalimiz de hazır.&lt;/p&gt;</content><author><name></name></author><category term="zsh kurulumu" /><category term="ohmyzsh kurulumu" /><category term="terminal uygulamaları" /><category term="terminal renklendirme" /><summary type="html">Terminali daha verimli kullanmak için zsh ve ohmyzsh kuruyoruz.</summary></entry><entry><title type="html">Git ve Github Ayarları</title><link href="http://localhost:4000/Git-ve-github-ayarlari/" rel="alternate" type="text/html" title="Git ve Github Ayarları" /><published>2017-06-22T00:00:00+03:00</published><updated>2017-06-22T00:00:00+03:00</updated><id>http://localhost:4000/Git-ve-github-ayarlari</id><content type="html" xml:base="http://localhost:4000/Git-ve-github-ayarlari/">&lt;p&gt;İlk olarak git yüklemek gerekiyor. Kısaca git’den bahsedersek. Git bir sürüm kontrol sistemidir. Yani projenizin eski yedeklerini tutar. Ne zaman ne değişiklik yaptığınızı bilirsiniz. Yedek, yedek2, yedekson, yedeksonson, yedeksonsonson gibi klasörler kullanmak yerine git kullanmak daha uygun görünüyor. Github ise bizim dosyalarımızı online olarak tutmamızı sağlar.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install git
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Kurulum tamamlandıktan sonra, commit yaptığımızda çıkacak bilgileri girmemiz gerekiyor.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global user.name &quot;Ad soyad&quot;
-git config --global user.email &quot;adsoyad@mail.com&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu adımı da tamamladıktan sonra &lt;strong&gt;ssh-key&lt;/strong&gt; oluşturmamız gerekiyor.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh-keygen
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;terminale bu komutu girdikten sonra önümüze gelen ilk satır ssh-key’in nerede üretileceğini söylüyor.Bu satıra bir şey yazmadan enter tuşuna basarsak default dizine oluşturacaktır.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;satır bizden bir anahtar istiyor. Bizim için o anahtara göre şifreli bir kod üretecek.&lt;/li&gt;
-  &lt;li&gt;satırda ise şifremizi tekrarlamamızı istiyor. Bunları tamamladıktan sonra github’a bilgisayarımızı tanıtabiliriz.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Terminalden&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cat ~/.ssh/id_rsa.pub
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;komutunu çalıştırarak şifremizi kopyalıyoruz.&lt;/p&gt;
-
-&lt;p&gt;Githubdan &lt;strong&gt;Settings&lt;/strong&gt; sayfasına giriyoruz burada &lt;strong&gt;ssh and gpg keys&lt;/strong&gt; menüsüne tıklayarak &lt;strong&gt;New SSH key&lt;/strong&gt; butonuna tıklıyoruz. Bir başlık vererek &lt;strong&gt;~/.ssh/id_rsa.pub&lt;/strong&gt; dosyasının içeriğini alt tarafa yapıştırıyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh -T git@github.com
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;koduyla da bağlantımızı test ediyoruz.&lt;/p&gt;</content><author><name></name></author><category term="github" /><category term="ssh-key" /><category term="ssh-key nasıl" /><category term="ubuntu" /><summary type="html">Git Yüklemek ve Github ayarlarını yapmak.</summary></entry><entry><title type="html">Kurulumdan Sonra</title><link href="http://localhost:4000/Kurulumdan-Sonra/" rel="alternate" type="text/html" title="Kurulumdan Sonra" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/Kurulumdan-Sonra</id><content type="html" xml:base="http://localhost:4000/Kurulumdan-Sonra/">&lt;p&gt;Yaklaşık 2 yıldır ubuntu kullanıcısıyım fakat sürekli olarak yeni dağıtımlar deneyip onları değerlendiriyorum. Bu yazıda yeni bir dağıtım kurduğumda yapmam gerekenleri listeliyeceğim ve herbirinin teker teker kurulumları anlatacağım.&lt;/p&gt;
-
-&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
-&lt;p&gt;İlk olarak git yüklemek gerekiyor. Kısaca git’den bahsedersek. Git bir sürüm kontrol sistemidir. Yani projenizin eski yedeklerini tutar. Ne zaman ne değişiklik yaptığınızı bilirsiniz. &lt;strong&gt;Yedek, yedek2, yedekson, yedeksonson, yedeksonsonson&lt;/strong&gt; gibi klasörler kullanmak yerine git kullanmak daha uygun görünüyor. Github ise bizim dosyalarımızı online olarak tutmamızı sağlar.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://alperenbozkurt.net/Git-ve-github-ayarlari/&quot;&gt;Git Kurulumu ve ayarları burada&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;terminal&quot;&gt;Terminal&lt;/h2&gt;
-&lt;p&gt;Terminalimiz için zsh ve ohmyzsh yükleyeceğiz. Bu klasörler arasında daha kolay dolaşmamız ve git v.b programlarımızı daha hızlı kullanmamız için gerekli. Yükledikten bash dan farkını göreceksiniz zaten. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://alperenbozkurt.net/Zsh-ve-ohmyzsh-kurulumu/&quot;&gt;ZSH Kurulumu ve ayarları burada&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;gnome&quot;&gt;Gnome&lt;/h2&gt;
-&lt;p&gt;Tabiki vazgeçilmezim gnome. Gnome kullandıktan sonra farkettimki adamlar tam benim istediğim gibi bir masaüstü ortamı sunmuşlar tabi biraz eksiklikleri var onları ayarlıyacağız. Pencere Yönetim tuşlarının yeri, üst taraftaki barı otomatik gizlenir yapma, icon takımı seçimi shell seçimi gibi işlemleri yapacağız.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://alperenbozkurt.net/Gnome-kurulumu-ve-ayarlari/&quot;&gt;Gnome-shell Kurulumu ve tema ayarları burada&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
-&lt;p&gt;Ruby ile geliştirme yaptığım için bu kısmı yazmam gerekiyor. Bu kısımda Rbenv, Ruby, Rails, Heroku gibi kurulumları yapacağız.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://alperenbozkurt.net/Ruby-ve-rails-kurulumu/&quot;&gt;Ruby on Rails Kurulumu Burada&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Şimdilik bu kadar gerekli bi işlem olursa buraya eklerim.&lt;/p&gt;</content><author><name></name></author><category term="ayarlar" /><category term="kurulum sonrası ayar" /><category term="linux" /><category term="ubuntu" /><summary type="html">Linux kurulumundan sonra yapılması gerekenler.</summary></entry><entry><title type="html">MIPS Nedir</title><link href="http://localhost:4000/mips-giris/" rel="alternate" type="text/html" title="MIPS Nedir" /><published>2017-06-15T00:00:00+03:00</published><updated>2017-06-15T00:00:00+03:00</updated><id>http://localhost:4000/mips-giris</id><content type="html" xml:base="http://localhost:4000/mips-giris/">&lt;p&gt;MIPS &lt;strong&gt;İndirgenmiş Komut Kümesi&lt;/strong&gt; türü bir mikroişlemci mimarisidir. MIPS Teknolojileri adlı firma tarafından üretilmiştir. Her komut aynı boydadır. Bu da komutların bilgisayar donanımı tarafından kolay çözülmesini sağlar.
-&lt;strong&gt;RISC&lt;/strong&gt; yapısından dolayı tasarımı basittir. Çoğu modern mikroişlemci mimarisi (IBM/Motorola PowerPC, DEC, ARM) Mips mimarisinden esinlenilerek yapılmıştır.
-Günümüz itibarıyla &lt;strong&gt;Nintendo 64&lt;/strong&gt;, &lt;strong&gt;Sony PlayStation&lt;/strong&gt;, &lt;strong&gt;Sony PlayStation 2&lt;/strong&gt; ve &lt;strong&gt;Sony PSP&lt;/strong&gt; MIPS mimarisi ile çalışan işlemcilere sahiptirler.&lt;/p&gt;
-
-&lt;h2 id=&quot;registerlar-neden-var&quot;&gt;Register’lar Neden Var&lt;/h2&gt;
-&lt;p&gt;İşlemci birim zamanda sadece bir işlem yapabilir. Örneğin 3 sayıyı toplamasını istediğimizde önce ilk ikisini toplayacak, sonra ara sonucu tekrar ram’e yazacak. Sonra bu ara sonuç ile 3. sayıyı tekrar çağırıp onlarıda toplayacak. Sonra tekrar Ram’e kadar gidi yazacak. Fakat ara sonucu işlemcinin içerisinde tutabilseydik işlemleri daha hızlı gerçekleştirebilirdik. Her işlemden sonra verileri ram’e götürüp yazmak zorunda kalmazdık. Böyle diyerek işlemcinin içerisine registerları eklemişler.&lt;/p&gt;
-
-&lt;h2 id=&quot;hangi-register-ne-işe-yarar&quot;&gt;Hangi Register Ne işe Yarar&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Register&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Sayısı&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Açıklama&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$zero&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;İçerisinde 0 sayısı vardır.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$at&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Assembler tarafından kullanılır.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$v0-$v1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2-3&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Metodların return değişkenleri için.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$a0-$a3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4-7&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Metodlara gidecek parametreler için.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$t0-$t7&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;8-15&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Geçici değişkenler&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$s0-$s7&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;16-23&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Kayıt registerları&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$t8-$t9&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;24-25&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Biraaz daha geçici değişken&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$k0-$k1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;26-27&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;İşletim sistemi tarafından kullanılır.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$gp&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;28&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Global Pointer&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$sp&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;29&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Stack Pointer&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$fp&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;30&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Frame Pointer&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;$ra&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;31&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Return Adress&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;örnek-bir-assembly-kodu&quot;&gt;Örnek Bir Assembly Kodu&lt;/h2&gt;
-&lt;p&gt;C dilinde yazılmış &lt;code class=&quot;highlighter-rouge&quot;&gt;f = (a+b)+(c+d)&lt;/code&gt; işlemini assembly ile yazalım.
-(Değişkenler sırasıyla s0,s1,s2,s3,s4 registerlarına getirilmiştir.)&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-assembly&quot; data-lang=&quot;assembly&quot;&gt;  add $t0, $s1, $s2
-  add $t1, $s3, $s4
-  add $s0, $t0, $t1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="MIPS" /><category term="bilgisayar organizasyonu" /><category term="register" /><category term="assembly" /><summary type="html">Mips ve assembly kodları giriş.</summary></entry></feed>
+&lt;p&gt;yazarak fotografları her zaman göstertebiliriz.&lt;/p&gt;</content><author><name></name></author><category term="Pencere düğmeleri" /><category term="gnome nasıl yüklenir" /><category term="gnome üst tarafı gizleme" /><category term="gnome tema yükleme" /><summary type="html">Gnome Shell yükleme ve daha fazlası..</summary></entry></feed>

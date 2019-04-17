@@ -5,13 +5,13 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Ruby On Rails Kurulumu &#8211; Alperen Bozkurt</title>
-    <meta name="description" content="Rbenv, Ruby, Rails, Postgresql kurulumu">
-    <meta name="keywords" content="Rbenv, Ruby, Rails, Postgresql, Ruby on Rails kurulumu, ror yükleme">
-    <link rel="canonical" href="http://localhost:4000/Ruby-ve-rails-kurulumu/">
+    <title>2018'de En Beğendiğim Kitaplar &#8211; Alperen Bozkurt</title>
+    <meta name="description" content="2018’de hedefim olan 26 kitabı son gün tamamladım. Bu kitaplardan en çok birkaç kitabı bu yazımda listeledim.">
+    <meta name="keywords" content="2018 kitapları, reading challenge, en beğendiğim kitaplar">
+    <link rel="canonical" href="http://localhost:4000/En-be%C4%9Fendi%C4%9Fim-kitaplar/">
         <!-- Twitter Cards -->
-    <meta name="twitter:title" content="Ruby On Rails Kurulumu">
-    <meta name="twitter:description" content="Rbenv, Ruby, Rails, Postgresql kurulumu">
+    <meta name="twitter:title" content="2018'de En Beğendiğim Kitaplar">
+    <meta name="twitter:description" content="2018’de hedefim olan 26 kitabı son gün tamamladım. Bu kitaplardan en çok birkaç kitabı bu yazımda listeledim.">
     <meta name="twitter:site" content="@bozkurttalperen">
     <meta name="twitter:creator" content="@bozkurttalperen">
     <meta name="twitter:card" content="summary">
@@ -19,9 +19,9 @@
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Ruby On Rails Kurulumu">
-    <meta property="og:description" content="Rbenv, Ruby, Rails, Postgresql kurulumu">
-    <meta property="og:url" content="http://localhost:4000/Ruby-ve-rails-kurulumu/">
+    <meta property="og:title" content="2018'de En Beğendiğim Kitaplar">
+    <meta property="og:description" content="2018’de hedefim olan 26 kitabı son gün tamamladım. Bu kitaplardan en çok birkaç kitabı bu yazımda listeledim.">
+    <meta property="og:url" content="http://localhost:4000/En-be%C4%9Fendi%C4%9Fim-kitaplar/">
     <meta property="og:site_name" content="Alperen Bozkurt">
     <meta property="og:image" content="http://localhost:4000/assets/img/profile.png">
 
@@ -199,89 +199,82 @@ $(document).ready(function(){
         </div>
         <div class="yazi">
           <div class="ustr">
-            <h2>Ruby On Rails Kurulumu</h2>
+            <h2>2018'de En Beğendiğim Kitaplar</h2>
             <div class="yazibilgisi">
-              25 Jun 2017 tarihinde yayınlandı.
+              03 Jan 2019 tarihinde yayınlandı.
             </div>
           </div>
           <hr>
           <div class="content">
-            <p>Ruby kurulumu biraz uğraştırıcı ama işlemler basit. İlk olarak Rbenv kuracağız. Ne işe yarar bu rbenv, bilgisayara birden fazla ruby versyonu kurmamızı sağlıyor. Buda bizi farklı projelerde çalışırken ruby’yi silip tekrar kurmaktan kurtarıyor. Kuruluma başlamadan önce gerekli paketleri kuralım.</p>
+            <p>2018 yılının başında kendime, “Bu sene kaç kitabı bitirebilirsin” diye sordum. Yaptığım ufak hesaplamalar sonucunda her 2 haftaya 1 kitap düşecek şekilde 26 kitabı okuyabileceğimi düşünerek hedefimi belirledim. Bu yazımda da bu kitaplar arasından seçtiğim, okurken en çok zevk aldığım birkaç kitabı paylaşmak istiyorum. Burada yazmadığım diğer kitaplara da goodreads hesabımdan bakabilirsiniz.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update
-sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev nodejs
-</code></pre></div></div>
+<h2 id="the-lord-of-the-rings">The Lord of The Rings</h2>
+<blockquote>
+  <p>Yaşayanların bir çoğu ölümü hak ediyor. Ve ölenlerin bir kısmı da
+yaşamayı hak ediyor. Yaşamı onlara verebilir misin? O halde öyle hak,
+hukuk adına ölüm buyurmakta çok acele etme.</p>
+</blockquote>
 
-<h2 id="rbenv-kurulumu">Rbenv Kurulumu</h2>
+<p>İlk iki kitabını okuduğum bu seri Gandalf’ın güç yüzüğünü fark etmesiyle başlayan macerayı anlatıyor. Frodo ve sam bu görev için gönüllü olmak zorunda kalıyorlar. Güç yüzüğünü hüküm dağının lavlarında eriterek yok etmeleri gerekiyor. Bu yolculukta yazadıkları maceraları anlatan bu serinin bendeki yeri çok farklıdır. Kitabı okurken Gri Gandalf’ın öldüğü kısmı beni çok duygulandırmıştı. Gandalf’ın yeniden gönderileceğini bilmesem ağlardım herhalde.</p>
 
-<p>Alttaki kodları sırasıyla çalıştırırsak rbenv yüklenmiş olacak. Tabiki alttaki kodlar zsh kullanıyorsanız çalışacaktır aksi taktirde <strong>.zshrc ** yazan yerleri ** .bashrc</strong> olarak değiştiniz.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mJZZNHekEQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd
-git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.zshrc
-echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.zshrc
-exec $SHELL
+<h2 id="ben-robot">Ben Robot</h2>
 
-git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' &gt;&gt; ~/.zshrc
-exec $SHELL
-</code></pre></div></div>
+<p><strong>Yapay zeka insanlığın sonu mu olacak ?</strong> Asimov bu tarz saçma sorulardan nasıl kurtulacağımızı hikayelerinde çok güzel bir şekilde açıklamış. Asimov 3 temel robot kanunundan bahsetmektedir.</p>
 
-<h2 id="ruby-kurulumu">Ruby Kurulumu</h2>
+<ol>
+  <li>
+    <p>Robotlar, insanlara zarar veremez ya da eylemsiz kalarak onlara zarar gelmesine göz yumamaz.</p>
+  </li>
+  <li>
+    <p>Robotlar, Birinci Kanun’la çakışmadığı sürece insanlar tarafından verilen emirlere itaat etmek zorundadır.</p>
+  </li>
+  <li>
+    <p>Robotlar, Birinci ya da İkinci Kanun’la çakışmadığı sürece kendi varlıklarını korumak zorundadır.</p>
+  </li>
+</ol>
 
-<p>Rbenv kullanarak ruby kurulumu yapacağız.</p>
+<p>Bu kanunlar robotlar üretilirken donanımlarına işlenerek insanlara ve kendilerine zarar vermemeleri sağlanmıştır. Kanunların açık ve net (!) olmasına rağmen aralarındaki boşluklar bug çıkmaya çok fazla müsaittir. Kitapda geçen 9 robot öyküsünde robotlarda çıkan buglar ve nedenleri öyle güzel işlenmiş ki, dünyanın sonunu getirseler bile bunu kendi istedikleri için değil hatalı ve eksik yazılmış kaynak kodlarından olacağı anlatılmıştır.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rbenv install 2.4.0
-</code></pre></div></div>
+<h2 id="fahrenheit-451">Fahrenheit 451</h2>
 
-<p>Yüklemek istediğimiz ruby versyonunu bu şekilde yüklüyoruz.</p>
+<blockquote>
+  <p>bir kadının yanan bir evde kalmasına yol açtıklarına göre, kitaplarda
+bir şeyler olmalı… hayal edemeyeceğimiz şeyler; orada bir şeyler
+olmalı. insan bir hiç uğruna kalmaz.</p>
+</blockquote>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rbenv global 2.4.0
-</code></pre></div></div>
+<p>Yanmayan evler yaygınlaştıktan sonra itfayecilerin işsiz kalmaması için yakma görevi itfayecilere verilmiştir yaktıkları şey ise kitaptır. Kitapta bir itfaye erinin monotonluktan kurtulmasıyla başlar. Bir gün aldıkları ihbarda kitaplarını kendi canı kadar çok seven yaşlı kadının evine giderler. Yaşlı kadının kitapları ile birlikte can vermek istemesi itfaye eri Guy Montag’ın dikkatini çeker ve okumak için bir kaç kitap çalar.
+Bu distopyanın bana verdiği en büyük mesaj şu oldu; <em>Öyle kitaplar vardır ki belli bir anlama seviyesine gelmeden o kitabın ne anlatmak istediğini anlayamazsın.</em> İşte bu yüzden okuduğum ve beğenmediğim bazı kitapları tekrar okuma kararı aldım. Ve kutsal kitapları yorumlamak için fazla aceleci davranmamam gerektiğini kararlaştırdım.</p>
 
-<p>Bu şekilde yüklenmiş ruby versyonlarından birisini seçebiliyoruz. Kontrol edelim yüklenmiş mi ?</p>
+<h2 id="otostopçunun-galaksi-rehberi">Otostopçunun Galaksi Rehberi</h2>
+<blockquote>
+  <p>“İnsanlar dudaklarını devamlı çalıştırmazlarsa, beyinleri çalışmaya başlıyor”</p>
+</blockquote>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby -v
-</code></pre></div></div>
+<p>Yine ilk iki kitabını okuduğum bu seride, Dünyanın uzaylı ırklar tarafından yerle bir edilmeden hemen önce Ford ile Arthur’un yıkım için gelen uzaylı gemisine otostop çekerek binmeleri ile başlar. Marvin adlı robot favori karakterimdi. Ve kitabı okuduğunuzda evrenin nihayi sorusuna cevap buluyorsunuz.  Ayrıyetten bu sorunun cevabını kitabı okumadan öğrenmek istiyorsanız Google’a <strong><em>what is the answer to life, the universe, and everything?</em></strong>  şeklinde aratabilirsiniz. (Okumadıysanız tavsiye etmem :) )</p>
 
-<p>Eğer buraya kadar tamamsa bundler yükleyelim.</p>
+<h2 id="maymunlar-gezegeni">Maymunlar Gezegeni</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install bundler
-</code></pre></div></div>
+<p>Bu kitap da bir ithaki bilim-kurgu klasiklerinden. Kitabın sonu hala aklımdan çıkmıyor. Dünyaya çok benzeyen bir gezegene keşif için giden 3 bilim-insanı hiç tahmin etmedikleri bir şeyle karşılaşıyorlar. Bu gezegende tanıştıkları insanlar düşünemezken, maymunlar düşünebiliyor. Kitabın baş kahramanı maymunlarla iletişim kurmaya çalışırken ve kurduktan sonra başından geçenler anlatılıyor. Kitabın son sayfalarında ise şaşırma ve okuma keyfi katlanarak artıyor. Gerçekten çok beğendiğim bir kitaptı.</p>
 
-<h2 id="rails-kurulumu">Rails Kurulumu</h2>
+<h4 id="sırada-ne-var">Sırada Ne Var</h4>
+<p>2019 yılında ise okuma hedefimi her aya 3 kitap olacak şekilde 36 kitaba çıkarttım. Okumak istediğim bazı kitapları buraya not düşeyim bakalım yıl sonunda neler olacak birlikte görelim.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs
-gem install rails -v 5.1.1
-rbenv rehash
-rails -v
-</code></pre></div></div>
+<ol>
+  <li>Kuran-ı Kerim</li>
+  <li>Dune Serisi</li>
+  <li>Otostopçunun Galaksi Rehberi</li>
+  <li>Yüzüklerin Efendisi Kralın Dönüşü</li>
+  <li>Silmarillion</li>
+  <li>Frankenstein</li>
+  <li>Dünyalar Savaşı</li>
+</ol>
 
-<p>Eğer kurulum başarılı olduysa rails sürümünü ekranda görmemiz gerekiyor.</p>
+<p>Bu kitaplar listemin üstündeki kitaplar. Bu sene okuyacağım diğer kitapların çoğunun da ithaki bilim kurgu serisinden olacağını düşünüyorum. Yıl sonunda bu kitapların kaç tanesini okumuş olacağım acaba.</p>
 
-<h2 id="postgresql-kurulumu">Postgresql Kurulumu</h2>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main' &gt; /etc/apt/sources.list.d/pgdg.list"
-wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install postgresql-common
-sudo apt-get install postgresql-9.5 libpq-dev 
-</code></pre></div></div>
-
-<p>Postgres bu şekilde kuruluyor fakat veritabanı oluşturmamız için bir kullanıcıya ihtiyacımız var.</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo -u postgres createuser alperen -s
-
-sudo -u postgres psql
-postgres=# \password alperen
-</code></pre></div></div>
-
-<p>Kullanıcının şifresini girdikten sonra bu adım da bitmiş oluyor. Yeni projelere yelken açabilirsiniz.</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails new yeniproje -d postgresql 
-;)
-</code></pre></div></div>
+<p>Görüşmek üzere, bu yıl sizin yılınız olsun :)</p>
 
           </div>
         </div>

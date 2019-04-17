@@ -5,13 +5,13 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Tüm Projeler &#8211; Alperen Bozkurt</title>
-    <meta name="description" content="Projelerimin bir listesi">
-    <meta name="keywords" content="">
-    <link rel="canonical" href="http://localhost:4000/projects/">
+    <title>Sass Ve Scss Nedir ? &#8211; Alperen Bozkurt</title>
+    <meta name="description" content="Sass ve Scss in nedir, Neler yapılabilir, Nasıl yüklenir gibi soruların cevapları burada">
+    <meta name="keywords" content="Sass nedir, Sass Nasıl kullanılır, Sass Nasıl kurulur, Scss Nedir, Scss nasıl kurulur, scss Nasıl kullanılır">
+    <link rel="canonical" href="http://localhost:4000/Sass-ve-scss-nedir/">
         <!-- Twitter Cards -->
-    <meta name="twitter:title" content="Tüm Projeler">
-    <meta name="twitter:description" content="Projelerimin bir listesi">
+    <meta name="twitter:title" content="Sass Ve Scss Nedir ?">
+    <meta name="twitter:description" content="Sass ve Scss in nedir, Neler yapılabilir, Nasıl yüklenir gibi soruların cevapları burada">
     <meta name="twitter:site" content="@bozkurttalperen">
     <meta name="twitter:creator" content="@bozkurttalperen">
     <meta name="twitter:card" content="summary">
@@ -19,9 +19,9 @@
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Tüm Projeler">
-    <meta property="og:description" content="Projelerimin bir listesi">
-    <meta property="og:url" content="http://localhost:4000/projects/">
+    <meta property="og:title" content="Sass Ve Scss Nedir ?">
+    <meta property="og:description" content="Sass ve Scss in nedir, Neler yapılabilir, Nasıl yüklenir gibi soruların cevapları burada">
+    <meta property="og:url" content="http://localhost:4000/Sass-ve-scss-nedir/">
     <meta property="og:site_name" content="Alperen Bozkurt">
     <meta property="og:image" content="http://localhost:4000/assets/img/profile.png">
 
@@ -132,7 +132,6 @@ $(document).ready(function(){
 
 </script>
 
-    
     <div class="menuAc">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
@@ -185,104 +184,95 @@ $(document).ready(function(){
       </div>
     </div>
     <div class="ortalaAna">
-      <div class="programlar">
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://user-images.githubusercontent.com/19302254/35151887-12d7b6ce-fd31-11e7-8f70-3f7bd96c94bf.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Zinciri-kirma/">Zinciri Kırma</a>
-              </div>
-              <div class="aciklamaUrun">
-                Hedeflerinizi takip etmenize yardımcı uygulama.
-              </div>
+      <div class="yazilar">
+        <div class="yazi">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- R1 -->
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-1746793611373653"
+            data-ad-slot="9217519248"
+            data-ad-format="auto"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        <div class="yazi">
+          <div class="ustr">
+            <h2>Sass Ve Scss Nedir ?</h2>
+            <div class="yazibilgisi">
+              05 Sep 2017 tarihinde yayınlandı.
             </div>
-          
+          </div>
+          <hr>
+          <div class="content">
+            <p>Daha önce Haml’ın ne olduğundan ve nasıl kullanıldığından söz etmiştik. Bu yazı <a href="http://alperenbozkurt.net/Haml-ve-sass-nedir/">Haml Nedir ?</a> Yazısının devamı niteliğinde olacaktır.</p>
+
+<h2 id="sass-nedir-">Sass Nedir ?</h2>
+
+<p><strong>Sass</strong>, css’in karmaşıklığını ortadan kaldırmak amacıyla yazılan bir <strong>Ruby Gem</strong>‘idir. Css’de At koşturmaya yarar. Syntax’ını rubyceye yakınlaştırır. .sass uzantılı dosyayı derleyerek css dosyası haline getirir. 
+Önce syntax’ı nasıl ona bakalım.</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.deneme</span><span class="p">{</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">150px</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Gibi bir css kodumuz olduğunu düşünelim. Bu kodu sass ile yazıldığında ise;</p>
+<div class="language-sass highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.deneme</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">150px</span>
+</code></pre></div></div>
+<p>Şeklinde oluyor. Gördüğünüz gibi gereksiz ; ve {  } yazmadık.</p>
+
+<h2 id="sass-nasıl-kullanılır-">Sass Nasıl Kullanılır ?</h2>
+
+<ul>
+  <li><strong>;</strong> işaretini satırların sonlarına koymak zorunda değiliz.</li>
+  <li><strong>{</strong> işaretini kullanmak zorunda değiliz. ( Aynı şekilde <strong>}</strong> işaretini de kullanmak zorunda değiliz. )</li>
+  <li><strong>$</strong> işareti ile değişken oluşturabiliriz.</li>
+  <li>Matematik operatörlerini kullanabiliyoruz.</li>
+  <li>İf - Else gibi karar yapılarını kullanabiliyoruz.</li>
+  <li>While, Each gibi döngüleri kullanabiliyoruz.</li>
+  <li>Fonksiyon yazıp cevabını alabiliyoruz.</li>
+</ul>
+
+<h2 id="scss-nedir-">Scss Nedir ?</h2>
+<p>Scss, sass geliştiricilerinin biraz daha front-end geliştiricilerini düşünerek oluşturduğu syntax’dır. Bu syntax css’e benziyor. {, } ve ; burada kullanılıyor. Diğer her şey sass ile aynıdır.</p>
+
+<h2 id="sass-nasıl-kurulur-">Sass Nasıl Kurulur ?</h2>
+<p>Terminale ‘<code class="highlighter-rouge">gem install sass-rails</code>’ yazarak veya gemfile dosyasına <code class="highlighter-rouge">gem 'sass-rails'</code> satırını ekleyip, terminale ‘<code class="highlighter-rouge">bundle install</code>’ yaparak kurabilirsiniz. Bu kurulumla sass ile scss de kurulmuş olacaktır. Dosyalarınızın uzantısı .sass veya .scss şeklinde yapmalısınız.</p>
+
+<p>Daha ayrıntılı bilgiyi <a href="https://scotch.io/tutorials/getting-started-with-sass">Bu</a> yazıda bulabilirsiniz.</p>
+
+<p>*Ruby &lt;3 Ben *</p>
+
+          </div>
+        </div>
         
-          
-        
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://user-images.githubusercontent.com/19302254/33776111-728789c4-dc51-11e7-9d8d-c6cbe6c61a82.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Film-Al/">Film Al</a>
-              </div>
-              <div class="aciklamaUrun">
-                Netflix ve Steam karışımı film alma uygulaması.
-              </div>
-            </div>
-          
-        
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://user-images.githubusercontent.com/19302254/29752074-d215bc14-8b5f-11e7-807a-6e116c6f35f9.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Kisiler/">Kişiler</a>
-              </div>
-              <div class="aciklamaUrun">
-                Rehber yedekleme uygulamasından az daha fazlası.
-              </div>
-            </div>
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Jblog-theme/">JBlog Theme</a>
-              </div>
-              <div class="aciklamaUrun">
-                2015 yılında geliştirmeye başladığım blog teması.
-              </div>
-            </div>
-          
-        
-          
-        
-          
-            <div class="program">
-              <div class="urunResmi">
-                <img src="https://cloud.githubusercontent.com/assets/19302254/24833583/460131b0-1cd6-11e7-9bd5-7b16c0eec97a.png" alt="">
-              </div>
-              <div class="urunAdi">
-                <a href="http://localhost:4000/Redmine-user-perf/">Redmine User Perf.</a>
-              </div>
-              <div class="aciklamaUrun">
-                İş saatini grafiğe çeviren redmine eklentisi.
-              </div>
-            </div>
-          
-        
+  <div id="disqus_thread" class="yazi">  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://alperenbozkurt-net.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  <script id="dsq-count-scr" src="//alperenbozkurt-net.disqus.com/count.js" async></script>
+
+
       </div>
     </div>
         <div class="footer">
