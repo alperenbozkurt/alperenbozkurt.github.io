@@ -55,13 +55,12 @@ Bu kitap da bir ithaki bilim-kurgu klasiklerinden. Kitabın sonu hala aklımdan 
 #### Sırada Ne Var
 2019 yılında ise okuma hedefimi her aya 3 kitap olacak şekilde 36 kitaba çıkarttım. Okumak istediğim bazı kitapları buraya not düşeyim bakalım yıl sonunda neler olacak birlikte görelim.
 
- 1. Kuran-ı Kerim
- 2. Dune Serisi
- 3. Otostopçunun Galaksi Rehberi
- 4. Yüzüklerin Efendisi Kralın Dönüşü
- 5. Silmarillion
- 6. Frankenstein
- 7. Dünyalar Savaşı
+ 1. Dune Serisi
+ 2. Otostopçunun Galaksi Rehberi
+ 3. Yüzüklerin Efendisi Kralın Dönüşü
+ 4. Silmarillion
+ 5. Frankenstein
+ 6. Dünyalar Savaşı
 
 Bu kitaplar listemin üstündeki kitaplar. Bu sene okuyacağım diğer kitapların çoğunun da ithaki bilim kurgu serisinden olacağını düşünüyorum. Yıl sonunda bu kitapların kaç tanesini okumuş olacağım acaba. 
 
