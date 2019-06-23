@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hakkımda
-tags: [hakkında, alperen, bozkurt, kimdir]
+tags: [alperen bozkurt kimdir, hakkında]
 date: 2017-06-16
 ---
 Kimim
