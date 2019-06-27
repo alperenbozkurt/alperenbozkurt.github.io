@@ -15,9 +15,9 @@ Mikroişlemciler dersinde kullandığımız mikroişlemci **PIC16F877A**'dır. B
 - Mikrochip firmasının bir üyesi olan bu çipde 40 pin vardır. Bu pinlerin 33 tanesi giriş/çıkış pinidir. 
 - 20 MHz de çalışır. Bu hızda her bir komutun çalışması 200 ns sürer. Aynı zamanda 4 ve 16 MHz ile çalışan versyonları da vardır. Aksi belirtilmediği sürece biz 4 MHz de kullandık. Her bir komut 4 aşamada çalıştığı için  bir komutun çalışma süresi daha kolay hesaplanabiliyor. (Fetch Decode Execute Writeback) 4 MHz hızda çalışan işlemcide her bir komut 1 µs sürüyor. 
 - 3 adet belleği vardır:
-⋅⋅ 8K * 14 bitlik Flash Memory'si vardır. Bu bölüme program kodları yazılır.
-⋅⋅ 368 Byte Data Memory'si vardır. Bu alanda ayar registerları ve özel amaçlı registerlar bulunur. 
-⋅⋅ 256 Byte EEPROM belleği vardır. Bu alan kalıcı hafıza olarak kullanılır.
+  * 8K * 14 bitlik Flash Memory'si vardır. Bu bölüme program kodları yazılır.
+  * 368 Byte Data Memory'si vardır. Bu alanda ayar registerları ve özel amaçlı registerlar bulunur. 
+  - 256 Byte EEPROM belleği vardır. Bu alan kalıcı hafıza olarak kullanılır.
 - 3 Tane Timer vardır.
 - 2 tane Compare, Capture, PWM modülü vardır.
 - 10 Bit Analog/Dijital dönüştürücüsü vardır.
