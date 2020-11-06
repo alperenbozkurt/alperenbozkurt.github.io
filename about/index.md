@@ -12,6 +12,6 @@ Merhaba ben Alperen. Meraklı, sabırlı ve araştırmayı seven, Onlar yapabilm
 
 1997 yılında **Ankara**'da doğdum. **Fırat Üniversitesi**nde **Bilgisayar Mühendisliği** lisans programını bitirdim. Şu anda **Karabük Üniversitesi**nde Yüksek Lisans yapmaktayım.
 
-**Privia Security**'de Yazılım Geliştirici olarak çalışıyorum. **[PriviaHub](https://priviahub.com/)** yazılımını geliştiriyorum. 
+Lisans Mezuniyetimden sonra 1.5 yıl **Privia Security**'de **[PriviaHub](https://priviahub.com/)** yazılımını geliştirdim. Şuanda yabancı bir şirkette remote olarak çalışıyorum.
 
 **Ruby**, **C#** ve **Crystal** dillerinde uygulamalar geliştirmekteyim. Kendime Full-stack diyemesem de az biraz önyüzden anlarım. CRUD işlemlerinden daha çok egzantirik işlerle uğraşmayı severim.
