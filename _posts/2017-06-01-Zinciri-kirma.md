@@ -24,7 +24,3 @@ Hedef koymak önüne bakmaktır. Önüne yani ileriye bakmak çok önemli. Eğer
 ![05](https://user-images.githubusercontent.com/19302254/35151890-134080e6-fd31-11e7-83eb-7b6714bf8f47.png)
 ![06](https://user-images.githubusercontent.com/19302254/35151891-13675e28-fd31-11e7-8245-7e0385e6971e.png)
 
-
-<div markdown="0">
-  <a href="https://github.com/alperenbozkurt/zinciri-kirma/" class="btn btn-info">Kaynak Kodları</a>
-</div>

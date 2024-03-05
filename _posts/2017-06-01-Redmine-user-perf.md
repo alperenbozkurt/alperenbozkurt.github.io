@@ -26,10 +26,6 @@ Users performance, kullanıcıların zaman girişlerini (time entries) grafiksel
 - Grafik tipini **Yönetim > Eklentiler > Yapılandır** sayfasından değiştirebilirsiniz.
 - Eklentiyi istediğiniz proje için **Proje > Ayarlar > Modüller** sayfasından etkinleştirebilirsiniz.
 
-<div markdown="0">
-  <a href="https://github.com/alperenbozkurt/Kisiler/" class="btn btn-info">Kaynak Kodları</a>
-</div>
-
 ## Ekran Görüntüleri
 
 ![Ekran Görüntüsü-01](https://cloud.githubusercontent.com/assets/19302254/24833583/460131b0-1cd6-11e7-9bd5-7b16c0eec97a.png)

@@ -22,6 +22,9 @@
           <hr>
           <div class="content">
             {{ content }}
+            
+            {% if page.source_code %} <a href='{{ page.source_code }}' class="btn btn-theme" >Source Codes</a> {% endif %}
+            {% if page.project_url %} <a href='{{ page.project_url }}' class="btn btn-theme" >Go To Application</a> {% endif %}
           </div>
         </div>
         {% include disqus_comments.html %}

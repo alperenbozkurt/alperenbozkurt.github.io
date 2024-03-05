@@ -932,3 +932,13 @@ ul.menu {
 		display: none;
 	}
 }
+
+.btn.btn-theme {
+  background-color: $bg-blue;
+  color: $white;
+  border-color: $bg-blue;
+  &:hover {
+    background-color: $white;
+    color: $bg-blue;
+  }
+}
