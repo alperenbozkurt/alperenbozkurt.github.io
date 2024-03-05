@@ -164,6 +164,7 @@ body {
   animation-name: baslik;
   animation-duration: 1.2s;
   animation-fill-mode: forwards;
+  text-decoration: none;
 }
 
 .ortalaAna {
@@ -540,9 +541,7 @@ ul.menuAna {
 
 ::selection {
   background: $bg-blue;
-
-  /* WebKit/Blink Browsers */
-  color: #000;
+  color: $mainColor;
 }
 
 .programlar {
