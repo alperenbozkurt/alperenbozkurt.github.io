@@ -527,7 +527,7 @@ ul.menuAna {
   background-color: $mainColor;
 	border-radius: 3px;
   &:hover {
-		background-color: #2980b9;
+		background-color: $mainColor;
 		box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
   }
 }
@@ -539,7 +539,7 @@ ul.menuAna {
 /* End Scrollbar */
 
 ::selection {
-  background: #f39c12;
+  background: $bg-blue;
 
   /* WebKit/Blink Browsers */
   color: #000;
