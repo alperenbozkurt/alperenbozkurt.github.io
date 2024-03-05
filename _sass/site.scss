@@ -14,9 +14,9 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900");
 
-$bg-blue: rgba(52, 152, 219, 1);
+$bg-blue: #18dcff;
 $mainColor: #ecf0f1;
-$color2: rgba(52, 152, 219, .6);
+$color2: #17c0eb60;
 
 body {
   background: $bg-blue;
@@ -32,7 +32,7 @@ body {
   height: 230px;
   width: auto;
   margin-top: 10px;
-  box-shadow: 0px 0px 20px 2px rgba(71, 71, 71, 1);
+  box-shadow: 0px 0px 20px 2px #47474750;
   animation-name: orta;
   animation-duration: 1.2s;
   animation-fill-mode:forwards;
@@ -42,7 +42,7 @@ body {
   font-size: 60px;
   text-align: center;
   font-family: "Lobster", cursive;
-  text-shadow: 1px 1px 5px #000;
+  text-shadow: 1px 1px 5px #00000050;
   color: #FFF;
   margin-top: 130px;
 	opacity: 0;
@@ -140,7 +140,7 @@ body {
   width: auto;
   margin-top: 200px;
   height: 200px;
-  box-shadow: 0px 0px 10px 1px rgba(82, 82, 82, .6);
+  box-shadow: 0px 0px 10px 1px rgba(82, 82, 82, .5);
 }
 
 @keyframes ustegel {
@@ -445,7 +445,7 @@ ul.menuAna {
   width: 100%;
   font-family: "Lobster", cursive;
   background: $mainColor;
-  box-shadow: 0px 0px 10px 2px rgba(82, 82, 82, 1);
+  box-shadow: 0px 0px 10px 2px rgba(82, 82, 82, 0.5);
   animation-name: ft;
 	animation-delay: 1.2s;
   animation-duration: 1.5s;
@@ -702,13 +702,13 @@ ul.menuAna {
 		margin-top: 30px;
 		padding: 5px;
 		color: $mainColor;
-	  text-shadow: 1px 1px 5px #000;
+	  text-shadow: 1px 1px 5px #00000050;
 		transition-property: text-shadow;
 	  transition-duration: 0.2s;
 	  transition-delay: 0s;
 		&:hover{
 			color: #FFF;
-		  text-shadow: 1px 1px 10px #000;
+		  text-shadow: 1px 1px 10px #00000050;
 		}
 	}
 }
@@ -718,7 +718,7 @@ ul.menuAna {
 		color: $bg-blue !important;
 	  text-shadow: 1px 1px 1px rgba(81, 81, 81, 0.3) !important;
 		&:hover{
-		  text-shadow: 1px 1px 4px rgba(81, 81, 81, 1) !important;
+		  text-shadow: 1px 1px 4px rgba(81, 81, 81, 0.5) !important;
 		}
 	}
 }
@@ -764,9 +764,9 @@ ul.menu {
         padding: 10px;
         border-radius: 3px;
         background-color: $bg-blue;
-        text-shadow: 1px 1px 5px #000;
+        text-shadow: 1px 1px 5px #00000050;
         color: $mainColor;
-        box-shadow: inset 0px 0px 10px 2px rgba(81, 81, 81, .6);
+        box-shadow: inset 0px 0px 10px 2px rgba(81, 81, 81, .4);
         float: left;
         text-decoration: none;
       }
