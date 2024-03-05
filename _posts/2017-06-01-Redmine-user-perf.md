@@ -2,11 +2,12 @@
 layout: post
 title:  "Redmine User Perf."
 image: "https://cloud.githubusercontent.com/assets/19302254/24833583/460131b0-1cd6-11e7-9bd5-7b16c0eec97a.png"
-date:   2017-06-14
-excerpt: "İş saatini grafiğe çeviren redmine eklentisi."
+date:   2017-03-29
+excerpt: "Redmine plugin that converts business hours into graphs."
 project: true
 technologies: [Ruby, Redmine]
 tags: [redmine, kullanıcı performansı eklentisi, user performance plugins, redmine eklentisi]
+source_code: 'https://github.com/alperenbozkurt/redmine_users_performance'
 ---
 
 Users performance, kullanıcıların zaman girişlerini (time entries) grafiksel olarak gösteren bir redmine eklentisidir.

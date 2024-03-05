@@ -2,12 +2,13 @@
 layout: post
 title:  "JBlog Theme"
 image: "https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png"
-date:   2017-06-18
-excerpt: "2015 yılında geliştirmeye başladığım blog teması."
+date:   2017-08-28
+excerpt: "Jekyll adaptation of the blog theme I started developing in 2015. It has 100+ forks"
 project: true
 technologies: [Ruby, Jekyll]
 tags: [blog teması, minimal blog theme, material theme, ]
-
+project_url: 'https://alperenbozkurt.net'
+source_code: 'https://github.com/alperenbozkurt/JBlog'
 ---
 ![jblog](https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png)
 

@@ -2,11 +2,13 @@
 layout: post
 title:  "Zinciri Kırma"
 image: "https://user-images.githubusercontent.com/19302254/35151887-12d7b6ce-fd31-11e7-8f70-3f7bd96c94bf.png"
-date:   2017-06-24
-excerpt: "Hedeflerinizi takip etmenize yardımcı uygulama."
+date:   2017-02-22
+excerpt: "Application that helps you track your goals."
 project: true
 technologies: [Ruby, Ruby On Rails, Semantic-UI]
 tags: [zinciri kırma, Barış özcan, kişisel gelişim]
+# project_url: 'https://google.com'
+source_code: 'https://github.com/alperenbozkurt/zinciri-kirma'
 ---
 
 Hedefini belirle. O hedefe ulaşmak için her gün bir şey yap. Yaptıktan sonra da önüne bir takvim al ve o günün üstüne kocaman bir çarpı koy. Her gün bu işlemi tekrarla. Takvimini çarpılarla doldur. Yan yana gelen bu çarpılardan bir zincir oluştur. Yeni amacın bu zinciri kırmamak!
