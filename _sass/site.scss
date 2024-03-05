@@ -16,7 +16,7 @@
 
 $bg-blue: #7d5fff;
 $mainColor: #ecf0f1;
-$color2: #7d5fff60;
+$color2: #7d5fff99;
 
 body {
   background: $bg-blue;
@@ -726,13 +726,13 @@ ul.menuAna {
 	padding: 30px;
 	padding-top: 5px;
 
-  a { color: #7d5fff; transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; -o-transition: .5s; font-family: 'Roboto Slab', sans-serif; text-decoration: none }
+  a { color: $bg-blue; transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; -o-transition: .5s; font-family: 'Roboto Slab', sans-serif; text-decoration: none }
   a:hover { text-decoration: none }
   h1 { padding-bottom: 15px }
   h1 a { font-family: 'Roboto Slab', sans-serif; font-size: 48px; color: #333; text-decoration: none;}
-  h1 a:hover { color: #7d5fff; text-decoration: none; }
+  h1 a:hover { color: $bg-blue; text-decoration: none; }
   p { color: #333; font-family: 'Roboto Slab', sans-serif; margin-bottom: 15px; }
-  a.more-link { color: white; font-weight: bold; font-size: 14px; font-family: 'Roboto Slab', sans-serif; padding: 3px 10px; background-color: #7d5fff; border-radius: 5px; float: right; }
+  a.more-link { color: white; font-weight: bold; font-size: 14px; font-family: 'Roboto Slab', sans-serif; padding: 3px 10px; background-color: $bg-blue; border-radius: 5px; float: right; }
   a.more-link:hover { text-decoration: none; background-color: #666; border-radius: 0px; }
 
   code a {
