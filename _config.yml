@@ -58,7 +58,7 @@ steam: bozkurttalperen
 disqus_shortname: alperenbozkurt-net
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
