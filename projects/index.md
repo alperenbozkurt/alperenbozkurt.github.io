@@ -1,5 +1,5 @@
 ---
 layout: project
-title: Tüm Projeler
-excerpt: "Projelerimin bir listesi"
+title: All Projects
+excerpt: "A list of my projects"
 ---
