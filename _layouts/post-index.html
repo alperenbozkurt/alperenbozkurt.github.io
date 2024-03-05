@@ -9,17 +9,7 @@
     <div class="menuMobil">
       {% include nav-home.html %}
     </div>
-    <div class="ust">
-      <div class="ortalaAna">
-        <div class="baslikAna">
-          {{ site.title }}
-        </div>
-
-        <div class="pc">
-          {% include nav.html %}
-        </div>
-      </div>
-    </div>
+    {% include site-header.html %}
     <div class="ortalaAna">
       <div class="yazilar">
         {% for post in site.posts %}
