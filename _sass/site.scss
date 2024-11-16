@@ -14,9 +14,9 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900");
 
-$bg-blue: #3498db;
+$bg-blue: #0984e3;
 $mainColor: #ecf0f1;
-$color2: #3498db99;
+$color2: #0984e399;
 
 body {
   background: $bg-blue;
@@ -44,7 +44,6 @@ body {
   font-family: "Lobster", cursive;
   text-shadow: 1px 1px 5px #00000050;
   color: #FFF;
-  margin-top: 130px;
 	opacity: 0;
   animation-name: baslik;
 	animation-delay: 1.2s;
@@ -717,6 +716,7 @@ ul.menuAna {
 	animation-delay: 1s;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+  margin-bottom: 150px;
 	.fa {
 		margin: 5px;
 		margin-top: 30px;
@@ -942,4 +942,11 @@ ul.menu {
     background-color: $white;
     color: $bg-blue;
   }
+}
+
+.main-center {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  place-content: center;
 }

@@ -9,23 +9,24 @@
     <div class="menuMobil">
       {% include nav-home.html %}
     </div>
-    <div class="baslik">
-      {{ site.title }}
-    </div>
-    <div class="orta">
-      <div class="ortala">
-        <div class="resim">
-          <img alt="{{ site.title }}" src="{{ site.url }}/{{ site.picture }}">
-        </div>
-        <div class="pc">
-          {% include nav-home.html %}
-        </div>
-        <div class="aciklamalar">
-          {{ site.bio }}
+    <div class="main-center">
+      <div class="baslik">
+        {{ site.title }}
+      </div>
+      <div class="orta">
+        <div class="ortala">
+          <div class="resim">
+            <img alt="{{ site.title }}" src="{{ site.url }}/{{ site.picture }}">
+          </div>
+          <div class="pc">
+            {% include nav-home.html %}
+          </div>
+          <div class="aciklamalar">
+            {{ site.bio }}
+          </div>
         </div>
       </div>
+      {% include social-links.html %}
     </div>
-    {% include social-links.html %}
-
   </body>
 </html>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-16T15:40:44+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alperen Bozkurt</title><subtitle>Hello. I am Alperen Bozkurt. I open this site to share my projects, publish some of my notes and bug solutions, and share my thoughts freely. If you are inspired by my site, do not forget to leave a smile in the comments :)</subtitle><entry><title type="html">Vidyodan</title><link href="http://localhost:4000/Vidyodan/" rel="alternate" type="text/html" title="Vidyodan" /><published>2021-05-10T00:00:00+03:00</published><updated>2021-05-10T00:00:00+03:00</updated><id>http://localhost:4000/Vidyodan</id><content type="html" xml:base="http://localhost:4000/Vidyodan/"><![CDATA[<p>Vidyodan is Turkey’s first marketplace application that offers live streaming shopping experience. Anyone can start their own live broadcast and sell either the products in their store or second-hand products, and those who wish can apply to join the Vidyodan sales network.</p>
+
+<p>Live broadcast selling is an e-commerce method based on live video broadcasts made through a specific application or platform. In these broadcasts, a presenter or broadcaster introduces a particular product, talks about it in detail, wears or uses the product, and answers questions from the audience. Viewers interact with the broadcaster to review and purchase products during the live broadcast. This method allows customers to see the products live and get immediate answers to their questions.</p>
+
+<p>We received approximately 1.5 million downloads and our monthly active users reached approximately 1 million. Additionally, we delivered around 100 thousand orders to the basket monthly.</p>
+
+<h2 id="links">Links</h2>
+<p><a href="https://onedio.com/haber/turkiye-nin-ilk-canli-alisveris-platformu-vidyodan-gormeden-alma-vidyodan-al-peki-vidyodan-guvenilir-mi-998849">Türkiye’nin İlk Canlı Alışveriş Platformu Vidyodan! Görmeden Alma, Vidyodan Al…</a><br />
+<a href="https://egirisim.com/2021/04/28/canli-yayinda-alisveris-deneyimi-sunan-yerli-girisim-vidyodan/">Canlı yayında alışveriş deneyimi sunan yerli girişim: Vidyodan
+</a><br />
+<a href="https://www.instyle.com.tr/vidyodan-canli-yayinda-alisveris-deneyimi-19536">Vidyodan Canlı Yayında Alışveriş Deneyimi</a><br />
+<a href="https://www.fortuneturkey.com/turkiyenin-ilk-canli-yayin-satis-uygulamasi">Türkiye’nin İlk Canlı Yayın Satış Uygulaması</a><br />
+<a href="https://acunmedyaakademi.com/canli-yayindan-satis-e-ticaretin-gelecegi-mi">Canlı Yayından Satış E-Ticaretin Geleceği</a><br /></p>
+
+<h2 id="screenshots">Screenshots</h2>
+<p><img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/0eb9c507-8243-4747-8993-584342d986d1" alt="0" /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/35dc2590-fd37-41b2-8e4b-bb264673f8aa" alt="1" /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/c35b7a60-fd9d-4070-bb16-df8c4b4ef3fb" alt="4" /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/25c65d3c-907e-400b-9c73-e162df92751f" alt="5" /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/ee81fba9-c078-446a-b139-acdeee305d1e" alt="2" /><br /></p>]]></content><author><name></name></author><category term="Vidyodan" /><category term="E-commerce" /><category term="Spree E-commerce" /><category term="Video Commerce" /><summary type="html"><![CDATA[E-commerce startup offering live streaming shopping experience.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/0eb9c507-8243-4747-8993-584342d986d1" /><media:content medium="image" url="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/0eb9c507-8243-4747-8993-584342d986d1" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dokku Nedir, Kurulumu ve Kullanımı</title><link href="http://localhost:4000/Dokku-nedir-kurulumu-ve-kullanimi/" rel="alternate" type="text/html" title="Dokku Nedir, Kurulumu ve Kullanımı" /><published>2020-01-18T00:00:00+03:00</published><updated>2020-01-18T00:00:00+03:00</updated><id>http://localhost:4000/Dokku-nedir-kurulumu-ve-kullanimi</id><content type="html" xml:base="http://localhost:4000/Dokku-nedir-kurulumu-ve-kullanimi/"><![CDATA[<p>Geliştirmekte olduğum <a href="https://priviahub.com/">PriviaHub</a>‘ın güncellemeleri benim için büyük bir zulümdü. Sürekli o uzun adımları uygulayıp en sonunda uygulamanın çalışmaması. Üzerimdeki baskı 10 katına çıkarırken, hızlı bir şekilde acaba hangi adımı atladım sorusunu düşünmeye çalışıyordum. Ve bu sürede <strong><a href="https://priviahub.com/">PriviaHub</a></strong>‘ın yayında olmaması da ayrı bir sorundu. Her ne kadar 2.0.10 versiyonundan sonra bu adımları hata yapmadan yapabilecek tecrübeyi edinsem de çok fazla vakit kaybediyordum. Bu adımları bir şekilde optimize etmeliydim.</p>
+
+<p>Bu güncelleme adımlarını optimize etmek için bir bash script yazarken zaten <strong>dokku</strong>‘nun bu işe yaradığı geldi aklıma. Sunucuya dokku kurarak artık güncelleme çilesinden de kurtuldum.</p>
+
+<p><strong>Dokku</strong> için aldığım notlarımı hekesin yararlanması için blog yazısı haline getirdim.</p>
+
+<h2 id="dokku-nedir">Dokku Nedir</h2>
+
+<p><strong>Dokku</strong>, web uygulamalarınızı hızlı bir şekilde <em>deploy</em> etmeye(yayınlamaya) yarayan bir uygulamadır. Arkaplanda kullandığı <strong>docker</strong> uygulaması ile minimum düzeyde kaynak tüketen <em>container</em>lar oluşturarak istediğiniz kadar web uygulamasını yayınlamınıza imkan verir. 
+Dokku ile sadece <em>git push</em> komutunu kullanarak saniyeler içerisinde uygulamanızı yayınlayabilirsiniz. Dokku otomatik olarak kullandığınız dili ve kullandığınız kütüphaneleri algılayıp kurulumları gerçekleştirecektir.
+Gerçekten mükemmel değil mi :)</p>
+
+<h2 id="dokku-kurulumu">Dokku Kurulumu</h2>
+<p>Not: sunucumun ip adresi <em>104.197.120.156</em> dır. Kodlardaki ip kısımlarını değiştirmeyi unutmayın :)</p>
+
+<ol>
+  <li>Sunucunuza bağlantı sağlayın. <code class="language-plaintext highlighter-rouge">ssh root@104.197.120.156</code></li>
+  <li><a href="http://dokku.viewdocs.io/dokku/">Dokku</a> web sitesinde yer alan son versiyon kurulum scriptini indirin ve çalıştırın.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://raw.githubusercontent.com/dokku/dokku/v0.19.12/bootstrap.sh
+sudo DOKKU_TAG=v0.19.12 bash bootstrap.sh 
+</code></pre></div>    </div>
+  </li>
+  <li>Artık sunucunuza dokku yüklenmiş olacak. Konfigrasyon için ip adresinizi web tarayıcınızdan ziyaret ediniz. Aşağıdaki gibi bir ekran ile kaşılaşacaksınız. 
+<img src="https://user-images.githubusercontent.com/19302254/72662947-ff3e3f00-39fd-11ea-8d9a-80f0eb28ffbb.png" alt="Screenshot from 2020-01-18 14-21-49" /> <strong>Public SSH Keys</strong> yazan kısma herkese açık ssh anahtarınızı vemeniz gerekiyor. <code class="language-plaintext highlighter-rouge">cat ~/.ssh/id_rsa.pub</code> komutunu kendi bilgisayarınızda çalışırak public keyinizi öğrenebilirsiniz. Daha detaylı bilgi için <strong>SSH Key</strong> üretimini de anlattığım <a href="https://alperenbozkurt.net/Git-ve-github-ayarlari/">git ve github ayarları</a> isimli blog yazımı ziyaret edebilirsiniz.
+<strong>Hostname</strong> kısmı uygulamalarınızı yayınlayacağınız domain adresini istiyor.
+<strong>Use VirtualHost naming for apps</strong> kısmında ise uygulamanıza subdomain ile mi yoksa port ile mi erişeleceğini seçiyorsunuz.</li>
+</ol>
+
+<p>Dokku kurulumu bu kadardı. Kendi bilgisayarınıza <strong>git</strong>den başka birşey yüklemenize gerek yok. 
+Not: Domaininize istek geldiğinde bu sunucudan cevap dönmesi için DNS yönlendirmelerinizi girmeyi unutmayın.</p>
+
+<h2 id="i̇lk-uygulamanın-yayınlanması">İlk Uygulamanın Yayınlanması</h2>
+<p>Dokku kurulumunu başarıyla gerçekleştirdik. Şimdi örnek bir uygulamayı <em>deploy</em> edelim. Örnek olarak, <strong>Ruby on Rails</strong> ile yazdığım <strong><a href="https://github.com/alperenbozkurt/gitbuff">GitBuff</a></strong> uygulamamı seçtim.</p>
+
+<ol>
+  <li><strong>Dokku</strong>‘da uygulamamızı oluşturmamız gerekiyor. <strong>Sunucuda</strong> <code class="language-plaintext highlighter-rouge">dokku apps:create gitbuff</code> şeklinde uygulamamızı oluşturabiliriz. 
+<strong>Not:</strong> Uygulamanın adı aynı zamanda uygulamanın yayınlanacağı subdomaindir. Ayrıntılı bilgi için yazının sonlarındaki Domain ekleme ve düzenleme başlığına bakabilirsiniz.</li>
+  <li>Eğer uygulamanızda bir veritabanı var ise uygun veritabanı eklentisini uygulamanıza bağlamanız gerekiyor.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Postgres eklentisinin sisteme yükleyelim.
+sudo dokku plugin:install https://github.com/dokku/dokku-postgres.git
+# gitbuff-database isminde bir postgres container'ı oluşturalım.
+dokku postgres:create gitbuff-database
+# gitbuff uygulamasını gitbuff-database container'ına bağlayalım.
+dokku postgres:link gitbuff-database gitbuff
+</code></pre></div>    </div>
+  </li>
+  <li>Şimdi <em>local</em>‘imizde(kendi bilgisayarımız) projemizin olduğu dizine girelim.</li>
+  <li>Projeye yeni <strong>git remote repository</strong>(uzak git deposu) eklememiz gerekiyor. Ekleyeceğimiz bu repo dokku kurduğumuz sunucuyu temsil edecek.
+<code class="language-plaintext highlighter-rouge">git remote add dokku dokku@104.197.120.156:gitbuff</code>
+bu komut dokku isminde bir uzak git deposunu tarif ediyor 104.197.120.156 ipsinde gitbuff isimli repo olarak açıklanabilir.</li>
+  <li>Artık kodları gönderebiliriz.
+<code class="language-plaintext highlighter-rouge">git push dokku master</code></li>
+  <li>Olası bir hata almanız durumunda logları şu şekilde inceleyebilirsiniz.
+<code class="language-plaintext highlighter-rouge">dokku logs gitbuff</code> Ayrıca <code class="language-plaintext highlighter-rouge">-t</code> parametresi ile akış modunu etkinleştirebilirsiniz. 
+<img src="https://user-images.githubusercontent.com/19302254/72664369-00776800-3a0e-11ea-89d3-ebe31d609f8c.png" alt="Screenshot from 2020-01-18 16-12-37" />
+Dokku kurulumdan sonra veritabanı <em>migrationlarını</em> yapmaz. Bu yukarıdaki gibi bir hata sayfası ile karşılaşabilirsiniz. Bu hatayı çözmek için aşağıdaki app.json ile post-deploy olayını inceleyebilirsiniz.</li>
+</ol>
+
+<h2 id="pre-deploy-ve-post-deploy">Pre-Deploy ve Post-Deploy</h2>
+
+<p><strong>Dokku</strong> size <em>deployment</em> öncesinde ve sonrasında komut çalıştırabilmeniz için bir dosya atamıştır. <code class="language-plaintext highlighter-rouge">app.json</code> ismindeki bu dosyaya kurulum öncesinde ve sonrasında komut çalıştırabiliriz. Benim uygulamam <strong>Ruby on Rails</strong> uygulaması olduğu için kurulumdan sonra sunucuya girip manuel olarak <code class="language-plaintext highlighter-rouge">rails db:migrate</code> komutunu çalıştırmam gerekir. app.json dosyasının içerisindeki <strong>post-deploy</strong> anahtarı ile bu süreci otomatikleştirebiliriz.</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"dokku"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"predeploy"</span><span class="p">:</span><span class="w"> </span><span class="s2">"touch ./predeploy.test"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"postdeploy"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bundle exec rails db:migrate"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">app.json</code> ile ilgili ayrıntılı dökümantasyona <a href="https://devcenter.heroku.com/articles/app-json-schema">buradan</a> erişebilirsiniz.</p>
+
+<p><em>Post deploy</em> komutu için <em>app.json</em> dosyasını düzenledikten sonra tekrar <em>commit</em> atarsanız uygulamanın sorunsuz bir şekilde yüklendiğini göreceksiniz.</p>
+
+<p>Artık sadece ``` git push dokku master `` uygulamanızı güncelleyebilirsiniz. Reponuzun adresini değiştirerek de yeni sunuculara kurulum yapabilirsiniz.</p>
+
+<h2 id="dockerfile-entegrasyonu">Dockerfile Entegrasyonu</h2>
+
+<p>Bazı durumlarda app.json dosyası yetersiz gelebilir. Ya da tüm kurulum adımlarını kendiniz yönetmeniz gerekebilir bu gibi durumlarda projenizin ana dizinine Dockerfile isminde bir dosya oluşturabilirsiniz.</p>
+
+<h2 id="environment-variables-çevre-değişkenleri">Environment Variables (Çevre Değişkenleri)</h2>
+
+<p>Uygulamanızın DATABASE_URL gibi çevre değişkenleri, uygulamalarınızı eklentilere bağladığınızda otomatik olarak kurulumda oluşturulur. Fakat ekstra çevre değişkenleriniz varsa dokku bu değişkenleri tanımlamanıza izin verir.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dokku config:keys uygulama-adi # Tüm Çevre değişkenlerini gösterir
+dokku config:set uygulama-adi ADMIN_PASSWORD=secret # yeni bir çevre değişkeni oluşturur.
+dokku config:get uygulama-adi ADMIN_PASSWORD # çevre değişkeninin değerini görüntüler.
+</code></pre></div></div>
+
+<h2 id="yedekleme-ve-geri-yükleme">Yedekleme ve Geri Yükleme</h2>
+
+<p>Orjinal postgres eklentisi gibi eklentilerin <strong>yedekleme</strong> (<strong>backup</strong>) ve <strong>geri yükleme</strong> (<strong>recovery</strong>) işlemleri için komutları vardır.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dokku postgres:export gitbuff-database &gt; backup.dump
+dokku postgres:import gitbuff-database &lt; backup.dump
+</code></pre></div></div>
+
+<h3 id="amazon-s3e-otomatik-yedekleme">Amazon S3’e otomatik yedekleme</h3>
+
+<p>Aynı zamanda bu tarz eklentiler, verilerinizi uzak bir sunucuda yedeklemenize de imkan sağlar. Örneğin belirlediğiniz zaman aralıklarında, veritabanı yedeğinizi amazon s3 sunucunuza gönderen bir <strong>cronjob</strong> oluşturabilir.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dokku postgres:backup-auth gitbuff-database AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY
+dokku postgres:backup-schedule gitbuff-database CRON_SCHEDULE BUCKET_NAME
+</code></pre></div></div>
+<p>CRON_SCHEDULE değişkeninin <em>syntax</em>‘ı crontab syntaxındadır. Eğer bu syntax’ı bilmiyorsanız <a href="https://crontab.guru/">bu</a> siteden kolayca oluşturabilirsiniz.</p>
+
+<h2 id="domain-ekleme-ve-düzenleme">Domain Ekleme ve Düzenleme</h2>
+
+<p>Oluşturduğunuz uygulamanın adı aynı zamanda uygulamanın yayınlanacağı subdomaindir. Uygulamanızın herhangi bir subdomainde değil de direkt olarak kökdizininde yayınlanmasını istiyorsanız, uygulamanıza alperenbozkurt.net gibi domaininizin adını vermelisiniz.
+Ve ya aşağıdaki komutu kullanarak direkt olarak ayarlayabilirsiniz.
+<code class="language-plaintext highlighter-rouge">dokku domains:set gitbuff alperenbozkurt.net</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Tüm uygulamaların domainlerini listelemek için
+dokku domains:report
+
+# Uygulamaya yeni bir domain eklemek için
+dokku domains:add gitbuff gitbuff.io
+
+# Uygulamadan bir domaini silmek için
+dokku domains:remove gitbuff alperenbozkurt.net
+
+# komutları kullanılabilir.
+</code></pre></div></div>
+<h2 id="yetersiz-ramler-i̇çin-hafıza-problemi">Yetersiz RAM’ler İçin Hafıza Problemi</h2>
+
+<p>Bu sorun bir swap alanı oluşturularak düzeltilebilir. Swap allanı, cihazın RAM’i dolduğunda harddisk’i RAM gibi kullanarak cihazın donmasını önlemektedir.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Swap alanı için 2038 megabyte'lık bir dosya oluşturmalısın.
+sudo fallocate -l 2048m /mnt/swap_file.swap  
+# Yetkileri düzenle
+sudo chmod 600 /mnt/swap_file.swap  
+# Disk swap alanı olarak formatla  
+sudo mkswap /mnt/swap_file.swap  
+# Swap alanını etkinleştir
+sudo swapon /mnt/swap_file.swap
+
+# Swap alanı oluşturulmuş mu
+sudo swapon -s  
+df
+
+# Yeniden başlatmadan sonra swap alanı mount edilecek şekilde ayarlak gerekiyor.
+sudo nano /etc/fstab
+# Açılan dosyanın en altına aşağıdaki satır eklenerek swap alanı oluşturulmuş olur.
+/mnt/swap_file.swap none swap sw 0 0
+</code></pre></div></div>
+
+<h2 id="dil-dosyaları-i̇le-i̇lgili-uyarı-mesajları">Dil Dosyaları İle İlgili Uyarı Mesajları</h2>
+
+<p>Bu mesajları almamak için <code class="language-plaintext highlighter-rouge">sudo dpkg-reconfigure locales</code> komutunu çalıştırılmalısın.</p>
+
+<h2 id="cloudflare-kullanarak-ssl-sertifikası-eklemek">Cloudflare Kullanarak SSL Sertifikası Eklemek</h2>
+
+<p>Öncelikle <code class="language-plaintext highlighter-rouge">certificate.pem</code> ve <code class="language-plaintext highlighter-rouge">certificate.key</code> dosyalarına ihtiyacınız var bu dosyaları <strong>cloudflare</strong> <em>dashboard</em>‘ından edinebilirsiniz.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">tar </span>cvf certificates.tar certificate.pem certificate.key
+<span class="c"># Bu komutla iki dosyayı certificates.tar olarak sıkıştırıyoruz. </span>
+dokku certs:add gitbuff &lt; certificates.tar
+<span class="c"># Ardından bu komutla sertifikaları uygulamaya ekliyoruz.</span>
+</code></pre></div></div>
+<p>Bu da bu kadar basit. :)</p>
+
+<h2 id="log-analizi">Log Analizi</h2>
+
+<p>Loglara bakmak için ise <code class="language-plaintext highlighter-rouge">dokku logs gitbuff</code> komutu kullanılır.  Eğer logların akış şeklinde olması için is <code class="language-plaintext highlighter-rouge">-t</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">dokku nginx:access-logs gitbuff</code> ile Nginx erişim logları,
+<code class="language-plaintext highlighter-rouge">dokku nginx:error-logs gitbuff</code>  ile de Nginx hata logları görüntülenebilir.</p>
+
+<h2 id="bazı-kullanışlı-kodlar">Bazı Kullanışlı Kodlar</h2>
+
+<p>Run komutu ile <em>container</em>‘da komut çalıştırılabilir.
+<code class="language-plaintext highlighter-rouge">dokku run gitbuff rails c</code>
+<code class="language-plaintext highlighter-rouge">dokku run gitbuff bash</code>
+Bir uygulamayı yeniden başlatmak için ise 
+<code class="language-plaintext highlighter-rouge">dokku ps:restart gitbuff</code> komutu ile bir uygulama yeniden başlatılabilir.</p>
+
+<p>Bu yazımda dokku hakkında kısa bir bilgi verdim ve bazı özelliklerinden bahsettim. Bu uygulamanın, geliştireceğiniz projelerde sizlere katkı sağlamasını dilerim.</p>]]></content><author><name></name></author><category term="dokku nedir" /><category term="dokku kurulumu" /><category term="dokku ile rails uygulamasının kurulumu" /><category term="dokku kod çalıştırma" /><category term="dokku çevre değişkenleri" /><category term="dokku yedekleme" /><category term="dokku geri tükleme" /><category term="dokku domain ekleme" /><category term="dokku alanadı ekleme" /><category term="dokku alanadı değiştime" /><category term="dokku ssl sertifikası ekleme" /><category term="dokku komut çalıştırma" /><summary type="html"><![CDATA[Dokku nedir, nasıl kullanılır, neler yapılabilir, ve bir çok kullanışlı komutun bulunduğu blog yazısıdır.]]></summary></entry><entry><title type="html">PriviaHub</title><link href="http://localhost:4000/PriviaHub/" rel="alternate" type="text/html" title="PriviaHub" /><published>2019-09-01T00:00:00+03:00</published><updated>2019-09-01T00:00:00+03:00</updated><id>http://localhost:4000/PriviaHub</id><content type="html" xml:base="http://localhost:4000/PriviaHub/"><![CDATA[<p>PriviaHub is an online Cyber Security Training, Simulation and Exercise (Cyber Range) Platform that allows anyone working in private companies, public institutions and organizations or those interested in cyber security to increase their knowledge and practice.</p>
+
+<h2 id="screenshots">Screenshots</h2>
+<p><img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/f080822e-485c-435b-bbd0-a7ada8199885" alt="1" /><br /><br /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/51a952c9-3e56-44a6-b004-ddb3b4fa7995" alt="2" /><br /><br /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/d75be1cf-65ce-409c-9005-7f9521c9f720" alt="3" /><br /><br /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/e514f915-9033-41d7-b277-e1f7542d68df" alt="4" /><br /><br /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/ac0535b4-70b3-497c-8d71-2abfd9f5aac0" alt="5" /><br /><br /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/aa30cf4a-a9d8-4d7f-978f-796d6399ab56" alt="6" /><br /><br /><br />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/50c9d5c1-6227-4947-ac8f-c4ec203dc9ef" alt="7" /><br /><br /><br /></p>]]></content><author><name></name></author><category term="PriviaHub" /><category term="Cyber Range Portal" /><category term="Cyber Security" /><summary type="html"><![CDATA[Online Cyber Security Training, Simulation and Exercise Platform.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/b92fe87b-205d-4acd-b302-7d05e0dc8bb9" /><media:content medium="image" url="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/b92fe87b-205d-4acd-b302-7d05e0dc8bb9" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mikroişlemciler #1 - Giriş</title><link href="http://localhost:4000/mikroislemciler-1-giris/" rel="alternate" type="text/html" title="Mikroişlemciler #1 - Giriş" /><published>2019-06-27T00:00:00+03:00</published><updated>2019-06-27T00:00:00+03:00</updated><id>http://localhost:4000/mikroislemciler-1-giris</id><content type="html" xml:base="http://localhost:4000/mikroislemciler-1-giris/"><![CDATA[<p>Fırat üniversitesi’nde aldığım en zor derslerden birisi olan, Hayrettin CAN’ın verdiği, mikroişlemciler dersi notlarımı başka kişilerin de yararlanması için seri şeklinde paylaşıyorum.</p>
+
+<h1 id="pic16f877a">PIC16F877A</h1>
+
+<p>Mikroişlemciler dersinde kullandığımız mikroişlemci <strong>PIC16F877A</strong>‘dır. Bu çipin özellikleri aşağıdaki gibidir. Her bir maddenin detaylarına yazının ileriki bölümlerinden erişebilirsiniz.</p>
+<ul>
+  <li>RISC Mimarisinde bir işlemcidir.</li>
+  <li>Mikrochip firmasının bir üyesi olan bu çipde 40 pin vardır. Bu pinlerin 33 tanesi giriş/çıkış pinidir.</li>
+  <li>20 MHz de çalışır. Bu hızda her bir komutun çalışması 200 ns sürer. Aynı zamanda 4 ve 16 MHz ile çalışan versyonları da vardır. Aksi belirtilmediği sürece biz 4 MHz de kullandık. Her bir komut 4 aşamada çalıştığı için  bir komutun çalışma süresi daha kolay hesaplanabiliyor. (Fetch Decode Execute Writeback) 4 MHz hızda çalışan işlemcide her bir komut 1 µs sürüyor.</li>
+  <li>3 adet belleği vardır:
+    <ul>
+      <li>8K * 14 bitlik Flash Memory’si vardır. Bu bölüme program kodları yazılır.</li>
+      <li>368 Byte Data Memory’si vardır. Bu alanda ayar registerları ve özel amaçlı registerlar bulunur.</li>
+      <li>256 Byte EEPROM belleği vardır. Bu alan kalıcı hafıza olarak kullanılır.</li>
+    </ul>
+  </li>
+  <li>3 Tane Timer vardır.</li>
+  <li>2 tane Compare, Capture, PWM modülü vardır.</li>
+  <li>10 Bit Analog/Dijital dönüştürücüsü vardır.</li>
+  <li>35 tane komutu vardır.</li>
+</ul>
+
+<p>Bir sonraki yazımda komutlardan ve pinlerden bahsedeciğim.</p>]]></content><author><name></name></author><category term="PIC16F877A" /><category term="PIC16F877A örnekleri" /><category term="Mikroişlemciler Ders Notları" /><category term="Hayrettin Can Ders Notları" /><category term="Fırat Üniversitesi" /><category term="Mikroişlemciler" /><summary type="html"><![CDATA[Fırat Üniversitesi, Mikroişlemciler dersinde öğretilen PIC16F877A mikroişlemcisinin iç yapısı ve nasıl kodlanacağı hakkındaki notlarımın internet ortamına geçirilmiş halidir.]]></summary></entry><entry><title type="html">2018’de En Beğendiğim Kitaplar</title><link href="http://localhost:4000/En-be%C4%9Fendi%C4%9Fim-kitaplar/" rel="alternate" type="text/html" title="2018’de En Beğendiğim Kitaplar" /><published>2019-01-03T00:00:00+03:00</published><updated>2019-01-03T00:00:00+03:00</updated><id>http://localhost:4000/En-be%C4%9Fendi%C4%9Fim-kitaplar</id><content type="html" xml:base="http://localhost:4000/En-be%C4%9Fendi%C4%9Fim-kitaplar/"><![CDATA[<p>2018 yılının başında kendime, “Bu sene kaç kitabı bitirebilirsin” diye sordum. Yaptığım ufak hesaplamalar sonucunda her 2 haftaya 1 kitap düşecek şekilde 26 kitabı okuyabileceğimi düşünerek hedefimi belirledim. Bu yazımda da bu kitaplar arasından seçtiğim, okurken en çok zevk aldığım birkaç kitabı paylaşmak istiyorum. Burada yazmadığım diğer kitaplara da goodreads hesabımdan bakabilirsiniz.</p>
+
+<h2 id="the-lord-of-the-rings">The Lord of The Rings</h2>
+<blockquote>
+  <p>Yaşayanların bir çoğu ölümü hak ediyor. Ve ölenlerin bir kısmı da
+yaşamayı hak ediyor. Yaşamı onlara verebilir misin? O halde öyle hak,
+hukuk adına ölüm buyurmakta çok acele etme.</p>
+</blockquote>
+
+<p>İlk iki kitabını okuduğum bu seri Gandalf’ın güç yüzüğünü fark etmesiyle başlayan macerayı anlatıyor. Frodo ve sam bu görev için gönüllü olmak zorunda kalıyorlar. Güç yüzüğünü hüküm dağının lavlarında eriterek yok etmeleri gerekiyor. Bu yolculukta yazadıkları maceraları anlatan bu serinin bendeki yeri çok farklıdır. Kitabı okurken Gri Gandalf’ın öldüğü kısmı beni çok duygulandırmıştı. Gandalf’ın yeniden gönderileceğini bilmesem ağlardım herhalde.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mJZZNHekEQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="ben-robot">Ben Robot</h2>
+
+<p><strong>Yapay zeka insanlığın sonu mu olacak ?</strong> Asimov bu tarz saçma sorulardan nasıl kurtulacağımızı hikayelerinde çok güzel bir şekilde açıklamış. Asimov 3 temel robot kanunundan bahsetmektedir.</p>
+
+<ol>
+  <li>
+    <p>Robotlar, insanlara zarar veremez ya da eylemsiz kalarak onlara zarar gelmesine göz yumamaz.</p>
+  </li>
+  <li>
+    <p>Robotlar, Birinci Kanun’la çakışmadığı sürece insanlar tarafından verilen emirlere itaat etmek zorundadır.</p>
+  </li>
+  <li>
+    <p>Robotlar, Birinci ya da İkinci Kanun’la çakışmadığı sürece kendi varlıklarını korumak zorundadır.</p>
+  </li>
+</ol>
+
+<p>Bu kanunlar robotlar üretilirken donanımlarına işlenerek insanlara ve kendilerine zarar vermemeleri sağlanmıştır. Kanunların açık ve net (!) olmasına rağmen aralarındaki boşluklar bug çıkmaya çok fazla müsaittir. Kitapda geçen 9 robot öyküsünde robotlarda çıkan buglar ve nedenleri öyle güzel işlenmiş ki, dünyanın sonunu getirseler bile bunu kendi istedikleri için değil hatalı ve eksik yazılmış kaynak kodlarından olacağı anlatılmıştır.</p>
+
+<h2 id="fahrenheit-451">Fahrenheit 451</h2>
+
+<blockquote>
+  <p>bir kadının yanan bir evde kalmasına yol açtıklarına göre, kitaplarda
+bir şeyler olmalı… hayal edemeyeceğimiz şeyler; orada bir şeyler
+olmalı. insan bir hiç uğruna kalmaz.</p>
+</blockquote>
+
+<p>Yanmayan evler yaygınlaştıktan sonra itfayecilerin işsiz kalmaması için yakma görevi itfayecilere verilmiştir yaktıkları şey ise kitaptır. Kitapta bir itfaye erinin monotonluktan kurtulmasıyla başlar. Bir gün aldıkları ihbarda kitaplarını kendi canı kadar çok seven yaşlı kadının evine giderler. Yaşlı kadının kitapları ile birlikte can vermek istemesi itfaye eri Guy Montag’ın dikkatini çeker ve okumak için bir kaç kitap çalar.
+Bu distopyanın bana verdiği en büyük mesaj şu oldu; <em>Öyle kitaplar vardır ki belli bir anlama seviyesine gelmeden o kitabın ne anlatmak istediğini anlayamazsın.</em> İşte bu yüzden okuduğum ve beğenmediğim bazı kitapları tekrar okuma kararı aldım. Ve kutsal kitapları yorumlamak için fazla aceleci davranmamam gerektiğini kararlaştırdım.</p>
+
+<h2 id="otostopçunun-galaksi-rehberi">Otostopçunun Galaksi Rehberi</h2>
+<blockquote>
+  <p>“İnsanlar dudaklarını devamlı çalıştırmazlarsa, beyinleri çalışmaya başlıyor”</p>
+</blockquote>
+
+<p>Yine ilk iki kitabını okuduğum bu seride, Dünyanın uzaylı ırklar tarafından yerle bir edilmeden hemen önce Ford ile Arthur’un yıkım için gelen uzaylı gemisine otostop çekerek binmeleri ile başlar. Marvin adlı robot favori karakterimdi. Ve kitabı okuduğunuzda evrenin nihayi sorusuna cevap buluyorsunuz.  Ayrıyetten bu sorunun cevabını kitabı okumadan öğrenmek istiyorsanız Google’a <strong><em>what is the answer to life, the universe, and everything?</em></strong>  şeklinde aratabilirsiniz. (Okumadıysanız tavsiye etmem :) )</p>
+
+<h2 id="maymunlar-gezegeni">Maymunlar Gezegeni</h2>
+
+<p>Bu kitap da bir ithaki bilim-kurgu klasiklerinden. Kitabın sonu hala aklımdan çıkmıyor. Dünyaya çok benzeyen bir gezegene keşif için giden 3 bilim-insanı hiç tahmin etmedikleri bir şeyle karşılaşıyorlar. Bu gezegende tanıştıkları insanlar düşünemezken, maymunlar düşünebiliyor. Kitabın baş kahramanı maymunlarla iletişim kurmaya çalışırken ve kurduktan sonra başından geçenler anlatılıyor. Kitabın son sayfalarında ise şaşırma ve okuma keyfi katlanarak artıyor. Gerçekten çok beğendiğim bir kitaptı.</p>
+
+<h4 id="sırada-ne-var">Sırada Ne Var</h4>
+<p>2019 yılında ise okuma hedefimi her aya 3 kitap olacak şekilde 36 kitaba çıkarttım. Okumak istediğim bazı kitapları buraya not düşeyim bakalım yıl sonunda neler olacak birlikte görelim.</p>
+
+<ol>
+  <li>Dune Serisi</li>
+  <li>Otostopçunun Galaksi Rehberi</li>
+  <li>Yüzüklerin Efendisi Kralın Dönüşü</li>
+  <li>Silmarillion</li>
+  <li>Frankenstein</li>
+  <li>Dünyalar Savaşı</li>
+</ol>
+
+<p>Bu kitaplar listemin üstündeki kitaplar. Bu sene okuyacağım diğer kitapların çoğunun da ithaki bilim kurgu serisinden olacağını düşünüyorum. Yıl sonunda bu kitapların kaç tanesini okumuş olacağım acaba.</p>
+
+<p>Görüşmek üzere, bu yıl sizin yılınız olsun :)</p>]]></content><author><name></name></author><category term="2018 kitapları" /><category term="reading challenge" /><category term="en beğendiğim kitaplar" /><summary type="html"><![CDATA[2018'de hedefim olan 26 kitabı son gün tamamladım. Bu kitaplardan en çok birkaç kitabı bu yazımda listeledim.]]></summary></entry><entry><title type="html">Phishinger</title><link href="http://localhost:4000/Phishinger/" rel="alternate" type="text/html" title="Phishinger" /><published>2018-12-01T00:00:00+03:00</published><updated>2018-12-01T00:00:00+03:00</updated><id>http://localhost:4000/Phishinger</id><content type="html" xml:base="http://localhost:4000/Phishinger/"><![CDATA[<p>Phishing is an attempt to seize sensitive information by pretending to be a reliable electronic communication tool. This sensitive information may be private information such as username, password, credit card information. Phishing is typically initiated with a fake email or other electronic media messages. It usually proceeds by redirecting users to a fake website that appears to be real, then asking them to enter their personal information.</p>
+
+<p>By using Phishinger, you can take precautions against hackers by raising cyber awareness to your employees.</p>
+
+<p>Phishinger is a phishing simulation application. Phishinger aims to educate its employees against hackers by providing companies with excellent infrastructures.</p>
+
+<p>Knowing that humans are the weakest link in a security system, attackers often resort to phishing attacks to steal data.</p>
+
+<p>Phishinger.com allows you to protect your information security by simulating phishing attacks to maximize staff awareness and email security.</p>
+
+<h2 id="screenshots">Screenshots</h2>
+<p><img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/1efac7dd-c811-446c-94e0-90ee65d7a552" alt="1" />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/26ed5a33-4441-4756-b300-cc32f3053255" alt="2" />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/6c7571fc-007c-48a8-bb62-213b1582dc21" alt="3" />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/4239c165-7093-4504-87f5-d4b23f8dc1ab" alt="4" />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/4784d719-a7df-4b4a-947e-812c2cb55c1b" alt="5" />
+<img src="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/978447d7-d79d-4a31-90ce-c9d058931671" alt="6" /></p>]]></content><author><name></name></author><category term="Phishinger" /><category term="Phishing" /><category term="Information Stealing" /><summary type="html"><![CDATA[Phishinger simulate phishing attacks to maximize staff awareness and security.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/a6479d65-951b-4508-b1a8-bb6cae26330f" /><media:content medium="image" url="https://github.com/alperenbozkurt/alperenbozkurt.github.io/assets/19302254/a6479d65-951b-4508-b1a8-bb6cae26330f" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ruby’de ||=, Varlık Ataması</title><link href="http://localhost:4000/Rubyde-varlik-atamasi/" rel="alternate" type="text/html" title="Ruby’de ||=, Varlık Ataması" /><published>2017-09-09T00:00:00+03:00</published><updated>2017-09-09T00:00:00+03:00</updated><id>http://localhost:4000/Rubyde-varlik-atamasi</id><content type="html" xml:base="http://localhost:4000/Rubyde-varlik-atamasi/"><![CDATA[<p><code class="language-plaintext highlighter-rouge">||=</code> operatörü eğer bir a değişkeni tanımlanmamış ise ona atama yapmak için kullanılır. Bu komutu <a href="https://stackoverflow.com/a/3800986/7244925" title="Stackoverflow"><code class="language-plaintext highlighter-rouge">x || (x = y)</code></a> gibi düşünün. Eğer bir x değeri tanımlanmamış ( <code class="language-plaintext highlighter-rouge">false</code> veya <code class="language-plaintext highlighter-rouge">nil</code> de olabilir ) ise x’e atama işlemi yapar.</p>
+
+<p>Biraz Örnek yapalım;</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="kp">nil</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">a</span> <span class="o">||=</span> <span class="n">b</span> 	<span class="c1"># a' nın değeri nil olduğu için a = b ataması yaptı.</span>
+<span class="nb">puts</span> <span class="n">a</span> 		<span class="c1"># 10</span>
+<span class="c1">#--------------------------------------</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">a</span> <span class="o">||=</span> <span class="n">b</span> 	<span class="c1"># a'nın değeri olduğu için bir atama olmuyor.</span>
+<span class="nb">puts</span> <span class="n">a</span>		<span class="c1"># 10</span>
+<span class="c1">#--------------------------------------</span>
+
+<span class="n">t</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">e</span> <span class="o">||=</span> <span class="n">t</span>		<span class="c1"># e değişkeni tanımlanmadığı için e = 10 ataması oldu.</span>
+<span class="nb">puts</span> <span class="n">e</span>		<span class="c1"># 10</span>
+<span class="c1">#--------------------------------------</span>
+
+
+</code></pre></div></div>]]></content><author><name></name></author><category term="rubyde varlık ataması" /><category term="varlık ataması" /><category term="ruby operatörler" /><category term="varlık ataması operatörü" /><category term="or equals" /><category term="veya eşittir operatörü" /><summary type="html"><![CDATA[Rubyde varlık ataması nedir, ||= operatörü ve örnek kullanımları]]></summary></entry><entry><title type="html">Sass Ve Scss Nedir ?</title><link href="http://localhost:4000/Sass-ve-scss-nedir/" rel="alternate" type="text/html" title="Sass Ve Scss Nedir ?" /><published>2017-09-05T00:00:00+03:00</published><updated>2017-09-05T00:00:00+03:00</updated><id>http://localhost:4000/Sass-ve-scss-nedir</id><content type="html" xml:base="http://localhost:4000/Sass-ve-scss-nedir/"><![CDATA[<p>Daha önce Haml’ın ne olduğundan ve nasıl kullanıldığından söz etmiştik. Bu yazı <a href="http://alperenbozkurt.net/Haml-ve-sass-nedir/">Haml Nedir ?</a> Yazısının devamı niteliğinde olacaktır.</p>
+
+<h2 id="sass-nedir-">Sass Nedir ?</h2>
+
+<p><strong>Sass</strong>, css’in karmaşıklığını ortadan kaldırmak amacıyla yazılan bir <strong>Ruby Gem</strong>‘idir. Css’de At koşturmaya yarar. Syntax’ını rubyceye yakınlaştırır. .sass uzantılı dosyayı derleyerek css dosyası haline getirir. 
+Önce syntax’ı nasıl ona bakalım.</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.deneme</span><span class="p">{</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">150px</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Gibi bir css kodumuz olduğunu düşünelim. Bu kodu sass ile yazıldığında ise;</p>
+<div class="language-sass highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.deneme</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">150px</span>
+</code></pre></div></div>
+<p>Şeklinde oluyor. Gördüğünüz gibi gereksiz ; ve {  } yazmadık.</p>
+
+<h2 id="sass-nasıl-kullanılır-">Sass Nasıl Kullanılır ?</h2>
+
+<ul>
+  <li><strong>;</strong> işaretini satırların sonlarına koymak zorunda değiliz.</li>
+  <li><strong>{</strong> işaretini kullanmak zorunda değiliz. ( Aynı şekilde <strong>}</strong> işaretini de kullanmak zorunda değiliz. )</li>
+  <li><strong>$</strong> işareti ile değişken oluşturabiliriz.</li>
+  <li>Matematik operatörlerini kullanabiliyoruz.</li>
+  <li>İf - Else gibi karar yapılarını kullanabiliyoruz.</li>
+  <li>While, Each gibi döngüleri kullanabiliyoruz.</li>
+  <li>Fonksiyon yazıp cevabını alabiliyoruz.</li>
+</ul>
+
+<h2 id="scss-nedir-">Scss Nedir ?</h2>
+<p>Scss, sass geliştiricilerinin biraz daha front-end geliştiricilerini düşünerek oluşturduğu syntax’dır. Bu syntax css’e benziyor. {, } ve ; burada kullanılıyor. Diğer her şey sass ile aynıdır.</p>
+
+<h2 id="sass-nasıl-kurulur-">Sass Nasıl Kurulur ?</h2>
+<p>Terminale ‘<code class="language-plaintext highlighter-rouge">gem install sass-rails</code>’ yazarak veya gemfile dosyasına <code class="language-plaintext highlighter-rouge">gem 'sass-rails'</code> satırını ekleyip, terminale ‘<code class="language-plaintext highlighter-rouge">bundle install</code>’ yaparak kurabilirsiniz. Bu kurulumla sass ile scss de kurulmuş olacaktır. Dosyalarınızın uzantısı .sass veya .scss şeklinde yapmalısınız.</p>
+
+<p>Daha ayrıntılı bilgiyi <a href="https://scotch.io/tutorials/getting-started-with-sass">Bu</a> yazıda bulabilirsiniz.</p>
+
+<p>*Ruby &lt;3 Ben *</p>]]></content><author><name></name></author><category term="Sass nedir" /><category term="Sass Nasıl kullanılır" /><category term="Sass Nasıl kurulur" /><category term="Scss Nedir" /><category term="Scss nasıl kurulur" /><category term="scss Nasıl kullanılır" /><summary type="html"><![CDATA[Sass ve Scss in nedir, Neler yapılabilir, Nasıl yüklenir gibi soruların cevapları burada]]></summary></entry><entry><title type="html">Haml Nedir ?</title><link href="http://localhost:4000/Haml-nedir/" rel="alternate" type="text/html" title="Haml Nedir ?" /><published>2017-09-04T00:00:00+03:00</published><updated>2017-09-04T00:00:00+03:00</updated><id>http://localhost:4000/Haml-nedir</id><content type="html" xml:base="http://localhost:4000/Haml-nedir/"><![CDATA[<p>Ruby’ye geçmemin en büyük sebebi sade ve öz olmasıdır.</p>
+
+<blockquote>
+  <p>Sadelik en büyük zenginliktir</p>
+</blockquote>
+
+<p>Felsefesini benimsemiş <strong>Yukihiro Matsumoto</strong> Ruby dilini yazarken anlaşılabilirliği, temizliği ve sadeliği ön planda tutmuştur. Rails geliştiren bir kaç amca bu sadeliğin html ve css’de de geçerli olması gerektiğini düşünerek haml ve sass’ı ortaya çıkarmışlar. Bu yazımda html ve css in güncellenmiş versiyonları olan haml ve sass dan bahsedeceğim.</p>
+
+<h2 id="haml-nedir-">Haml Nedir ?</h2>
+
+<p><strong>Haml</strong>, html’in karmaşıklığını ortadan kaldırmak amacıyla yazılan bir <strong>Ruby Gem</strong>‘idir. .haml uzantılı dosyayı derleyerek html dosyası haline getirir.</p>
+<div class="language-erb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">'content'</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'left column'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>Welcome to our site!<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p&gt;</span><span class="cp">&lt;%=</span> <span class="n">print_information</span> <span class="cp">%&gt;</span><span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"right column"</span><span class="nt">&gt;</span>
+    <span class="cp">&lt;%=</span> <span class="n">render</span> <span class="ss">:partial</span> <span class="o">=&gt;</span> <span class="s2">"sidebar"</span> <span class="cp">%&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>Gibi bir html ( erb ) kodumuz olduğunu düşünelim. Aynı kod haml ile yazıldığında ise;</p>
+<div class="language-haml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#content</span>
+  <span class="nc">.left.column</span>
+    <span class="nt">%h2</span> Welcome to our site!
+    <span class="nt">%p</span><span class="p">=</span> <span class="n">print_information</span>
+  <span class="nc">.right.column</span>
+    <span class="p">=</span> <span class="n">render</span> <span class="ss">:partial</span> <span class="o">=&gt;</span> <span class="s2">"sidebar"</span>
+</code></pre></div></div>
+<p>Şeklinde kısalıyor. Haml’ın basit birkaç kuralı var şimdi onlardan bahsedelim.</p>
+
+<h2 id="haml-nasıl-kullanılır-">Haml Nasıl Kullanılır ?</h2>
+
+<ul>
+  <li><strong>%</strong> işareti bir html etiketi açmak için kullanılıyor.</li>
+  <li><strong>#</strong> işareti bir html objesine id atamak için kullanılıyor.</li>
+  <li><strong>.</strong> işareti bir html objesine class belirtmek için kullanılıyor.</li>
+  <li><strong>-</strong> işareti ekrana çıktı vermeyen ruby kodları için kullanılıyor. ( Örn: - 1..100.each do )</li>
+  <li><strong>=</strong> çıktı veren bir ruby kodu çalıştırılacak ise bu kod kullanılıyor. ( Puts methodu gibi düşünülebilir. Örn:  = x.name )</li>
+  <li>Etiketler kapatılmıyor. Etiketlerin etki alanları girintiler ve çıkıntılar ile anlaşılıyor.</li>
+  <li>Eğer div oluşturacaksanız %div.foo demenize gerek yok .foo komutu default olarak div objesi oluşturuyor. Aynı şey id ( # ) için de geçerlidir.</li>
+</ul>
+
+<h2 id="haml-nasıl-yüklenir-">Haml Nasıl Yüklenir ?</h2>
+<p><code class="language-plaintext highlighter-rouge">gem install haml</code> yazarak veya gemfile dosyamıza <code class="language-plaintext highlighter-rouge">gem 'haml'</code> yazıp terminale <code class="language-plaintext highlighter-rouge">bundle install</code> diyerek kurulumu gerçekleştirebiliriz. Kodlarımızı yazdığımız dosyanın uzantısı da .haml olarak kaydetmeliyiz.</p>
+
+<p>Haml hakkındaki yazım bu kadar oldu. <a href="http://alperenbozkurt.net/Sass-ve-scss-nedir/">Sass ve Scss Nedir adlı yazıma da buradan</a> erişebilirsiniz.</p>
+
+<p>*Ruby &lt;3 Ben *</p>]]></content><author><name></name></author><category term="haml nedir" /><category term="haml nasıl kullanılır" /><category term="haml nasıl yüklenir" /><category term="haml kod örnekleri" /><summary type="html"><![CDATA[Haml nedir, Nasıl kullanılır, Nasıl kurulur?]]></summary></entry><entry><title type="html">JBlog Theme</title><link href="http://localhost:4000/Jblog-theme/" rel="alternate" type="text/html" title="JBlog Theme" /><published>2017-08-28T00:00:00+03:00</published><updated>2017-08-28T00:00:00+03:00</updated><id>http://localhost:4000/Jblog-theme</id><content type="html" xml:base="http://localhost:4000/Jblog-theme/"><![CDATA[<p><img src="https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png" alt="jblog" /></p>
+
+<p>2015 yılında geliştirmeye başladığım blog temamın son halidir. Tek sütun ve minimal bir tasarıma sahip olan bu tema kişisel blog sayfaları için idealdir. Portfoy sayfası ile çalışmalarını paylaşabileceğiniz ayrı bir alan vardır. Ayrıca sosyal medya hesaplarınızı da gösteren alt paneldeki simgeler ile istediğiniz sosyal medya hesabına link verebilirsiniz. 3 versiyonu olan bu temanın  <a href="https://github.com/alperenbozkurt/RBlog">Ruby on Rails</a>  ve affedersiniz <a href="https://github.com/alperenbozkurt/Ablog">php</a> back-end’li kaynak kodları  github’da mit lisansı ile lisanslanmıştır. Son versiyonda ise yeni nesil blog sistemi olan jekyll ile uyumludur ve mobil responsive özelliği eklenmiştir.</p>
+
+<p><img src="https://user-images.githubusercontent.com/19302254/29232319-b70a2efa-7ef3-11e7-8da2-eb929d4ede6e.png" alt="jblog2" /></p>]]></content><author><name></name></author><category term="blog teması" /><category term="minimal blog theme" /><category term="material theme" /><summary type="html"><![CDATA[Jekyll adaptation of the blog theme I started developing in 2015. It has 100+ forks]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png" /><media:content medium="image" url="https://user-images.githubusercontent.com/19302254/29232216-1bbb6d38-7ef3-11e7-9768-d4de71430f42.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
