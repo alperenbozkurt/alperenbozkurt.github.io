@@ -5,8 +5,6 @@ tags: [alperen bozkurt kimdir, alperen bozkurt hakkında, who is alperen bozkurt
 excerpt: "Who am I, The blogger who is the best?"
 date: 2017-06-16
 ---
-About Me
----
 
 Hello,
 
