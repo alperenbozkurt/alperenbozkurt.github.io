@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "RSpec Testlerinde Hız ve Güvenilirlik Arasında İnce Bir Çizgi: Optimizasyon Deneyimleri"
-date: 2025-05-01
+date: 2025-04-30
 excerpt: "Ruby on Rails projelerinde RSpec testlerini hızlandırma ve güvenilir tutma arasındaki hassas dengeyi keşfedin. Hız optimizasyon stratejileri (before :all, FactoryBot), potansiyel riskler (flaky testler, durum sızıntısı) ve pratik deneyimlerle RSpec test süitinizi nasıl iyileştirebileceğinizi öğrenin."
-tags: [ruby, rails, rspec, testing, optimization, performance, reliability, test-speed, flaky-tests, before_all, factorybot, databasecleaner, continuous-integration, ci-cd, software-development]
+tags: [rspec testing, rspec optimization, rspec performance, rspec reliability, rails test-speed, flaky-tests, before_all, factorybot, databasecleaner, continuous-integration, ci-cd, software-development]
 ---
 
 Otomatik testler, modern yazılım geliştirmenin vazgeçilmez bir parçasıdır; kod kalitesini güvence altına alır ve beklenmedik hataları (regresyonları) erkenden yakalamamızı sağlar. Ruby on Rails ekosisteminde RSpec, test yazımı için standart haline gelmiş güçlü bir araçtır. Ancak, projemiz ve dolayısıyla test süitimiz büyüdükçe, kaçınılmaz bir denge sorunuyla yüzleşiriz: Testlerimizi ne kadar hızlandırabiliriz ve bu hız artışı için güvenilirlikten ne kadar ödün vermeye razıyız? Bu yazıda, RSpec testlerinde hız ve güvenilirlik arasındaki bu hassas dengeyi kurarken karşılaşılan yaygın senaryoları ve optimizasyon stratejilerini, somut örnekler üzerinden inceleyeceğiz.
