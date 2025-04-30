@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RSpec Testlerinde Hız ve Güvenilirlik Arasında İnce Bir Çizgi: Optimizasyon Deneyimleri"
+title: "RSpec Testlerinde Hız ve Güvenilirlik"
 date: 2025-04-30
 excerpt: "Ruby on Rails projelerinde RSpec testlerini hızlandırma ve güvenilir tutma arasındaki hassas dengeyi keşfedin. Hız optimizasyon stratejileri (before :all, FactoryBot), potansiyel riskler (flaky testler, durum sızıntısı) ve pratik deneyimlerle RSpec test süitinizi nasıl iyileştirebileceğinizi öğrenin."
 tags: [rspec testing, rspec optimization, rspec performance, rspec reliability, rails test-speed, flaky-tests, before_all, factorybot, databasecleaner, continuous-integration, ci-cd, software-development]
