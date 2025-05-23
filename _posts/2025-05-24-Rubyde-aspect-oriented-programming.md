@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby'de Aspect Oriented Programming: Cross-Cutting Concern'leri Zarif Bir Şekilde Yönetmek"
-date: 2025-05-24
+date: 2025-05-23
 excerpt: "Ruby'de Aspect Oriented Programming (AOP) yaklaşımlarını keşfedin. Module, Prepend ve Method Wrapping teknikleriyle loglama, hata yönetimi ve performance monitoring gibi cross-cutting concern'leri nasıl zarif bir şekilde kodunuza entegre edebileceğinizi öğrenin. Pratik örnekler ve gerçek dünya senaryolarıyla AOP'nin gücünü Ruby'de kullanmaya başlayın."
 tags: [ruby aop, aspect-oriented-programming, cross-cutting-concerns, ruby-modules, method-wrapping, error-handling, logging, performance-monitoring, ruby-metaprogramming, design-patterns, clean-code]
 ---
